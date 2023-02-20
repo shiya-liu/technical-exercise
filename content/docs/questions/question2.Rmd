@@ -6,7 +6,7 @@ knitr::opts_chunk$set(echo = TRUE, comment='', warning = FALSE)
 
 ## Set up and load data
 
-```{r include=FALSE}
+```{r }
 rm(list =ls())
 library(pacman)
 p_load(tidyverse, broom, ggplot2, kableExtra, mice, interactions)
@@ -130,7 +130,7 @@ The results show that all three independent variables are statistically signific
 
 Intuitively, those three variables might interact with each other when predicting **success** variable. To verify it, I first examine the interaction. Next, based on the results, I choose the interactions to add in the model.
 
-1. Evaluate interactions
+<details><summary>Evaluate interactions</summary>
 
 -   ACT_score*hardship_score
 
@@ -151,9 +151,10 @@ sim_slopes(lrHH, pred = hs_gpa_entry, modx = hardship_score, johnson_neyman = TR
 ```
 
 For hs_gpa_entry, the slope of hardship_score is also significantly different from zero and positive. Overall, those two interactions are significant. So, I model these interactions and compare the new model with the previous basic model.
+</details>
 
 
-2. Run model with interactions
+<details><summary>Run model with interactions</summary>
 
 ```{r}
 formulaFull<- as.formula(success~ ACT_score+ hs_gpa_entry+ hardship_score + ACT_score*hardship_score + hs_gpa_entry*hardship_score)
@@ -167,6 +168,7 @@ broom::tidy(lrFull, exp = TRUE) %>%
   kable() %>% 
   kable_styling("basic", bootstrap_options = "striped", full_width = F, position = "left")
 ```
+</details>
 
 All variables, including interactions are statistically significant associated with the dependent variable
 
