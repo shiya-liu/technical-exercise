@@ -16,22 +16,25 @@ load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/
 
 **Does teaching frequently the course improve instructor performance over time?**
 
-This question requires to explore whether instructor teach more frequent, their performance will improve. In other words, it examines relationships between number of terms they teach and success rates. The data set **class_instructors** has information related to instructor and courses they teach. The data set **course_enrollments** has information about students' success rates. Next, I combine those two data sets and conduct further analysis.
+This question requires to explore if the instructor teaches more, their performance will be better. In other words, it examines relationships between number of terms they teach and success rates. 
+
+The data set **class_instructors** has information related to instructor and courses they teach. The data set **course_enrollments** has information about students' success rates. 
+
+Next, I combine those two data sets and conduct further analysis.
 
 ## Data  cleaning
 1. Join two data sets: **class_instructors** and **course_enrollments** via term_code and class_nbr variables (drop the observations without grades)
 2. Calculate how many terms per instructor teach
 3. Calculate how many courses they teach 
+4. Drop observations who teach more than six terms
 
 
 ```r
-instructor <- course_enrollments %>%
+term <- course_enrollments %>%
   left_join(
     class_instructors, 
     by = c("term_code","class_nbr")
-    )
-
-term <- instructor %>%
+    ) %>%
   group_by(instructor_id_number) %>%
   summarise(
     total_student = n(),
@@ -68,7 +71,11 @@ term <- instructor %>%
 
 ```r
 p5.1 <- term %>%
-  ggplot(aes(x = as.factor(total_term), y = percent, fill = as.factor(total_term))) +
+  ggplot(aes(
+    x = as.factor(total_term), 
+    y = percent, 
+    fill = as.factor(total_term)
+    )) +
   geom_boxplot() +
   labs(
     x = "Number of terms",
@@ -94,9 +101,10 @@ p5.1 <- term %>%
 
 ![](/images/p51.png)
 
-The relationship between frequency of teaching and performance does not show the linear trend. That is to say, teaching frequently does not guarantee better performance. Instead, there are two tipping points. From the boxplot, if the instructor teaches less than six terms, the performance seems improve. However, for instructors who teach six terms, their performance lower than others.
+The relationship between frequency of teaching and performance does not show the linear trend. That is to say, teaching frequently does not guarantee better performance. Instead, there is tipping point, which is five terms. From the box plot, if the instructor teaches less than six terms, the performance seems improve. However, for instructors who teach six terms, their performance lower than others.
 
 ## Statistical test
+I first use welch test to see whether performance over those six groups has difference.
 
 ```r
 oneway.test(percent~total_term, data = term,var.equal=FALSE)
@@ -162,8 +170,11 @@ broom::tidy(reg) %>%
   </tr>
 </tbody>
 </table>
-P value of total_term is less than 0.05. That is to say, the number of terms instructors teach is related to their performance. Therefore, based on the previous findings, I select instructors who teach less than six terms and to see whether there is difference.
-Moreover, the number of courses they teach is also statistically significant related to their performance.
+P value of total_term is less than 0.05. That is to say, the number of terms instructors teach is related to their performance.
+
+Therefore, based on the previous findings, I select instructors who teach less than six terms and to see whether there is difference.
+
+Moreover, the number of courses they teach is negatively related to their performance.
 
 ### Further exploration
 
@@ -189,5 +200,5 @@ Welch test still does not significant.
 
 
 ## Conclusion
-While the boxplot show a slight difference among instructors who teach different number of terms, the statistic tests indicate that those difference are not significant.
+While the box plot show a slight difference among instructors who teach different number of terms, the statistic tests indicate that those difference are not significant.
 

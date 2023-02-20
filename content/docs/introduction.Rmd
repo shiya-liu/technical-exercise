@@ -1,5 +1,7 @@
 # Introduction
-The data are about ‘Smart Start’ Program  in the university to review entry level courses. First, I review research questions, import and clean data, as well as describe the data and variables.
+The data are about ‘Smart Start’ Program  in the university to review entry level courses (Physics, Biology (Human Anatomy), and Spanish). 
+
+First, I review research questions, import and clean data, as well as describe the data and variables.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, comment='')
@@ -30,7 +32,7 @@ library(tidyverse)
 
 ## Data
 
-It includes five tables of data: acad_plan, class_instructors, class_inventory, course_enrollments, and student_details. Those are relational data since they have relations so that they can connect with others via one or several variables. Before joining those tables into one data frame, I explore those tables first and keys.
+It includes five tables of data: acad_plan, class_instructors, class_inventory, course_enrollments, and student_details. Those are relational data since they have relations so that they can connect with others via one or several variables. Before joining those tables into one data frame, I explore those tables first.
 
 ### Load data
 
@@ -61,7 +63,19 @@ head(class_inventory,6)
 + **course_enrollments** indicates student performance and course details
 ```{r echo=FALSE}
 head(course_enrollments,6)
+summary(course_enrollments)
 ```
+hs_gpa_entry variable has several extreme values, such as 533. I drop those observations.
+```{r}
+student_details <- student_details %>%
+  mutate(
+    hs_gpa_entry = case_when(
+      hs_gpa_entry <= 5 ~hs_gpa_entry, 
+      TRUE ~ NA
+    )
+  )
+```
+
 
 + **student_details** represents characteristics of students
 ```{r echo=FALSE}
@@ -88,6 +102,7 @@ course_enrollments%>%
   filter(n>1) %>%
   nrow()
 ```
+
 ```{r eval=FALSE, include=FALSE}
 acad_plan%>%
   count(acad_plan, dept_code,degree,college,eff_status, acad_plan_desc) %>%

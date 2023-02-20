@@ -11,4 +11,5 @@ headless: true
 - [Questions 4]({{< relref "/docs/questions/question4" >}})
 - [Questions 5]({{< relref "/docs/questions/question5" >}})
 - [Questions 6]({{< relref "/docs/questions/question6" >}})
+- [**Summary**]({{< relref "/docs/questions/summary" >}})
 <br />

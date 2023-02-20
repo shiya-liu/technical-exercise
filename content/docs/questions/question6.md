@@ -16,14 +16,16 @@ load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/
 **How do their students, in their academic plans, perform compared to students from other departments/colleges?**
 
 To compare students in those three academic plans (Physics, Biology (Human Anatomy), and Spanish) with others, I combine all data sets.
+
 Then, I select academic plan from **acad_plan** data set and put student into two groups in the overall data set. 
+
 Next, I compare those groups based on plot and welch test.
 
 
 ## Data cleaning
 1. Combine all data sets and drop observations without official grades
 2. Select academic plan from **acad_plan** data set
-3. Put student into two groups based on their academic plan
+3. Put students into two groups based on their academic plan
 
 ```r
 DF <- course_enrollments %>% 

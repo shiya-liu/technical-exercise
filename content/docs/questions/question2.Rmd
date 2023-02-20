@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE, comment='', warning = FALSE)
 ```{r}
 rm(list =ls())
 library(pacman)
-p_load(tidyverse, broom, ggplot2, kableExtra, mice, interactions)
+p_load(tidyverse, broom, ggplot2, kableExtra, interactions)
 load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/questions/data_230214_1659.Rdata")
 ```
 
@@ -21,8 +21,9 @@ Success in course can be found in the **course_enrollments** data set and be def
 The student information can be obtained from **student_details** data set, which include information like **student_id_number**, **ACT_score**, **hs_gpa_entry**, and **hardship_score**. 
 
 ## Data cleaning
-1. combine **student_details** and **course_enrollments** data set via student_id_number variable.
-2. deal with missing values
+I conduct following steps to clean data:
+1. Combine **student_details** and **course_enrollments** data set via student_id_number variable.
+2. Deal with missing values
 
 ```{r warning=FALSE}
 DF <- student_details %>%
@@ -33,17 +34,21 @@ DF <- student_details %>%
 ```{r echo=FALSE}
 summary(DF)
 ```
+### Deal with missing value
+After combining two data sets, the new data set: **DF** has several variables (**ACT_score**, **hs_gpa_entry**, and **success**) with missing values, which might caused by joining two data sets. **student_details** data set has some students that are not included in the **course_enrollments** data set. 
+I first examine the **course_enrollments** data set to see whether it has missing value.
+```{r}
+summary(course_enrollments)
+```
+All students in this data set has official grades. So, in the joined data set **DF**, I drop those observations without official grades (i.e. NA in **success** variable).
 
-After combining two data sets, the new data set: **DF** has several variables (**ACT_score**, **hs_gpa_entry**, and **success**) with missing values. To have a better model, I first impute those variables.
-
-```{r include=FALSE}
-temp <- mice(DF, meth = "pmm", m = 5, maxit = 12, seed = 1804)
-summary(temp)
-DF <- complete(temp)
+```{r}
+DF <- DF %>%
+  filter(!is.na(success))
 ```
 
 ## Visualization
-
+Through visualization, I plan to examine difference on ACT_score, hs_gpa_entry, and hardship_score between the groups of students who have C or better and others.
 -   ACT_score
 
 ```{r}
@@ -87,7 +92,9 @@ DF %>%
   theme_classic()
 ```
 
-Three boxplots do not show huge differences on ACT_score, hs_gpa_entry, and hardship_score between students succeed and others.
+Three box plots do not show huge differences on ACT_score, hs_gpa_entry, and hardship_score between students succeed and others.
+
+Next, I conduct logistic regression to examine how those three variables predict student success rates.
 
 ## Logistic regression
 1. Run basic logistic regression model
@@ -114,13 +121,15 @@ Next, I explore coefficients by calculate odds ratio.
 
 ```{r warning=FALSE}
 broom::tidy(lr, exp = TRUE) %>%
-  kable() %>% 
+  kable(
+    col.names = c("Term","Odds ratio","Standard error","Z value", "P value")
+  ) %>% 
   kable_styling("basic", bootstrap_options = "striped", full_width = F, position = "left")
 ```
 
 The results show that all three independent variables are statistically significant associated with the dependent variable (**success**).
 
--   ACT_score: After controlling all other variables, the odds of success **increase** as ACT score increases.
+-   ACT_score: After controlling all other variables, the odds of success **decrease** as ACT score increases.
 
 -   hs_gpa_entry: After controlling all other variables, the odds of success **increase** as hs_gpa_entry increases.
 
@@ -128,7 +137,7 @@ The results show that all three independent variables are statistically signific
 
 ### Add Interactions
 
-Intuitively, those three variables might interact with each other when predicting **success** variable. To verify it, I first examine the interaction. Next, based on the results, I choose the interactions to add in the model.
+Intuitively, those three variables might interact with each other when predicting **success** variable. To verify it, I first examine the interactions. Next, based on the results, I choose the interactions to add in the model.
 
 <details><summary>Evaluate interactions</summary>
 
@@ -165,12 +174,14 @@ Odds ratio estimates the change in the odd of membership in the target group for
 
 ```{r warning=FALSE}
 broom::tidy(lrFull, exp = TRUE) %>%
-  kable() %>% 
+  kable(
+    col.names = c("Term","Odds ratio","Standard error","Z value", "P value")
+  ) %>% 
   kable_styling("basic", bootstrap_options = "striped", full_width = F, position = "left")
 ```
 </details>
 
-All variables, including interactions are statistically significant associated with the dependent variable
+All interaction terms do not statistically significant, but I still want to compare those two models and see which one performs better.
 
 
 ### Compare two models
@@ -186,7 +197,7 @@ glance(lr)
 glance(lrFull)
 ```
 
-Those two tables show that the model with interactions has smaller AIC (138714.9) than the basic model (AIC = 138761.6).
+Those two tables show that the basic model has smaller AIC (20748.94) than the model with interactions (AIC = 20749.79).
 
 -   Pseudo R-Square
 
@@ -195,8 +206,8 @@ DescTools::PseudoR2(lr, which =  "all")
 DescTools::PseudoR2(lrFull, which =  "all")
 ```
 
-Results of pseudo R-square tables show that the basic model accounts for approximately 32.9% of the total variance; the model with interactions accounts for approximately 33.53% of the total variance.
+Results of pseudo R-square tables show that the basic model accounts for approximately 23.95% of the total variance; the model with interactions accounts for approximately 24.21% of the total variance, slightly higher than basic model.
 
 ## Conclusion
 
-In summary, the model with interactions has better performance. Variables (**ACT_score**, **hs_gpa_entry**, **hardship_score**) and interactions ( **ACT_score x hardship_score**, **hs_gpa_entry x hardship_score**) significantly predict success.
+In summary, while the interaction models have slightly higher pseudo R-square, considering significance of coefficients and AIC, the basic model is better.  Variables (**ACT_score**, **hs_gpa_entry**, **hardship_score**) significantly predict success. Higher ACT score and higher hardship score are associated with lower success rates; Higher high school GPA entry are associated with higher success rates.

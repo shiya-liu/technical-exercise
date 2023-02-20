@@ -19,7 +19,7 @@ load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/
 
 ## Data cleaning
 
-I transform the students' **official_grade** variable to the **success** variable. If students obtained C or better grade, the success variable was recorded as Y. Otherwise, this variable is N.
+To analyze overall success rates, I first transform the students' **official_grade** variable to the **success** variable. If students obtained C or better grade, the **success** variable is recorded as Y. Otherwise, this variable is N.
 
 
 ```r

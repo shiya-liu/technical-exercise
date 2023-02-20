@@ -8,7 +8,7 @@
 ```r
 rm(list =ls())
 library(pacman)
-p_load(tidyverse, broom, ggplot2, kableExtra, mice, interactions)
+p_load(tidyverse, broom, ggplot2, kableExtra, interactions)
 load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/questions/data_230214_1659.Rdata")
 ```
 
@@ -20,8 +20,9 @@ Success in course can be found in the **course_enrollments** data set and be def
 The student information can be obtained from **student_details** data set, which include information like **student_id_number**, **ACT_score**, **hs_gpa_entry**, and **hardship_score**. 
 
 ## Data cleaning
-1. combine **student_details** and **course_enrollments** data set via student_id_number variable.
-2. deal with missing values
+I conduct following steps to clean data:
+1. Combine **student_details** and **course_enrollments** data set via student_id_number variable.
+2. Deal with missing values
 
 
 ```r
@@ -49,13 +50,40 @@ DF <- student_details %>%
              
              
 ```
+### Deal with missing value
+After combining two data sets, the new data set: **DF** has several variables (**ACT_score**, **hs_gpa_entry**, and **success**) with missing values, which might caused by joining two data sets. **student_details** data set has some students that are not included in the **course_enrollments** data set. 
+I first examine the **course_enrollments** data set to see whether it has missing value.
 
-After combining two data sets, the new data set: **DF** has several variables (**ACT_score**, **hs_gpa_entry**, and **success**) with missing values. To have a better model, I first impute those variables.
+```r
+summary(course_enrollments)
+```
+
+```
+ student_id_number   term_code       class_nbr     completed_flag  
+ Min.   :  150     Min.   :1.000   Min.   : 4645   Min.   :0.0000  
+ 1st Qu.:50065     1st Qu.:2.000   1st Qu.: 5249   1st Qu.:0.0000  
+ Median :55538     Median :3.000   Median : 6129   Median :1.0000  
+ Mean   :55939     Mean   :3.311   Mean   : 6639   Mean   :0.7428  
+ 3rd Qu.:60401     3rd Qu.:5.000   3rd Qu.: 7515   3rd Qu.:1.0000  
+ Max.   :95213     Max.   :6.000   Max.   :15323   Max.   :1.0000  
+ official_grade      acad_plan         hours_carried   success 
+ Length:16395       Length:16395       Min.   : 3.00   N:6585  
+ Class :character   Class :character   1st Qu.:15.00   Y:9810  
+ Mode  :character   Mode  :character   Median :16.00           
+                                       Mean   :15.63           
+                                       3rd Qu.:17.00           
+                                       Max.   :27.00           
+```
+All students in this data set has official grades. So, in the joined data set **DF**, I drop those observations without official grades (i.e. NA in **success** variable).
 
 
+```r
+DF <- DF %>%
+  filter(!is.na(success))
+```
 
 ## Visualization
-
+Through visualization, I plan to examine difference on ACT_score, hs_gpa_entry, and hardship_score between the groups of students who have C or better and others.
 -   ACT_score
 
 
@@ -71,7 +99,7 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-6-1.png" width="672" />
 
 -   hs_gpa_entry
 
@@ -88,7 +116,7 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-6-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-7-1.png" width="672" />
 
 -   hardship_score
 
@@ -105,9 +133,11 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-7-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-8-1.png" width="672" />
 
-Three boxplots do not show huge differences on ACT_score, hs_gpa_entry, and hardship_score between students succeed and others.
+Three box plots do not show huge differences on ACT_score, hs_gpa_entry, and hardship_score between students succeed and others.
+
+Next, I conduct logistic regression to examine how those three variables predict student success rates.
 
 ## Logistic regression
 1. Run basic logistic regression model
@@ -137,55 +167,57 @@ Next, I explore coefficients by calculate odds ratio.
 
 ```r
 broom::tidy(lr, exp = TRUE) %>%
-  kable() %>% 
+  kable(
+    col.names = c("Term","Odds ratio","Standard error","Z value", "P value")
+  ) %>% 
   kable_styling("basic", bootstrap_options = "striped", full_width = F, position = "left")
 ```
 
 <table class="table table-striped" style="width: auto !important; ">
  <thead>
   <tr>
-   <th style="text-align:left;"> term </th>
-   <th style="text-align:right;"> estimate </th>
-   <th style="text-align:right;"> std.error </th>
-   <th style="text-align:right;"> statistic </th>
-   <th style="text-align:right;"> p.value </th>
+   <th style="text-align:left;"> Term </th>
+   <th style="text-align:right;"> Odds ratio </th>
+   <th style="text-align:right;"> Standard error </th>
+   <th style="text-align:right;"> Z value </th>
+   <th style="text-align:right;"> P value </th>
   </tr>
  </thead>
 <tbody>
   <tr>
    <td style="text-align:left;"> (Intercept) </td>
-   <td style="text-align:right;"> 1.4601350 </td>
-   <td style="text-align:right;"> 0.0449586 </td>
-   <td style="text-align:right;"> 8.419505 </td>
-   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 1.7383189 </td>
+   <td style="text-align:right;"> 0.1472242 </td>
+   <td style="text-align:right;"> 3.755623 </td>
+   <td style="text-align:right;"> 0.0001729 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> ACT_score </td>
-   <td style="text-align:right;"> 0.9294064 </td>
-   <td style="text-align:right;"> 0.0018543 </td>
-   <td style="text-align:right;"> -39.481169 </td>
-   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.9352319 </td>
+   <td style="text-align:right;"> 0.0050686 </td>
+   <td style="text-align:right;"> -13.210965 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> hs_gpa_entry </td>
-   <td style="text-align:right;"> 1.6506766 </td>
-   <td style="text-align:right;"> 0.0138676 </td>
-   <td style="text-align:right;"> 36.140837 </td>
-   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 1.5638112 </td>
+   <td style="text-align:right;"> 0.0412348 </td>
+   <td style="text-align:right;"> 10.843423 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> hardship_score </td>
-   <td style="text-align:right;"> 0.8450598 </td>
-   <td style="text-align:right;"> 0.0059242 </td>
-   <td style="text-align:right;"> -28.417118 </td>
-   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.8615343 </td>
+   <td style="text-align:right;"> 0.0147317 </td>
+   <td style="text-align:right;"> -10.116963 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
   </tr>
 </tbody>
 </table>
 
 The results show that all three independent variables are statistically significant associated with the dependent variable (**success**).
 
--   ACT_score: After controlling all other variables, the odds of success **increase** as ACT score increases.
+-   ACT_score: After controlling all other variables, the odds of success **decrease** as ACT score increases.
 
 -   hs_gpa_entry: After controlling all other variables, the odds of success **increase** as hs_gpa_entry increases.
 
@@ -193,7 +225,7 @@ The results show that all three independent variables are statistically signific
 
 ### Add Interactions
 
-Intuitively, those three variables might interact with each other when predicting **success** variable. To verify it, I first examine the interaction. Next, based on the results, I choose the interactions to add in the model.
+Intuitively, those three variables might interact with each other when predicting **success** variable. To verify it, I first examine the interactions. Next, based on the results, I choose the interactions to add in the model.
 
 <details><summary>Evaluate interactions</summary>
 
@@ -209,34 +241,34 @@ sim_slopes(lrAH, pred = ACT_score, modx = hardship_score, johnson_neyman = TRUE,
 ```
 JOHNSON-NEYMAN INTERVAL 
 
-When hardship_score is OUTSIDE the interval [-26.74, -8.01], the slope of
+When hardship_score is INSIDE the interval [-55.45, 5.21], the slope of
 ACT_score is p < .05.
 
 Note: The range of observed values of hardship_score is [0.00, 3.00]
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-11-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-12-1.png" width="672" />
 
 ```
 SIMPLE SLOPES ANALYSIS 
 
-Slope of ACT_score when hardship_score = -0.4180933 (- 1 SD): 
+Slope of ACT_score when hardship_score = -0.2902732 (- 1 SD): 
 
    Est.   S.E.   z val.      p
 ------- ------ -------- ------
-  -0.07   0.00   -27.99   0.00
+  -0.07   0.01   -11.00   0.00
 
-Slope of ACT_score when hardship_score =  0.6612365 (Mean): 
-
-   Est.   S.E.   z val.      p
-------- ------ -------- ------
-  -0.07   0.00   -39.55   0.00
-
-Slope of ACT_score when hardship_score =  1.7405663 (+ 1 SD): 
+Slope of ACT_score when hardship_score =  0.8411562 (Mean): 
 
    Est.   S.E.   z val.      p
 ------- ------ -------- ------
-  -0.08   0.00   -32.03   0.00
+  -0.07   0.01   -13.16   0.00
+
+Slope of ACT_score when hardship_score =  1.9725856 (+ 1 SD): 
+
+   Est.   S.E.   z val.      p
+------- ------ -------- ------
+  -0.06   0.01    -8.45   0.00
 ```
 
 From the plot, we can see that for ACT_score, the slope of hardship_score is significantly different from zero and in this case negative.
@@ -253,34 +285,34 @@ sim_slopes(lrHH, pred = hs_gpa_entry, modx = hardship_score, johnson_neyman = TR
 ```
 JOHNSON-NEYMAN INTERVAL 
 
-When hardship_score is OUTSIDE the interval [-38.80, -8.44], the slope of
+When hardship_score is INSIDE the interval [-3.28, 18.44], the slope of
 hs_gpa_entry is p < .05.
 
 Note: The range of observed values of hardship_score is [0.00, 3.00]
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-12-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-13-1.png" width="672" />
 
 ```
 SIMPLE SLOPES ANALYSIS 
 
-Slope of hs_gpa_entry when hardship_score = -0.4180933 (- 1 SD): 
+Slope of hs_gpa_entry when hardship_score = -0.2902732 (- 1 SD): 
 
   Est.   S.E.   z val.      p
 ------ ------ -------- ------
-  0.46   0.02    25.43   0.00
+  0.40   0.06     7.06   0.00
 
-Slope of hs_gpa_entry when hardship_score =  0.6612365 (Mean): 
-
-  Est.   S.E.   z val.      p
------- ------ -------- ------
-  0.50   0.01    36.04   0.00
-
-Slope of hs_gpa_entry when hardship_score =  1.7405663 (+ 1 SD): 
+Slope of hs_gpa_entry when hardship_score =  0.8411562 (Mean): 
 
   Est.   S.E.   z val.      p
 ------ ------ -------- ------
-  0.54   0.02    30.01   0.00
+  0.45   0.04    10.79   0.00
+
+Slope of hs_gpa_entry when hardship_score =  1.9725856 (+ 1 SD): 
+
+  Est.   S.E.   z val.      p
+------ ------ -------- ------
+  0.49   0.05     8.96   0.00
 ```
 
 For hs_gpa_entry, the slope of hardship_score is also significantly different from zero and positive. Overall, those two interactions are significant. So, I model these interactions and compare the new model with the previous basic model.
@@ -300,68 +332,70 @@ Odds ratio estimates the change in the odd of membership in the target group for
 
 ```r
 broom::tidy(lrFull, exp = TRUE) %>%
-  kable() %>% 
+  kable(
+    col.names = c("Term","Odds ratio","Standard error","Z value", "P value")
+  ) %>% 
   kable_styling("basic", bootstrap_options = "striped", full_width = F, position = "left")
 ```
 
 <table class="table table-striped" style="width: auto !important; ">
  <thead>
   <tr>
-   <th style="text-align:left;"> term </th>
-   <th style="text-align:right;"> estimate </th>
-   <th style="text-align:right;"> std.error </th>
-   <th style="text-align:right;"> statistic </th>
-   <th style="text-align:right;"> p.value </th>
+   <th style="text-align:left;"> Term </th>
+   <th style="text-align:right;"> Odds ratio </th>
+   <th style="text-align:right;"> Standard error </th>
+   <th style="text-align:right;"> Z value </th>
+   <th style="text-align:right;"> P value </th>
   </tr>
  </thead>
 <tbody>
   <tr>
    <td style="text-align:left;"> (Intercept) </td>
-   <td style="text-align:right;"> 1.4726068 </td>
-   <td style="text-align:right;"> 0.0519907 </td>
-   <td style="text-align:right;"> 7.444300 </td>
-   <td style="text-align:right;"> 0.0e+00 </td>
+   <td style="text-align:right;"> 2.0576230 </td>
+   <td style="text-align:right;"> 0.1806552 </td>
+   <td style="text-align:right;"> 3.9940811 </td>
+   <td style="text-align:right;"> 0.0000649 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> ACT_score </td>
-   <td style="text-align:right;"> 0.9361319 </td>
-   <td style="text-align:right;"> 0.0021565 </td>
-   <td style="text-align:right;"> -30.604093 </td>
-   <td style="text-align:right;"> 0.0e+00 </td>
+   <td style="text-align:right;"> 0.9310526 </td>
+   <td style="text-align:right;"> 0.0062740 </td>
+   <td style="text-align:right;"> -11.3866553 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> hs_gpa_entry </td>
-   <td style="text-align:right;"> 1.5674512 </td>
-   <td style="text-align:right;"> 0.0162978 </td>
-   <td style="text-align:right;"> 27.577427 </td>
-   <td style="text-align:right;"> 0.0e+00 </td>
+   <td style="text-align:right;"> 1.5367251 </td>
+   <td style="text-align:right;"> 0.0524251 </td>
+   <td style="text-align:right;"> 8.1955671 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> hardship_score </td>
-   <td style="text-align:right;"> 0.8380645 </td>
-   <td style="text-align:right;"> 0.0397342 </td>
-   <td style="text-align:right;"> -4.446048 </td>
-   <td style="text-align:right;"> 8.7e-06 </td>
+   <td style="text-align:right;"> 0.6991754 </td>
+   <td style="text-align:right;"> 0.1280593 </td>
+   <td style="text-align:right;"> -2.7944369 </td>
+   <td style="text-align:right;"> 0.0051990 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> ACT_score:hardship_score </td>
-   <td style="text-align:right;"> 0.9890067 </td>
-   <td style="text-align:right;"> 0.0017406 </td>
-   <td style="text-align:right;"> -6.350799 </td>
-   <td style="text-align:right;"> 0.0e+00 </td>
+   <td style="text-align:right;"> 1.0058442 </td>
+   <td style="text-align:right;"> 0.0044407 </td>
+   <td style="text-align:right;"> 1.3122139 </td>
+   <td style="text-align:right;"> 0.1894480 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> hs_gpa_entry:hardship_score </td>
-   <td style="text-align:right;"> 1.0788345 </td>
-   <td style="text-align:right;"> 0.0126484 </td>
-   <td style="text-align:right;"> 5.999279 </td>
-   <td style="text-align:right;"> 0.0e+00 </td>
+   <td style="text-align:right;"> 1.0217839 </td>
+   <td style="text-align:right;"> 0.0357726 </td>
+   <td style="text-align:right;"> 0.6024177 </td>
+   <td style="text-align:right;"> 0.5468961 </td>
   </tr>
 </tbody>
 </table>
 </details>
 
-All variables, including interactions are statistically significant associated with the dependent variable
+All interaction terms do not statistically significant, but I still want to compare those two models and see which one performs better.
 
 
 ### Compare two models
@@ -379,9 +413,9 @@ glance(lr)
 
 ```
 # A tibble: 1 × 8
-  null.deviance df.null  logLik     AIC     BIC deviance df.residual   nobs
-          <dbl>   <int>   <dbl>   <dbl>   <dbl>    <dbl>       <int>  <int>
-1       141319.  103434 -69377. 138762. 138800.  138754.      103431 103435
+  null.deviance df.null  logLik    AIC    BIC deviance df.residual  nobs
+          <dbl>   <int>   <dbl>  <dbl>  <dbl>    <dbl>       <int> <int>
+1        21020.   15637 -10370. 20749. 20780.   20741.       15634 15638
 ```
 
 ```r
@@ -390,12 +424,12 @@ glance(lrFull)
 
 ```
 # A tibble: 1 × 8
-  null.deviance df.null  logLik     AIC     BIC deviance df.residual   nobs
-          <dbl>   <int>   <dbl>   <dbl>   <dbl>    <dbl>       <int>  <int>
-1       141319.  103434 -69351. 138715. 138772.  138703.      103429 103435
+  null.deviance df.null  logLik    AIC    BIC deviance df.residual  nobs
+          <dbl>   <int>   <dbl>  <dbl>  <dbl>    <dbl>       <int> <int>
+1        21020.   15637 -10369. 20750. 20796.   20738.       15632 15638
 ```
 
-Those two tables show that the model with interactions has smaller AIC (138714.9) than the basic model (AIC = 138761.6).
+Those two tables show that the basic model has smaller AIC (20748.94) than the model with interactions (AIC = 20749.79).
 
 -   Pseudo R-Square
 
@@ -406,11 +440,11 @@ DescTools::PseudoR2(lr, which =  "all")
 
 ```
        McFadden     McFaddenAdj        CoxSnell      Nagelkerke   AldrichNelson 
-   1.815623e-02    1.809962e-02    2.450104e-02    3.288988e-02    2.420573e-02 
+   1.328718e-02    1.290660e-02    1.770177e-02    2.394572e-02    1.754693e-02 
 VeallZimmermann           Efron McKelveyZavoina            Tjur             AIC 
-   4.192248e-02    2.498798e-02    3.073081e-02    2.480682e-02    1.387616e+05 
+   3.060096e-02    1.793824e-02    2.251562e-02    1.788166e-02    2.074894e+04 
             BIC          logLik         logLik0              G2 
-   1.387997e+05   -6.937678e+04   -7.065969e+04    2.565828e+03 
+   2.077957e+04   -1.037047e+04   -1.051012e+04    2.792998e+02 
 ```
 
 ```r
@@ -419,15 +453,15 @@ DescTools::PseudoR2(lrFull, which =  "all")
 
 ```
        McFadden     McFaddenAdj        CoxSnell      Nagelkerke   AldrichNelson 
-   1.851434e-02    1.842943e-02    2.497821e-02    3.353042e-02    2.467138e-02 
+   1.343701e-02    1.286613e-02    1.789958e-02    2.421330e-02    1.774127e-02 
 VeallZimmermann           Efron McKelveyZavoina            Tjur             AIC 
-   4.272895e-02    2.543636e-02    3.134814e-02    2.529393e-02    1.387149e+05 
+   3.093989e-02    1.815369e-02    2.280072e-02    1.808023e-02    2.074979e+04 
             BIC          logLik         logLik0              G2 
-   1.387722e+05   -6.935147e+04   -7.065969e+04    2.616436e+03 
+   2.079573e+04   -1.036889e+04   -1.051012e+04    2.824491e+02 
 ```
 
-Results of pseudo R-square tables show that the basic model accounts for approximately 32.9% of the total variance; the model with interactions accounts for approximately 33.53% of the total variance.
+Results of pseudo R-square tables show that the basic model accounts for approximately 23.95% of the total variance; the model with interactions accounts for approximately 24.21% of the total variance, slightly higher than basic model.
 
 ## Conclusion
 
-In summary, the model with interactions has better performance. Variables (**ACT_score**, **hs_gpa_entry**, **hardship_score**) and interactions ( **ACT_score x hardship_score**, **hs_gpa_entry x hardship_score**) significantly predict success.
+In summary, while the interaction models have slightly higher pseudo R-square, considering significance of coefficients and AIC, the basic model is better.  Variables (**ACT_score**, **hs_gpa_entry**, **hardship_score**) significantly predict success. Higher ACT score and higher hardship score are associated with lower success rates; Higher high school GPA entry are associated with higher success rates.

@@ -17,9 +17,12 @@ load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/
 
 Information related to instructors is from **class_instructors** data set, and information about student success is from **course_enrollments** data set.
 
+Next, I deal with those two data sets and conduct analysis.
+
 ## Data cleaning
-1. Combine those two data sets via term_code and class_nubr variables.
-2.Calculate success rate per instructor.
+1. Combine those two data sets via term_code and class_nbr variables.
+
+2. Calculate success rate per instructor.
 
 ```r
 instructor <- course_enrollments %>%
@@ -79,7 +82,9 @@ instructor %>%
 
 
 ![](/images/p2.png)
-By adding lines that showing the median and mean success rate, we can see that there are some instructors have higher success rate than others. However, while the plot can provide some hints about the research question, we still need strong evidence to confirm it. Next, I divide instructors into two groups based on the median of success rates and conduct Welch test.
+By adding lines that showing the median and mean success rate, we can see that there are some instructors have higher success rate than others. 
+
+However, while the plot can provide some hints about the research question, we still need strong evidence to confirm it. Next, I divide instructors into two groups based on the median success rates and conduct Welch test.
 
 ## Welch test
 
@@ -106,7 +111,7 @@ data:  percent and group
 F = 370.94, num df = 1.00, denom df = 122.64, p-value < 2.2e-16
 ```
 ## Conclusion
-The Welch test shows that instructors' performance does have difference. 
+The Welch test shows that instructors' performance does have difference. That is to say, some instructors have better performance than others.
 
 
 

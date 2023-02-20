@@ -17,9 +17,8 @@ load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/
 ## Research question
 **Are success rates improving or getting worse?**
 
-For this question, I examine success rates over terms (**term_code**) from **course_enrollments** data set via robust Welch test to determine whether success rates improve or not. 
+For this question, I examine success rates over terms (**term_code**) from **course_enrollments** data set via Welch test to determine whether success rates improve or not. 
 Welch test is proved to be robust under all conditions.
-
 
 
 ## Visualization
@@ -37,7 +36,6 @@ course_enrollments %>%
   ggplot(
     aes(x= term_code, y = percent)
     ) +
-
   geom_line(size = 1, color = "black") +
   geom_point(
     aes(fill = term_code), shape = 21, size = 4.5, show.legend = F) +
@@ -89,7 +87,9 @@ p <- grid.arrange(gt)
 
 
 ![](/images/p1.png)
-The plot indicates that success rates did change over terms, which first decreased from 62.66% to 55.93%, and then increased to 60.71%. The overall success rate shows a downward trend. Next, the Welch test determines if there is statistically significant difference between success rates over terms.
+The plot indicates that success rates did change over terms, which first decreased from 62.66% at first term to 55.93% at third term, and then increased to 60.71%. The overall success rate shows a downward trend. 
+
+Next, the Welch test determines if there is statistically significant difference between success rates over terms.
 
 
 ## Statistical test
@@ -107,25 +107,29 @@ oneway.test(success~term_code, data = course_enrollments,var.equal=FALSE)
 data:  success and term_code
 F = 6.3989, num df = 5.0, denom df = 7464.7, p-value = 6.127e-06
 ```
-With p value less than 0.05, Welch tests indicates that there is statistically significant difference between success rates over terms. But this test only shows that there is difference. We cannot know whether the performance becomes better or worse. Therefore, I further examine the relationship between term and success by regression model.
+With p value less than 0.05, Welch tests indicates that there is statistically significant difference between success rates over terms. 
+
+But this test only shows that there is difference. We cannot know whether the performance becomes better or worse. Therefore, I further examine the relationship between term and success by regression model.
 
 
 ```r
 course_enrollments$success <- as.factor(course_enrollments$success)
 lr <- glm(success ~ term_code, data = course_enrollments, family = binomial(link = "logit"))
 broom::tidy(lr, exp = TRUE) %>%
-  kable() %>% 
+  kable(
+    col.names = c("Term","Odds ratio","Standard error","Z value", "P value")
+  ) %>% 
   kable_styling("basic", bootstrap_options = "striped", full_width = F, position = "left")
 ```
 
 <table class="table table-striped" style="width: auto !important; ">
  <thead>
   <tr>
-   <th style="text-align:left;"> term </th>
-   <th style="text-align:right;"> estimate </th>
-   <th style="text-align:right;"> std.error </th>
-   <th style="text-align:right;"> statistic </th>
-   <th style="text-align:right;"> p.value </th>
+   <th style="text-align:left;"> Term </th>
+   <th style="text-align:right;"> Odds ratio </th>
+   <th style="text-align:right;"> Standard error </th>
+   <th style="text-align:right;"> Z value </th>
+   <th style="text-align:right;"> P value </th>
   </tr>
  </thead>
 <tbody>
@@ -146,8 +150,10 @@ broom::tidy(lr, exp = TRUE) %>%
 </tbody>
 </table>
 
-With p value larger than 0.05, we cannot conclude that whether performance change over term. It might because that the relationship is not linear. Therefore, logistic regression does not apply to this situation. But the coefficient of term_code did show there is negative relationship even it is not significant. 
+With p value larger than 0.05, we cannot conclude that whether performance change over term. It might because that the relationship is not linear. 
+
+Therefore, logistic regression does not apply to this situation. But the coefficient of term_code did show there is negative relationship even it is not significant. 
 
 
 ## Conclusion
-The overall trend of performance decreases. 
+The overall trend of performance decreases, but it does not significant. 
