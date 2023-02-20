@@ -1,5 +1,6 @@
 # Introduction
-The data are about ‘Smart Start’ Program  in the university to review entry level courses (Physics, Biology (Human Anatomy), and Spanish). 
+
+The data are about 'Smart Start' Program in the university to review entry level courses (Physics, Biology (Human Anatomy), and Spanish).
 
 First, I review research questions, import and clean data, as well as describe the data and variables.
 
@@ -11,30 +12,25 @@ rm(list =ls())
 library(tidyverse)
 ```
 
+## Research questions
 
-# Research questions
+1.  What are our overall success rates (C or better)?
 
-1.What are our overall success rates (C or better)?
+2.  What student information helps predict success in their courses?
 
-2.What student information helps predict success in their courses?
+3.  Are success rates improving or getting worse?
 
-3.Are success rates improving or getting worse?
+4.  Are some of their instructors better than others?
 
-4.Are some of their instructors better than others? 
+5.  Does teaching frequently the course improve instructor performance over time?
 
-5.Does teaching frequently the course improve instructor performance over time?
-
-6.How do their students, in their academic plans, perform compared to students from other departments/colleges?
-
-
-# Description
+6.  How do their students, in their academic plans, perform compared to students from other departments/colleges?
 
 ## Data
 
 It includes five tables of data: acad_plan, class_instructors, class_inventory, course_enrollments, and student_details. Those are relational data since they have relations so that they can connect with others via one or several variables. Before joining those tables into one data frame, I explore those tables first.
 
 ### Load data
-
 
 
 ```r
@@ -45,7 +41,10 @@ course_enrollments <- read.csv(file = "D:/R/data analysis/Institutional research
 student_details <- read.csv(file = "D:/R/data analysis/Institutional research/technical-exercise/content/docs/data/student_details.csv")
 ```
 
-+  **acad_plan** describes detail information related to academic plan
+### Description
+
+-   **acad_plan** describes detail information related to academic plan
+
 
 ```
   acad_plan              acad_plan_desc acad_career degree college dept_code
@@ -64,7 +63,8 @@ student_details <- read.csv(file = "D:/R/data analysis/Institutional research/te
 6            MAJ          A
 ```
 
-+ **class_instructors** contains instructor id, class number, and term code
+-   **class_instructors** contains instructor id, class number, and term code
+
 
 ```
   term_code class_nbr instructor_id_number
@@ -76,7 +76,8 @@ student_details <- read.csv(file = "D:/R/data analysis/Institutional research/te
 6         1      5246                 2199
 ```
 
-+ **class_inventory** includes detail information relate to class, such as term code, class number, etc.
+-   **class_inventory** includes detail information relate to class, such as term code, class number, etc.
+
 
 ```
   term_code semester subject catalog_nbr class_nbr class_description dept_code
@@ -88,7 +89,8 @@ student_details <- read.csv(file = "D:/R/data analysis/Institutional research/te
 6         1     Fall    SPAN         101      6188  Beginner Spanish        16
 ```
 
-+ **course_enrollments** indicates student performance and course details
+-   **course_enrollments** indicates student performance and course details
+
 
 ```
   student_id_number term_code class_nbr completed_flag official_grade acad_plan
@@ -123,7 +125,9 @@ student_details <- read.csv(file = "D:/R/data analysis/Institutional research/te
                                        3rd Qu.:17.00  
                                        Max.   :27.00  
 ```
+
 hs_gpa_entry variable has several extreme values, such as 533. I drop those observations.
+
 
 ```r
 student_details <- student_details %>%
@@ -135,8 +139,8 @@ student_details <- student_details %>%
   )
 ```
 
+-   **student_details** represents characteristics of students
 
-+ **student_details** represents characteristics of students
 
 ```
   student_id_number ACT_score hs_gpa_entry hardship_score
@@ -147,7 +151,6 @@ student_details <- student_details %>%
 5                 5        NA           NA              0
 6                 6        NA           NA              0
 ```
-
 
 
 

@@ -1,5 +1,6 @@
 # Introduction
-The data are about ‘Smart Start’ Program  in the university to review entry level courses (Physics, Biology (Human Anatomy), and Spanish). 
+
+The data are about 'Smart Start' Program in the university to review entry level courses (Physics, Biology (Human Anatomy), and Spanish).
 
 First, I review research questions, import and clean data, as well as describe the data and variables.
 
@@ -12,30 +13,25 @@ rm(list =ls())
 library(tidyverse)
 ```
 
-
 ## Research questions
 
-1.What are our overall success rates (C or better)?
+1.  What are our overall success rates (C or better)?
 
-2.What student information helps predict success in their courses?
+2.  What student information helps predict success in their courses?
 
-3.Are success rates improving or getting worse?
+3.  Are success rates improving or getting worse?
 
-4.Are some of their instructors better than others? 
+4.  Are some of their instructors better than others?
 
-5.Does teaching frequently the course improve instructor performance over time?
+5.  Does teaching frequently the course improve instructor performance over time?
 
-6.How do their students, in their academic plans, perform compared to students from other departments/colleges?
-
-
-
+6.  How do their students, in their academic plans, perform compared to students from other departments/colleges?
 
 ## Data
 
 It includes five tables of data: acad_plan, class_instructors, class_inventory, course_enrollments, and student_details. Those are relational data since they have relations so that they can connect with others via one or several variables. Before joining those tables into one data frame, I explore those tables first.
 
 ### Load data
-
 
 ```{r}
 acad_plan <- read.csv(file = "D:/R/data analysis/Institutional research/technical-exercise/content/docs/data/acad_plan.csv")
@@ -46,27 +42,34 @@ student_details <- read.csv(file = "D:/R/data analysis/Institutional research/te
 ```
 
 ### Description
-+  **acad_plan** describes detail information related to academic plan
+
+-   **acad_plan** describes detail information related to academic plan
+
 ```{r echo=FALSE}
 head(acad_plan,6)
 ```
 
-+ **class_instructors** contains instructor id, class number, and term code
+-   **class_instructors** contains instructor id, class number, and term code
+
 ```{r echo=FALSE}
 head(class_instructors,6)
 ```
 
-+ **class_inventory** includes detail information relate to class, such as term code, class number, etc.
+-   **class_inventory** includes detail information relate to class, such as term code, class number, etc.
+
 ```{r echo=FALSE}
 head(class_inventory,6)
 ```
 
-+ **course_enrollments** indicates student performance and course details
+-   **course_enrollments** indicates student performance and course details
+
 ```{r echo=FALSE}
 head(course_enrollments,6)
 summary(course_enrollments)
 ```
+
 hs_gpa_entry variable has several extreme values, such as 533. I drop those observations.
+
 ```{r}
 student_details <- student_details %>%
   mutate(
@@ -77,8 +80,8 @@ student_details <- student_details %>%
   )
 ```
 
+-   **student_details** represents characteristics of students
 
-+ **student_details** represents characteristics of students
 ```{r echo=FALSE}
 head(student_details,6)
 ```
@@ -125,4 +128,3 @@ fileName <- paste0("data_", dt, ".Rdata",sep="")
 fileName
 save.image(fileName)
 ```
-
