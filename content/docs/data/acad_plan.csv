@@ -1,0 +1,2692 @@
+acad_plan,acad_plan_desc,acad_career,degree,college,dept_code,acad_plan_type,eff_status
+MS8894,Textiles & Clothing,GRAD,MSHCS,HSP,36,MAJ,I
+CTCBIG,Conservation Biology,GRAD,,A&S,21,CRT,A
+CTDIAG,Diabetes,GRAD,,HSP,81,CRT,A
+CTNEDG,Post-Masters Nurse Educator,GRAD,,HSP,32,CRT,A
+DP8140,Physical Therapy,GRAD,DPT,HSP,79,MAJ,A
+MA4221,Economics,GRAD,MA,A&S,26,MAJ,A
+MS6401,Home Economics,GRAD,MSHEC,HSP,36,MAJ,I
+MS6403,Nutrition Science,GRAD,MSHCS,HSP,81,MAJ,I
+MS6460,Child Development & Fam Life,GRAD,MSHEC,HSP,80,MAJ,I
+MS6462,Home Economics Education,GRAD,MSHEC,HSP,36,MAJ,I
+MS6471,Food and Nutrition Sciences,GRAD,MSFNS,HSP,81,MAJ,A
+MS6942,Individual Program of Study,GRAD,MS,GRAD,0,MAJ,A
+MS8101,Hlth Sport Sci/P.E./Rec,GRAD,MSPE,HSP,39,MAJ,I
+MS8129,Sports Admin/MBA,GRAD,MSA,COB,84,MAJ,I
+MS8544,Family Living,GRAD,MS,HSP,36,MAJ,I
+MS8602,Industrial Technology,GRAD,MS,EHS,,MAJ,I
+MS8868,Athletic Training,GRAD,MSRSS,HSP,39,MAJ,I
+CTHLPM,AOA Health Policy,MED,,OST,,CRT,A
+ND1210,Osteopathic Medicine,MED,,OST,63,MAJ,A
+NONDEGREEM,Medical Nondegree Seeking,MED,NONDEGRE,OST,,MAJ,A
+CTFIPL,Financial Planning,UGRD,,COB,24,CRT,A
+CTITAL,Italian Studies,UGRD,,A&S,16,CRT,A
+CTPOLC,Political Communication,UGRD,,COM,75,CRT,A
+NDDARU,Academic Record,UGRD,,REG,,MAJ,I
+OR4221,Economics,UGRD,,A&S,26,MIN,A
+OR4231,Geography,UGRD,,A&S,9,MIN,A
+OR5222,German,UGRD,,A&S,16,MIN,A
+ORCOMS,Communication Studies,UGRD,,COM,29,MIN,A
+OR6360,Applied Nutrition,UGRD,,HSP,36,MIN,A
+ND5187,Music Therapy,GRAD,,FAR,51,MAJ,I
+ND5291,Linguistics,GRAD,,A&S,13,MAJ,A
+ND5292,Linguistics - TEFL,GRAD,,A&S,13,MAJ,A
+ND5334,Intercultural/Cross Cultural,GRAD,,COM,29,MAJ,I
+ND5337,COMS-Comm. Comprehensive,GRAD,,COM,29,MAJ,I
+ND6210,Comp Mental Retarded,GRAD,,EHS,34,MAJ,I
+ND6224,Social Studies Education,GRAD,,EHS,34,MAJ,I
+ND6226,Cultural Studies,GRAD,,EHS,74,MAJ,A
+ND6269,Curriculum & Instruction,GRAD,,EHS,34,MAJ,A
+BC8817,Interpersonal Communication,UGRD,BSC,COM,29,MAJ,I
+BC8850,Telecommunications-Multimedia,UGRD,BSC,COM,31,MAJ,I
+BF1924,Film Tutorial,UGRD,BFAFILMT,FAR,87,MAJ,A
+BF5122,Art Education,UGRD,BFA,FAR,53,MAJ,I
+BF5148,Pre-Art Therapy,UGRD,BFA,FAR,53,MAJ,I
+BF5167,Theater Arts/Drama-Management,UGRD,BFA,FAR,50,MAJ,I
+BF5168,Stage Management,UGRD,BFA,FAR,50,MAJ,A
+BF6903,Photo Illustration,UGRD,BFA,COM,53,MAJ,I
+BF8550,General Fine Arts,UGRD,BFA,FAR,0,MAJ,I
+BF8598,Theater & Speech Education,UGRD,BFA,FAR,50,MAJ,I
+ND6298,CMH and School Counseling,GRAD,,EHS,35,MAJ,A
+ND6364,"Apparel,Textiles & Merchandisi",GRAD,,EHS,83,MAJ,I
+ND6403,Nutrition Science,GRAD,,HSP,81,MAJ,I
+ND6406,Textiles & Clothing,GRAD,,EHS,83,MAJ,I
+ND6506,Computer Educ/Technology,GRAD,,EHS,74,MAJ,A
+ND6839,Middle Child Education,GRAD,,EHS,34,MAJ,I
+ND6842,Middle School Education,GRAD,,EHS,34,MAJ,I
+ND6857,Adolescent/Young Adult Educ,GRAD,,EHS,34,MAJ,A
+ND6865,Spanish Education,GRAD,,EHS,34,MAJ,I
+ND6866,AYA Integrated Language Arts,GRAD,,EHS,34,MAJ,A
+ND6869,AYA Integrated Science,GRAD,,EHS,34,MAJ,I
+ND6940,Undec-Graduate,GRAD,,GRAD,0,MAJ,A
+ND6949,Molecular/Cellular Biol,GRAD,,A&S,5,MAJ,A
+BJ6941,Journalism,UGRD,BSJ,COM,30,MAJ,I
+BJ8678,Public Relations,UGRD,BSJ,COM,,MAJ,I
+BM5053,Instrumental Performance,UGRD,BMUS,FAR,51,MAJ,A
+BM5108,Music in Business,UGRD,BMUS,FAR,51,MAJ,I
+BM5113,Music Education,UGRD,BMUS,FAR,51,MAJ,I
+BS1204,School Nurse,UGRD,BSN,HSP,32,MAJ,I
+BS1212,Specialized Studies,UGRD,BSS,UNC,58,MAJ,I
+BS1911,Geography,UGRD,BSGEOG,A&S,9,MAJ,I
+BS1941,Comm Sciences & Disorders,UGRD,BSCSD,HSP,79,MAJ,A
+BS2016,Bot Pre-Forestry,UGRD,BS,A&S,5,MAJ,I
+BS2017,Bot Prep for Advanced Training,UGRD,BS,A&S,5,MAJ,I
+BS2112,PBIO Pre-Forestry,UGRD,BS,A&S,5,MAJ,I
+ND8138,Health Policy Certificate,GRAD,,HSP,80,MAJ,A
+ND8147,Exercise Physiology Clinical,GRAD,,HSP,81,MAJ,I
+ND8154,Ortho Residency,GRAD,,HSP,79,MAJ,A
+ND8501,Health Promotion,GRAD,,HSP,80,MAJ,I
+ND8515,Secondary Guidance & Counsel,GRAD,,REG,35,MAJ,I
+ND8923,TESOL Endorse - Linguistic Trk,GRAD,,A&S,13,MAJ,A
+ND8925,Pre-Kindergarten Special Needs,GRAD,,EHS,34,MAJ,A
+ND9800,Nondegree Education,GRAD,,EHS,0,MAJ,A
+ND9951,Graduate Special,GRAD,,GRAD,0,MAJ,A
+BS2127,Bios Pre Professional,UGRD,BS,A&S,21,MAJ,A
+BS2144,Zool Pre-Veterinary Medicine,UGRD,BS,A&S,21,MAJ,I
+BS3106,Mathematical Statistics Track,UGRD,BS,A&S,15,MAJ,A
+BS3323,Geol Sci Environmental Geology,UGRD,BS,A&S,10,MAJ,A
+BS4233,Geog Pre-Meteorology,UGRD,BS,A&S,9,MAJ,I
+PH2121,Biological Sciences,GRAD,PHD,A&S,21,MAJ,I
+PH4211,History,GRAD,PHD,A&S,12,MAJ,A
+PH5332,Organizational Communication,GRAD,PHD,COM,29,MAJ,I
+PH5334,Intercultural/Cross Cultural,GRAD,PHD,COM,29,MAJ,I
+PH5335,Information Systems,GRAD,PHD,COM,29,MAJ,I
+PH5361,COMS--Health Communication,GRAD,PHD,COM,29,MAJ,A
+PH8681,English Literature,GRAD,PHD,A&S,,MAJ,I
+PH8842,Audiology,GRAD,PHD,HSP,28,MAJ,I
+BS4237,Geog Prelaw,UGRD,BS,A&S,9,MAJ,I
+BS5305,Communication Sciences & Disor,UGRD,BSHSLS,HSP,79,MAJ,A
+BS6202,Bookkeeping,UGRD,BSED,EHS,34,MAJ,I
+BS6212,Elementary Education,UGRD,BSED,EHS,34,MAJ,A
+BS6217,Social Psychology,UGRD,BSED,EHS,34,MAJ,I
+BS6241,Music Ed -Instrument Emphasis,UGRD,BSED,EHS,34,MAJ,I
+BS6257,Chemistry,UGRD,BSED,EHS,34,MAJ,I
+BS6264,Spec Ed Early Childhood,UGRD,BSED,EHS,34,MAJ,I
+BS6282,Educ Mental Retarded Sec,UGRD,BSED,EHS,34,MAJ,I
+BS6287,Communication Speech Emphasis,UGRD,BSED,EHS,34,MAJ,I
+BS6308,Integrated Social Studies,UGRD,BSED,EHS,34,MAJ,A
+ME6220,Early Child Intervent Special,GRAD,MED,EHS,34,MAJ,A
+ME6250,College Counseling,GRAD,MED,EHS,35,MAJ,I
+ME6298,CMH/School Counseling,GRAD,MED,EHS,35,MAJ,A
+ME6365,Art Education,GRAD,MED,EHS,34,MAJ,A
+ME6857,Adolescent to Young Adult Educ,GRAD,MED,EHS,34,MAJ,A
+BS6353,Primary Edu/Early Childhood Ed,UGRD,BSHCS,EHS,34,MAJ,I
+BS6361,"Restaurant, Hotel and Tourism",UGRD,BSHCS,EHS,83,MAJ,A
+BS6382,Fashion Merchandise &Design,UGRD,BSHEC,HSP,36,MAJ,I
+BS6411,Family Study,UGRD,BS,HSP,36,MAJ,I
+BS6456,Home Econ Ed,UGRD,BSHEC,HSP,36,MAJ,I
+BS6457,Fash Ret Mer,UGRD,BSHEC,HSP,36,MAJ,I
+BS6458,Interior Des,UGRD,BSHEC,HSP,36,MAJ,I
+BS6466,HEC Dietetics Com Nutrition,UGRD,BS,HSP,36,MAJ,I
+BS6468,Child and Family Studies,UGRD,BSCFS,HSP,80,MAJ,A
+BS6737,Health Education,UGRD,BSED,EHS,34,MAJ,I
+BS6838,Family Life,UGRD,BSED,EHS,34,MAJ,I
+BS6850,Soc St/Lang Arts,UGRD,BSED,EHS,34,MAJ,I
+AI5508,Assoc. in Individ. Studies,UGRD,AIS,UNC,58,MAJ,A
+BA1901,Environmental & Plant Biology,UGRD,ABEPB,A&S,5,MAJ,I
+BA1911,Geography,UGRD,AB-GEO,A&S,9,MAJ,I
+BA1913,General Theater,UGRD,AB-THAR,FAR,87,MAJ,A
+BA1932,Classics,UGRD,BACLASS,A&S,7,MAJ,A
+BA1945,"Wom, Gen, & Sexuality Studies",UGRD,AB-WGSS,A&S,77,MAJ,A
+BA2012,Bot Horticulture,UGRD,BA,A&S,5,MAJ,I
+BA2013,Prep Cell Bio & Biotechnology,UGRD,BA,A&S,5,MAJ,I
+BA2017,Bot Prep for Advanced Training,UGRD,BA,A&S,5,MAJ,I
+BA2018,Botany,UGRD,AB,A&S,5,MAJ,I
+BA2116,PBIO Prep for Advanced Tng,UGRD,AB,A&S,5,MAJ,I
+BA2121,Biological Sciences,UGRD,BA,A&S,21,MAJ,I
+BA2124,Sanitation,UGRD,AB,A&S,21,MAJ,I
+BA2133,Zoology,UGRD,AB,A&S,21,MAJ,I
+BS6853,Science/Math,UGRD,BSED,EHS,34,MAJ,I
+BS6855,Comprehensive Science,UGRD,BSED,EHS,34,MAJ,I
+BS7260,Computer Science,UGRD,BSCS,ENT,44,MAJ,A
+BS8126,Athletic Training/Com Hlth Srv,UGRD,BSAT,HSP,81,MAJ,I
+BS8128,Campus Recreation,UGRD,BSRS,EHS,82,MAJ,I
+BS8207,Physical Educ Secondary,UGRD,BSPE,HSP,39,MAJ,I
+BS8505,History,UGRD,BSED,EHS,34,MAJ,I
+BS8506,Government,UGRD,BSED,EHS,34,MAJ,I
+BS8878,Coaching,UGRD,BSSPS,HSP,39,MAJ,I
+BA3103,Math Applied,UGRD,AB,A&S,15,MAJ,I
+BA3314,Chem Pre-Medicine,UGRD,BA,A&S,6,MAJ,A
+BA3335,Physics Astrophysics,UGRD,AB,A&S,22,MAJ,I
+BA4408,Global Studies - Latin America,UGRD,BA,INST,3,MAJ,A
+BA5195,Music,UGRD,BA,FAR,51,MAJ,A
+BB6124,Business Economics,UGRD,BBA,COB,0,MAJ,A
+BS8889,Family & Consumer Sciences Edu,UGRD,BSHCS,HSP,36,MAJ,I
+BS8897,Primary Edu/Early Childhood Ed,UGRD,BSHCS,HSP,36,MAJ,I
+BS8908,Exercise Physiology,UGRD,BSSPS,HSP,81,MAJ,I
+CNEEAB,Arabic for Elem Education,UGRD,,,,CON,A
+CNEEEC,Economics for Elem Education,UGRD,,,,CON,A
+CNEEFR,French for Elem Education,UGRD,,,,CON,A
+CNEEJP,Japanese for Elem Education,UGRD,,,,CON,A
+CNEEPY,Psychology for Elem Education,UGRD,,,,CON,A
+ND0210,Undecided-HSP,UGRD,,HSP,0,MAJ,A
+ND0311,Honors Academy,UGRD,,HTC,0,MAJ,I
+ND0710,Undecided Communication,UGRD,,COM,0,MAJ,I
+ND1010,Undecided Fine Arts,UGRD,,FAR,0,MAJ,I
+ND1208,Undecided,UGRD,,UNC,58,MAJ,A
+ND4404,Pre-International Studies,UGRD,,INST,3,MAJ,I
+BC1918,Communication Studies,UGRD,BSCOMS,COM,29,MAJ,A
+BC2209,Criminal Justice,UGRD,BCJ,UNC,58,MAJ,A
+BC5301,Organizational Communication,UGRD,BSC,COM,29,MAJ,I
+BC5310,TCOM-Pre-Major,UGRD,BSC,COM,31,MAJ,I
+BC5340,INCO-Communication Theory,UGRD,BSC,COM,29,MAJ,I
+BC5342,COMS-Organization Comm.,UGRD,BSC,COM,29,MAJ,A
+BC5349,Media International,UGRD,BSC,COM,31,MAJ,I
+BC5354,Audio-Post Prod Moving Image,UGRD,BSC,COM,31,MAJ,I
+BC5365,Media Arts and Studies,UGRD,BSC,COM,31,MAJ,A
+BC5373,MDIA - Integrated Media,UGRD,BSC,COM,31,MAJ,A
+BC8710,TCOM-Comprehensive,UGRD,BSC,COM,31,MAJ,I
+BC8764,Speech,UGRD,BSC,COM,29,MAJ,I
+BA5225,Spanish,UGRD,BA,A&S,16,MAJ,A
+BA5231,English,UGRD,BA,A&S,8,MAJ,A
+ND6357,HSP-Und/Integrated HC Studies,UGRD,,HSP,90,MAJ,A
+ND6603,Pre Social Work,UGRD,,HSP,80,MAJ,A
+ND6938,Journalism-Undecided,UGRD,,COM,30,MAJ,I
+ND8116,Physical Therapy,UGRD,,HSP,79,MAJ,I
+ND8838,Pre Physical Education,UGRD,,EHS,82,MAJ,A
+ND9812,COM-Exchange,UGRD,,COM,0,MAJ,A
+ND9814,ENT-Exchange,UGRD,,ENT,0,MAJ,A
+ND9908,INS-Nondegree,UGRD,,INST,3,MAJ,A
+ND9914,COM-Nondegree,UGRD,,COM,0,MAJ,A
+ND9924,Summer Start,UGRD,,UNC,58,MAJ,I
+ND9981,STEP Program,UGRD,,UNC,58,MAJ,A
+NDA&S,A&S-Nondegree for Minors,UGRD,NONDEGRE,A&S,0,MAJ,A
+NONDEGREEU,Undergraduate Nondegree Seek,UGRD,NONDEGRE,UNC,,MAJ,A
+BA5234,English Pre-Law,UGRD,BA,A&S,8,MAJ,A
+BA5236,"English Cultures, Rhet & Theor",UGRD,BA,A&S,8,MAJ,A
+BA5244,Phil Pre-Law,UGRD,BA,A&S,17,MAJ,A
+BA6413,HEC Food Service Management,UGRD,AB,HSP,36,MAJ,I
+BA6466,HEC Dietetics Com Nutrition,UGRD,AB,HSP,36,MAJ,I
+BA6933,Journalism Magazine Jour,UGRD,BA,COM,30,MAJ,I
+BA8910,Inst/Asia,UGRD,BA,INST,3,MAJ,I
+BB1921,Management,UGRD,BBAM,COB,25,MAJ,I
+OR7253,Electrical Engineering,UGRD,,ENT,44,MIN,I
+OR7258,Aviation,UGRD,,ENT,41,MIN,I
+ORAART,Allied Arts,UGRD,,,,MIN,I
+ORAGRI,Agriculture,UGRD,,,,MIN,I
+ORBMGT,Business Management,UGRD,,,,MIN,I
+ORELED,Elementary Education,UGRD,,,,MIN,I
+ORESTH,Esthetics,UGRD,,,,MIN,I
+ORFMER,Fashion Merchandising,UGRD,,,,MIN,I
+ORGDSG,Graphic Design,UGRD,,,,MIN,I
+ORGOVT,Government,UGRD,,,,MIN,I
+ORHUMR,Human Resources,UGRD,,,,MIN,I
+ORPHOT,Photography,UGRD,,FAR,,MIN,I
+ORSPSY,School Psychology,UGRD,,,,MIN,I
+ORVOCA,Vocal,UGRD,,,21,MIN,I
+SF6232,French,UGRD,,EHS,34,SEC,I
+SF6257,Chemistry,UGRD,,EHS,34,SEC,I
+SFSEGG,Geography,UGRD,,,,SEC,I
+SFSEGS,General Science,UGRD,,,,SEC,I
+VALBME,Bilingual-Multicultural Educ,UGRD,,,,VAL,I
+ORCOED,Coaching Education,UGRD,,EHS,82,MIN,A
+BS8655,Electrical Engineering,UGRD,BSEE,ENT,,MAJ,I
+OR6125,Finance,UGRD,,COB,24,MIN,A
+OR5375,Screenwrit & Dig Storytelling,UGRD,,COM,31,MIN,A
+CTAFMD,African Cult Thru Music/Dance,UGRD,,INST,3,CRT,A
+CTMEST,Middle Eastern Studies,UGRD,,INST,,CRT,I
+CTFFSU,French and Francophone Studies,UGRD,,A&S,11,CRT,A
+CTLSSC,Lean Six Sigma,UGRD,,ENT,47,CRT,A
+OR8121,Coaching,UGRD,,EHS,,MIN,I
+CTWSTU,Women's and Gender Studies,UGRD,,A&S,77,CRT,I
+CTAPSU,Appalachian Studies,UGRD,,HSP,80,CRT,A
+AA1103,Associate in Home Economics,UGRD,AA,UNC,58,MAJ,I
+AA1106,Child Development,UGRD,AAS,EHS,34,MAJ,A
+AA5004,Hazard Materials Technology,UGRD,AAS,RHE,59,MAJ,I
+AA5014,Office Technology,UGRD,AAB,RHE,59,MAJ,A
+AA5017,Equine Studies,UGRD,AAS,RHE,59,MAJ,A
+AA5020,Industrial Maintenance,UGRD,AAS,RHE,60,MAJ,A
+AA5023,Engineering Technology,UGRD,AAS,RHE,60,MAJ,A
+AA5216,Mental Health Tech,UGRD,AA,A&S,19,MAJ,I
+AA5320,Ind.Tech-Design,UGRD,AAS,RHE,60,MAJ,I
+AA5802,Accounting Technology,UGRD,AAB,RHE,59,MAJ,I
+AA5813,Travel & Tourism Management,UGRD,AAS,UNC,59,MAJ,I
+AA5814,Equine Studies,UGRD,AAS,UNC,58,MAJ,I
+AA5822,Ind.Tech-Design,UGRD,AAS,RHE,60,MAJ,I
+BS8524,Agriculture,UGRD,BSED,EHS,34,MAJ,I
+BS8537,Education,UGRD,BSED,EHS,34,MAJ,I
+BS8543,Environmental Biology,UGRD,BS,A&S,21,MAJ,I
+BS8578,Gifted and Talented,UGRD,BSED,EHS,,MAJ,I
+BS8590,Social Studies,UGRD,BSED,EHS,34,MAJ,I
+BS8623,Industrial Hygiene,UGRD,BSH,HSP,39,MAJ,I
+BS8648,Hearing & Speech Sciences,UGRD,BSHS,HSP,,MAJ,I
+BS8667,Vocational Home Econ.,UGRD,BSHEC,HSP,,MAJ,I
+MA5379,Speech Language Pathology,GRAD,MASLP,HSP,79,MAJ,A
+MA6942,Individual Program of Study,GRAD,MA,GRAD,0,MAJ,A
+MA8540,English & American Lit.,GRAD,MA,A&S,8,MAJ,I
+MA8542,English Literature,GRAD,MA,A&S,8,MAJ,I
+MA8592,Speech Pathology,GRAD,MA,HSP,28,MAJ,I
+MA8665,Mathematics,GRAD,MA,A&S,,MAJ,I
+MA8772,Applied Linguistics/Tefl,GRAD,MA,A&S,13,MAJ,I
+MA8913,I.I.P.,GRAD,MA,HSP,,MAJ,I
+MB6141,MBA/Sports Admin,GRAD,MBA,COB,25,MAJ,A
+MB6145,MBA India,GRAD,MBA,COB,25,MAJ,I
+MB6151,Global MBA,GRAD,MBA,COB,25,MAJ,A
+MB6153,MBA--Finance Concentration,GRAD,MBA,COB,25,MAJ,A
+BS8690,Communications Comp,UGRD,BSED,EHS,,MAJ,I
+BS8699,Math Comp,UGRD,BSED,EHS,,MAJ,I
+BS8716,Home Economics Education,UGRD,BSHCS,HSP,36,MAJ,I
+BS8829,PBIO Field Biology,UGRD,BS,A&S,5,MAJ,I
+BS8830,Sport Industry,UGRD,BSSPS,HSP,39,MAJ,I
+BC8813,INCO-Political Communication,UGRD,BSC,COM,29,MAJ,I
+MB6155,MBA--Exec Mgmt Concentration,GRAD,MBA,COB,25,MAJ,A
+MB6159,PMBA -- Bus Analytics Concn,GRAD,MBA,COB,25,MAJ,A
+MB6161,PMBA -- Finance Concentration,GRAD,MBA,COB,25,MAJ,A
+MB6169,PMBA--Business Venturing Conce,GRAD,MBA,COB,25,MAJ,A
+MF5146,Art History,GRAD,MFA,FAR,53,MAJ,I
+MM5109,Music--Interdisciplinary,GRAD,MM,FAR,51,MAJ,I
+MM5110,Music,GRAD,MM,FAR,51,MAJ,I
+MP8175,Public Health,GRAD,MPH,HSP,80,MAJ,A
+MS0209,Individual Prog of Study-HSP,GRAD,MS,HSP,0,MAJ,I
+MS1217,"Educ,Admin,&Family Nurse Prac",GRAD,MSN,HSP,32,MAJ,I
+MS1230,Acute Care Nurse Practitioner,GRAD,MSN,HSP,32,MAJ,I
+MS3321,Geological Sciences,GRAD,MS,A&S,10,MAJ,A
+MY6163,Master of Accountancy,GRAD,MACC,COB,23,MAJ,A
+ND0411,Microbiology,GRAD,,A&S,21,MAJ,I
+ND1214,Family Nurse Practitioner,GRAD,,HSP,32,MAJ,A
+ND2121,Biological Sciences,GRAD,,A&S,21,MAJ,I
+ND4211,History,GRAD,,A&S,12,MAJ,A
+ND4231,Geography,GRAD,,A&S,9,MAJ,A
+ND4251,Sociology,GRAD,,A&S,20,MAJ,A
+ND5138,Theater,GRAD,,FAR,87,MAJ,A
+ND5172,Ceramics,GRAD,,FAR,53,MAJ,A
+ND5173,Painting,GRAD,,FAR,53,MAJ,I
+ND5176,Graphic Design,GRAD,,FAR,53,MAJ,A
+ME8682,Secondary School Admin,GRAD,MED,EHS,,MAJ,I
+ME8719,Sports Administration,GRAD,MSED,EHS,34,MAJ,I
+ME8732,Secondary School Counseling,GRAD,MED,REG,35,MAJ,I
+ME8747,Special Educ Mentally Retarded,GRAD,MED,EHS,34,MAJ,I
+ME8748,Reading Supervision,GRAD,MED,EHS,34,MAJ,I
+MS0809,Individual Prog of Study-EHS,GRAD,MS,EHS,0,MAJ,I
+CTEMCG,Engineering Management,GRAD,,ENT,46,CRT,A
+EALJCG,"Law, Justice and Culture",GRAD,MA,A&S,65,MAJ,A
+ME6366,Higher Education,GRAD,MED,EHS,35,MAJ,A
+ND9996,Graduate Cert COB eCampus,GRAD,,COB,25,MAJ,A
+CNEEIM,Indonesian/Malay for Elem Ed,UGRD,,,,CON,I
+CNEEPY,Psychology for Elem Education,UGRD,,,,CON,I
+ND6990,HSP-Undecided Grd,GRAD,,GRAD,0,MAJ,I
+CTAACG,Arts Administration,GRAD,,FAR,92,CRT,A
+ND9854,Project Management,GRAD,,ENT,47,MAJ,A
+ND9964,Veterans Health,GRAD,,HSP,90,MAJ,A
+ND9971,Post-Mast Adult Geron Acute,GRAD,,HSP,32,MAJ,A
+MS1241,Adult-Ger Acute Care Nurse Pra,GRAD,MSN,,32,MAJ,A
+MY6102,Master of Accountancy,GRAD,MACC,COB,23,MAJ,A
+BS6605,Social Work,UGRD,BSW,HSP,80,MAJ,A
+CTCRCU,Consumer Research,UGRD,,COB,27,CRT,A
+CTCDCG,Community Dance,GRAD,,FAR,52,CRT,A
+ND5292,Linguistics - TEFL,GRAD,,A&S,13,MAJ,I
+ND8168,Healthcare Leadership,GRAD,,HSP,90,MAJ,I
+MM5196,Perf-Collaborative Piano-Vocal,GRAD,MM,FAR,51,MAJ,A
+MS6606,Social Work,GRAD,MSW,HSP,19,MAJ,A
+ND8926,Pre-Health & Physical Educ,UGRD,,EHS,82,MAJ,A
+ND9983,War and Peace Studies,GRAD,,INST,3,MAJ,I
+ND9989,"Gender, Sexualities & Health",GRAD,,A&S,77,MAJ,I
+ND9994,Engineering Leadership,GRAD,,ENT,46,MAJ,I
+MB6173,Master of Business Analytics,GRAD,MBAN,COB,67,MAJ,A
+CTBACG,Business Analytics,GRAD,CERTG,COB,67,CRT,A
+CTGISC,GIS: GIS and Cartograpy,GRAD,CERTG,A&S,9,CRT,A
+CTPMCG,Project Management,GRAD,CERTG,ENT,47,CRT,A
+CTPMHN,Psych Mental Health Nurse Prac,GRAD,CERTG,HSP,32,CRT,A
+CTWARG,War and Peace Studies,GRAD,CERTG,INST,3,CRT,A
+EALJCG,"Law, Justice and Culture",GRAD,,A&S,65,MAJ,A
+CTFSTC,Forensics Studies Certificate,UGRD,,A&S,13,CRT,A
+MI6475,Integrated Health Studies,GRAD,MIHS,HSP,90,MAJ,A
+CTMSTG,Museum Studies,GRAD,,FAR,53,CRT,A
+CTSEAG,Southeast Asian Studies,GRAD,,INST,3,CRT,A
+CTWARG,War and Peace Studies,GRAD,,INST,3,CRT,A
+CTFFSG,French and Francophone Studies,GRAD,,A&S,11,CRT,A
+CTHLPG,Health Policy,GRAD,,HSP,85,CRT,I
+CTWSTG,Women's and Gender Studies,GRAD,,A&S,77,CRT,A
+CTTEFL,Teaching English Foreign Lang,GRAD,,A&S,13,CRT,A
+MA0709,Individual Prog of Study-COM,GRAD,MA,COM,0,MAJ,I
+MA3331,Physics,GRAD,MA,A&S,22,MAJ,A
+MA4104,Clinical Psychology,GRAD,MA,A&S,18,MAJ,I
+MA4206,African Studies,GRAD,MA,INST,3,MAJ,A
+MA4210,Administrative Studies,GRAD,MA,INST,3,MAJ,I
+MA5138,Theater,GRAD,MA,FAR,50,MAJ,A
+MS6931,Journalism,GRAD,MS,COM,30,MAJ,A
+MS7260,Computer Science,GRAD,MSCS,ENT,44,MAJ,A
+MS8132,Foundation of Teach/Coaching,GRAD,MSRSS,HSP,39,MAJ,I
+MS8143,Athletic Administration,GRAD,MSRSS,COB,84,MAJ,I
+MS8702,Family Life,GRAD,MS,EHS,,MAJ,I
+MS8797,Recreation,GRAD,MSPE,HSP,39,MAJ,I
+MS8821,Public Relations,GRAD,MS,COM,30,MAJ,I
+MS8882,Recreation Studies,GRAD,MSRSS,HSP,39,MAJ,I
+PH6278,Clinical Mental Health Counsel,GRAD,PHD,REG,35,MAJ,I
+PH6842,Middle School Education,GRAD,PHD,EHS,34,MAJ,I
+PH8553,Guidance & Counseling,GRAD,PHD,REG,35,MAJ,I
+PH8577,Educational Leadership,GRAD,PHD,REG,35,MAJ,I
+PH8730,Community Counseling,GRAD,PHD,REG,35,MAJ,I
+DO1210,Osteopathic Medicine,MED,DO,OST,63,MAJ,A
+ENDREA,Endorsement in Reading,UGRD,,EHS,,END,A
+OR5225,Spanish,UGRD,,A&S,16,MIN,A
+MS8900,Athletic Administration,GRAD,MSRSS,HSP,39,MAJ,I
+MS8903,Sports Administration,GRAD,MSA,HSP,39,MAJ,I
+ND5231,English,GRAD,,A&S,8,MAJ,A
+ND5316,Speech-Language Pathology,GRAD,,HSP,79,MAJ,I
+ND6121,Accounting,GRAD,,COB,23,MAJ,I
+ND6143,MBA Brazil,GRAD,,COB,25,MAJ,I
+ND6222,Microcomputers in Education,GRAD,,EHS,74,MAJ,I
+ND6246,Multiple Handicapped,GRAD,,EHS,34,MAJ,I
+ND6250,College Counseling,GRAD,,EHS,35,MAJ,I
+BC8831,Communication Sys Mgmt,UGRD,BSC,COM,70,MAJ,I
+BC8847,TCOM-Admin/Management,UGRD,BSC,COM,31,MAJ,I
+BC8851,TCOM-Media/Society,UGRD,BSC,COM,31,MAJ,I
+BF5137,General Theater,UGRD,BFA,FAR,50,MAJ,I
+BF5143,Photography,UGRD,BFA,FAR,53,MAJ,I
+BF5151,Dance,UGRD,BFA,FAR,52,MAJ,A
+BF5165,Theater Arts/Drama-Playwriting,UGRD,BFA,FAR,50,MAJ,I
+BF6900,Visual Com-FAR,UGRD,BFA,COM,53,MAJ,I
+BF8594,Speech Pathology,UGRD,BFA,HSP,28,MAJ,I
+ND6277,Research/Evaluation,GRAD,,EHS,74,MAJ,A
+ND6278,Clinical Mental Health Counsel,GRAD,,EHS,35,MAJ,A
+ND6463,Textiles & Clothing,GRAD,,HSP,36,MAJ,I
+ND6501,Ed Media Management,GRAD,,EHS,34,MAJ,I
+ND6843,Secondary School Supervision,GRAD,,EHS,34,MAJ,I
+ND6860,AYA Physical Education,GRAD,,EHS,34,MAJ,I
+ND6863,French Education,GRAD,,EHS,34,MAJ,I
+ND6864,German Education,GRAD,,EHS,34,MAJ,I
+ND6875,Mid Child Lic Lang Arts & Math,GRAD,,EHS,34,MAJ,A
+ND6931,Journalism,GRAD,,COM,30,MAJ,A
+ND6939,Environmental Studies,GRAD,,A&S,0,MAJ,I
+ND6946,Molecular/Cellular Biol,GRAD,,A&S,6,MAJ,A
+ND6948,Molecular/Cellular Biol,GRAD,,A&S,21,MAJ,A
+BF8755,Advertising Design,UGRD,BFA,FAR,,MAJ,I
+BJ6907,Journalism Strategic Comm,UGRD,BSJ,COM,30,MAJ,A
+BJ6909,Journalism Online Jour,UGRD,BSJ,COM,30,MAJ,I
+BM5100,Piano,UGRD,BMUS,FAR,51,MAJ,A
+BM5104,Piano Pedagogy,UGRD,BMUS,FAR,51,MAJ,A
+BM5105,Music Composition,UGRD,BMUS,FAR,51,MAJ,A
+BM5106,Music Edu Choral Emphasis,UGRD,BMUS,FAR,51,MAJ,A
+BS1221,Nursing,UGRD,BSN,HSP,32,MAJ,A
+BS1905,Physics,UGRD,BSPHYS,A&S,22,MAJ,A
+BS1929,Computer Science,UGRD,BSCS,ENT,44,MAJ,A
+BS1947,Trans Hlth Studies Exer Phys,UGRD,BSTRANH,HSP,81,MAJ,A
+BS2012,Bot Horticulture,UGRD,BS,A&S,5,MAJ,I
+ND8101,Hlth Sport Sci/P.E./Rec,GRAD,,HSP,39,MAJ,I
+ND8105,Community Health Services,GRAD,,HSP,80,MAJ,I
+ND8139,Health Administration,GRAD,,HSP,80,MAJ,I
+ND8500,Health Services Administration,GRAD,,HSP,80,MAJ,I
+ND8761,Cross Cultural Communication,GRAD,,COM,29,MAJ,I
+ND8919,Teacher Leader Endorsement,GRAD,,EHS,74,MAJ,A
+ND8920,Superintendent Endorsement,GRAD,,EHS,74,MAJ,I
+ND9984,GIS: GIS and Cartography,GRAD,,A&S,9,MAJ,A
+BS2116,PBIO Prep for Advanced Tng,UGRD,BS,A&S,5,MAJ,I
+BS2122,Zool Bacteriology,UGRD,BS,A&S,21,MAJ,I
+BS2124,Sanitation,UGRD,BS,A&S,21,MAJ,I
+BS2505,Bios Pre-Optometry,UGRD,BS,A&S,21,MAJ,I
+BS2506,Bios Pre-Pharmacy,UGRD,BS,A&S,21,MAJ,I
+BS2509,Bios Environmental Biology,UGRD,BS,A&S,21,MAJ,I
+BS3105,Math Prep. for Actuarial Sci,UGRD,BS,A&S,15,MAJ,A
+BS3314,Chem Pre-Medicine,UGRD,BS,A&S,6,MAJ,A
+BS3338,Phys/Meteorology,UGRD,BS,A&S,22,MAJ,A
+PH2517,Biological Sciences,GRAD,PHD,A&S,21,MAJ,A
+PH3311,Chemistry,GRAD,PHD,A&S,6,MAJ,A
+PH4215,History,GRAD,PHD,A&S,12,MAJ,A
+PH6942,Individual Program of Study,GRAD,PHD,GRAD,0,MAJ,A
+PH6948,Molecular and Cellular Biology,GRAD,PHD,A&S,21,MAJ,A
+PH7252,Civil Engineering,GRAD,PHD,ENT,43,MAJ,A
+PH8870,Integrated Engineering,GRAD,PHD,ENT,45,MAJ,I
+ED6272,Education Administration,GRAD,EDD,EHS,74,MAJ,A
+BS5309,Hearing & Speech Pre,UGRD,BSHSS,HSP,79,MAJ,I
+BS5327,Communication Sciences & Disor,UGRD,BSCSD,HSP,79,MAJ,A
+BS5511,Applied Management,UGRD,BSAM,RHE,76,MAJ,A
+BS6175,Middle Child Math & Social Stu,UGRD,BSED,EHS,34,MAJ,A
+BS6176,Middle Child Sci. & Social St,UGRD,BSED,EHS,34,MAJ,A
+BS6180,Middle Child Lang Arts/Math,UGRD,BSED,EHS,34,MAJ,A
+BS6204,Communication English Emphasis,UGRD,BSED,EHS,34,MAJ,I
+BS6219,Dev Handicap Ser Behav Handica,UGRD,BSED,EHS,34,MAJ,I
+BS6233,German,UGRD,BSED,EHS,34,MAJ,A
+BS6290,Food & Nutrition,UGRD,BSHEC,HSP,81,MAJ,I
+BS6295,Vocational Education,UGRD,BSED,EHS,34,MAJ,A
+BS6302,Language Arts,UGRD,BSED,EHS,34,MAJ,I
+ME6223,Supervision,GRAD,MED,EHS,34,MAJ,I
+ME6243,Secondary Educ/Cert,GRAD,MED,EHS,34,MAJ,I
+ME6246,Multiple Handicapped,GRAD,MED,EHS,34,MAJ,I
+ME6273,Guidance Counsel & Student,GRAD,MED,REG,35,MAJ,I
+ME6846,Devhandicapped,GRAD,MED,EHS,34,MAJ,I
+ME6847,Elementary Education,GRAD,MED,EHS,34,MAJ,I
+BS6313,"Mild, Moderate and Intensive",UGRD,BSED,EHS,34,MAJ,I
+BS6315,Earth/Space Science,UGRD,BSED,EHS,34,MAJ,A
+BS6351,Family Studies,UGRD,BSHCS,HSP,80,MAJ,A
+BS6352,Family Life & Ecology,UGRD,BSHEC,HSP,36,MAJ,I
+BS6375,Fam & Con Sci Edu Comm Lead,UGRD,BSHCS,EHS,83,MAJ,A
+BS6450,Early Childhood Education,UGRD,BSHEC,HSP,36,MAJ,I
+BS6454,Food Ser Mgt,UGRD,BSHEC,HSP,36,MAJ,I
+BS6464,HEC-Interdes,UGRD,BS,HSP,36,MAJ,I
+BS6465,HEC Family Studies,UGRD,BS,HSP,36,MAJ,I
+BS6502,Media Non Education,UGRD,BSED,EHS,34,MAJ,I
+AA8802,Associate Nursing,UGRD,AAS,RHE,60,MAJ,I
+AS5513,Associate of Technical Study,UGRD,ATS,RHE,76,MAJ,A
+BA2011,Bot Agri-Business,UGRD,AB,A&S,5,MAJ,I
+BA2014,Bot Environmental Biology,UGRD,BA,A&S,5,MAJ,I
+BA2015,Bot Field Biology,UGRD,BA,A&S,5,MAJ,I
+BA2016,Bot Pre-Forestry,UGRD,BA,A&S,5,MAJ,I
+BA2110,PBIO Applied Plant Biology,UGRD,BA,A&S,5,MAJ,A
+BA2117,PBIO Agri-Business,UGRD,AB,A&S,5,MAJ,I
+BA2118,PBIO Cell Biol & Biotechnology,UGRD,AB,A&S,5,MAJ,I
+BA2128,Bios Human Biology,UGRD,BA,A&S,21,MAJ,A
+BA2141,Zool Pre-Optometry,UGRD,AB,A&S,21,MAJ,I
+BA2144,Zool Pre-Veterinary Medicine,UGRD,AB,A&S,21,MAJ,I
+BA2507,Bios Pre-Physical Therapy,UGRD,AB,A&S,21,MAJ,I
+BA2508,Bios Pre-Veterinary Medicine,UGRD,AB,A&S,21,MAJ,I
+BA2510,Bios Nutrition,UGRD,AB,A&S,21,MAJ,I
+BS7252,Civil Engineering,UGRD,BSCE,ENT,43,MAJ,A
+BS7261,Airway Sci.-Management Option,UGRD,BSA,ENT,41,MAJ,I
+BS7263,Chemical Engr-Biological Track,UGRD,BSCHE,ENT,42,MAJ,A
+BS7270,Aviation Management,UGRD,BSA,ENT,41,MAJ,A
+BS8107,P E Alternate Prog,UGRD,BSPE,HSP,39,MAJ,I
+BS8110,Recreation Special Interest,UGRD,BSRS,HSP,39,MAJ,I
+BS8119,Hlth Services Administration,UGRD,BSH,HSP,80,MAJ,A
+BS8123,Sport Management,UGRD,BSSPS,COB,84,MAJ,A
+BS8171,Exercise Physiology Pre-Phy Th,UGRD,BSPEX,HSP,81,MAJ,A
+BS8203,Phys. Educ Women,UGRD,BSPE,HSP,39,MAJ,I
+BS8206,Physical Educ Elementary,UGRD,BSPE,HSP,39,MAJ,I
+BS8507,Hearing & Speech Science,UGRD,BSHSS,HSP,28,MAJ,I
+BS8508,Computer Science,UGRD,BSED,EHS,34,MAJ,I
+BA3312,Chem Pre-Dentistry,UGRD,BA,A&S,6,MAJ,I
+BA3321,Geological Sciences,UGRD,BA,A&S,10,MAJ,A
+BA3332,Physics Applied,UGRD,AB,A&S,22,MAJ,I
+BA4105,Psy Pre-Physical Therapy,UGRD,BA,A&S,18,MAJ,A
+BA4213,Hist Pre-Theology,UGRD,BA,A&S,12,MAJ,I
+BA4214,Hist Pre-Law,UGRD,BA,A&S,12,MAJ,A
+BA4254,Soc Pre-Law,UGRD,BA,A&S,20,MAJ,A
+BA4405,Global Studies - Africa,UGRD,BA,INST,3,MAJ,A
+BA5121,Art,UGRD,BA,FAR,53,MAJ,I
+BA5150,Dance,UGRD,BA,FAR,52,MAJ,A
+BB6126,Mgt. and Strategic Leadership,UGRD,BBA,COB,25,MAJ,A
+BB6127,Marketing,UGRD,BBA,COB,27,MAJ,A
+CNEEGK,Greek for Elementary Education,UGRD,,,,CON,A
+CNEEMU,Music for Elementary Education,UGRD,,,,CON,A
+CNEERU,Russian for Elem Education,UGRD,,,,CON,A
+ND0310,Undecided-HTC,UGRD,,HTC,0,MAJ,I
+ND0406,Undecided Humanities-A&S,UGRD,,A&S,0,MAJ,A
+ND0610,Undecided COB,UGRD,,COB,0,MAJ,A
+ND1200,Special Student,UGRD,,UNC,58,MAJ,I
+ND2209,Criminal Justice,UGRD,,UNC,58,MAJ,I
+BB6136,Mgt Info Sys Data Sys-Track,UGRD,BBA,COB,67,MAJ,I
+BC5304,Radio-TV,UGRD,BSC,COM,31,MAJ,I
+BC5341,COMS-Legal Communication,UGRD,BSC,COM,29,MAJ,I
+BA5217,Classical Languages,UGRD,BA,A&S,7,MAJ,A
+BA5224,Russian,UGRD,BA,A&S,16,MAJ,A
+ND5368,Pre-Media Arts and Studies,UGRD,,COM,31,MAJ,A
+ND8142,Pre-Athletic Training Educ,UGRD,,HSP,81,MAJ,A
+ND8836,Pre Interior Architecture,UGRD,,FAR,53,MAJ,A
+ND9909,RHE-Nondegree,UGRD,,RHE,76,MAJ,A
+ND9954,Continuing Dual Enrollment,UGRD,,UNC,58,MAJ,A
+NDCOMA,COM-Nondegree for Certificates,UGRD,NONDEGRE,COM,0,MAJ,A
+NDENT,ENT-Nondegree for Minors,UGRD,NONDEGRE,ENT,0,MAJ,A
+NDFAR,FAR-Nondegree for Minors,UGRD,NONDEGRE,FAR,0,MAJ,A
+BA5242,Phil Pre-Theology,UGRD,BA,A&S,17,MAJ,A
+BA5290,Linguistics,UGRD,BA,A&S,13,MAJ,A
+BA5343,COMS-Political Communication,UGRD,BA,COM,29,MAJ,I
+BA6290,Food & Nutrition,UGRD,AB,HSP,36,MAJ,I
+BA6331,Interior Design,UGRD,AB,HSP,36,MAJ,I
+BA6391,Training in Food Service,UGRD,AB,HSP,36,MAJ,I
+BA6411,Family Study,UGRD,AB,HSP,36,MAJ,I
+BA6467,HEC Fashion Merchand. & Promo.,UGRD,AB,HSP,36,MAJ,I
+BA6935,Journalism Public Relations,UGRD,BA,COM,30,MAJ,I
+BA8662,English Literature,UGRD,AB,A&S,,MAJ,I
+BA8810,INCO-Organization Comm.,UGRD,BA,COM,29,MAJ,I
+BA8826,Phys Pre-Astronomy,UGRD,AB,A&S,22,MAJ,I
+BB1922,Marketing,UGRD,BBA,COB,27,MAJ,I
+BB6121,Accounting,UGRD,BBA,COB,23,MAJ,A
+OR6260,Environmental Health Science,UGRD,,HSP,80,MIN,A
+OR6601,Social Work,UGRD,,,,MIN,I
+OR6837,Health Education,UGRD,,HSP,73,MIN,I
+OR7252,Civil Engineering,UGRD,,ENT,43,MIN,I
+ORADVT,Advertising,UGRD,,,,MIN,I
+ORAVIA,Aviation,UGRD,,,,MIN,I
+ORENGL,English Literature,UGRD,,,,MIN,I
+ORGUID,Guidance & Counseling,UGRD,,,,MIN,I
+ORIENT,Industrial Engineering,UGRD,,,,MIN,I
+ORLANG,Language Arts,UGRD,,,,MIN,I
+ORNUTR,Nutrition,UGRD,,,,MIN,I
+ORSOCS,Middle School Social Studies,UGRD,,,,MIN,I
+ORSPED,Special Education,UGRD,,,,MIN,I
+SF6255,Mathematics,UGRD,,EHS,34,SEC,I
+SF6737,Health Education,UGRD,,EHS,34,SEC,I
+SFSEPS,Political Science,UGRD,,,,SEC,I
+VALECH,Early Childhood,UGRD,,,,VAL,I
+VALGED,Gifted Education,UGRD,,,,VAL,I
+VALTEN,TESOL,UGRD,,,,VAL,I
+CTSASP,Sales with Sport Mgt Focus,UGRD,,COB,27,CRT,I
+CTEXPE,Experimental Study of Language,UGRD,,A&S,65,CRT,A
+OR6150,Sports Administration,UGRD,,COB,84,MIN,A
+OR5154,Dance - Perf & Choreography,UGRD,,FAR,87,MIN,A
+ORSART,Studio Art,UGRD,,FAR,53,MIN,A
+CTWGSS,"Wom, Gen, & Sexuality Studies",UGRD,,A&S,77,CRT,A
+CTWARU,War and Peace Studies,UGRD,,INST,3,CRT,A
+CTGERO,Gerontology,UGRD,,HSP,90,CRT,A
+CTTPMC,Technical Project Management,UGRD,,ENT,47,CRT,A
+CTMENA,Middle East and North Africa,UGRD,,A&S,12,CRT,A
+AA1107,Food and Nutrition,UGRD,AA,UNC,58,MAJ,I
+AA1111,Assoc in Arts-Social Science,UGRD,AA,UNC,58,MAJ,I
+AA5008,Assoc in RTV Tech,UGRD,AAS,RHE,59,MAJ,I
+AA5009,Computer Sci Applied Sci,UGRD,AAS,RHE,59,MAJ,I
+AA5021,Materials Management Tech,UGRD,AAS,RHE,60,MAJ,I
+AA5319,Ind.Tech-Manufacturing,UGRD,AAS,RHE,60,MAJ,I
+AA5809,Computer Sci Applied Bus,UGRD,AAB,RHE,59,MAJ,I
+AA5811,Office Technology,UGRD,AAB,RHE,59,MAJ,I
+AA5812,Office Management Tech,UGRD,AAB,RHE,59,MAJ,I
+AA5823,Law Enforcement Tech,UGRD,AAS,RHE,59,MAJ,I
+AA8547,General Secretarial Tech.,UGRD,AAB,RHE,59,MAJ,I
+MA5226,Modern Language,GRAD,MA,A&S,16,MAJ,I
+BS8520,Actuarial Science,UGRD,BS,A&S,15,MAJ,I
+BS8530,Child Development & Fam Life,UGRD,BSED,EHS,34,MAJ,I
+BS8545,Fashion Merchandising & Promo,UGRD,BSHEC,HSP,36,MAJ,I
+BS8572,Physical Science,UGRD,BSED,EHS,34,MAJ,I
+BS8589,Social Science Comprehension,UGRD,BSED,EHS,34,MAJ,I
+BS8652,Anatomy,UGRD,BS,A&S,,MAJ,I
+BS8656,Recreation Therapy,UGRD,BSED,EHS,,MAJ,I
+MA5291,Linguistics,GRAD,MA,A&S,13,MAJ,A
+MA5333,Instructional Communication,GRAD,MA,COM,29,MAJ,I
+MA8535,Economic Education,GRAD,MA,A&S,26,MAJ,I
+MA8588,Social Science,GRAD,MA,A&S,0,MAJ,I
+MA8597,"Theater Lit., History & Crit.",GRAD,MA,FAR,50,MAJ,I
+MA8633,General Speech,GRAD,MA,COM,31,MAJ,I
+MA8761,Cross Cultural Communication,GRAD,MA,COM,29,MAJ,I
+MA8789,Audiology,GRAD,MAHSS,HSP,28,MAJ,I
+MB6142,MBA/Sports Admin,GRAD,MBA,COB,25,MAJ,I
+BS8676,Commerce,UGRD,BSCOM,COB,,MAJ,I
+BS8693,Music,UGRD,BSED,EHS,,MAJ,I
+BS8718,Math Education,UGRD,BSED,EHS,34,MAJ,I
+BS8762,Home Economics Education,UGRD,BSHEC,HSP,36,MAJ,I
+BS8774,VICO-Photo Communication,UGRD,BSVC,COM,71,MAJ,I
+BS8805,Athletic Training/Exer Physiol,UGRD,BSAT,HSP,39,MAJ,I
+BS8825,Food Service Management,UGRD,BSHCS,HSP,36,MAJ,I
+BS8874,Dietetics,UGRD,BSHCS,HSP,36,MAJ,I
+MB6160,PMBA -- Exec Mgt Concentration,GRAD,MBA,COB,25,MAJ,A
+MB6162,PMBA -- Health Care Concn,GRAD,MBA,COB,25,MAJ,A
+MB8635,Marketing,GRAD,MBA,COB,,MAJ,I
+MC5328,Communication Tech & Policy,GRAD,MCTP,COM,70,MAJ,I
+ME8687,Music Education,GRAD,MED,FAR,,MAJ,I
+MF5052,Painting and Drawing,GRAD,MFA,FAR,53,MAJ,A
+MF5159,Production Design,GRAD,MFA,FAR,50,MAJ,A
+MF5175,Sculpture,GRAD,MFA,FAR,53,MAJ,A
+MG8173,Global Health,GRAD,MGH,HSP,90,MAJ,A
+MM5054,Emphasis in Perform/Pedagogy,GRAD,MM,FAR,51,MAJ,A
+MM5182,Music Education,GRAD,MM,FAR,51,MAJ,A
+MM5184,Music Theory,GRAD,MM,FAR,51,MAJ,A
+MM5185,Music Composition,GRAD,MM,FAR,51,MAJ,A
+MM8634,Applied Flute,GRAD,MM,FAR,51,MAJ,I
+MP4401,Executive Mpa Program,GRAD,MPA,A&S,11,MAJ,I
+MP8140,Physical Therapy,GRAD,MPT,HSP,79,MAJ,I
+MS0411,Microbiology,GRAD,MS,A&S,21,MAJ,I
+MS1233,Acute Care & Fam Nrse Pract,GRAD,MSN,HSP,32,MAJ,I
+MS2518,Microbiology,GRAD,MS,A&S,21,MAJ,I
+MS3324,Geological Sciences,GRAD,MS,A&S,10,MAJ,A
+MS3331,Physics,GRAD,MS,A&S,22,MAJ,A
+MS4101,Psychology,GRAD,MS,A&S,18,MAJ,I
+MZ4224,Financial Economics,GRAD,MFE,A&S,26,MAJ,A
+ND0609,Individual Prog of Study-COB,GRAD,,COB,0,MAJ,I
+ND0709,Individual Prog of Study-COM,GRAD,,COM,0,MAJ,I
+ND0909,Individual Prog of Study-ENT,GRAD,,ENT,0,MAJ,I
+ND1213,Nurse Educator,GRAD,,HSP,32,MAJ,A
+ND1216,Admin & Family Nurse Prac,GRAD,,HSP,32,MAJ,I
+ND2132,Zoology,GRAD,,A&S,21,MAJ,I
+ND2146,Microbiology,GRAD,,A&S,21,MAJ,I
+ND2517,Biological Sciences,GRAD,,A&S,21,MAJ,A
+ND4218,Communication & Development,GRAD,,INST,3,MAJ,A
+ND4224,Financial Economics,GRAD,,A&S,26,MAJ,A
+ND5142,Film,GRAD,,FAR,54,MAJ,I
+ND5181,Music Performance,GRAD,,FAR,51,MAJ,I
+ME6872,Mid Child Lic Math & Science,GRAD,MED,EHS,34,MAJ,A
+ME8519,Educational Leadership: Sec,GRAD,MED,REG,35,MAJ,I
+ME8553,Guidance & Counseling,GRAD,MED,REG,35,MAJ,I
+ME8570,Physical Education,GRAD,MED,HSP,34,MAJ,I
+ME8735,Elementary School Counseling,GRAD,MED,REG,35,MAJ,I
+ME8741,Mathematics Education,GRAD,MED,EHS,34,MAJ,I
+ME8865,Community/Rehabilitate/School,GRAD,MED,EHS,35,MAJ,I
+PH0809,Individual Prog of Study-EHS,GRAD,PHD,EHS,0,MAJ,I
+PH6225,Instructional Tech,GRAD,PHD,EHS,74,MAJ,A
+PH6226,Cultural Studies,GRAD,PHD,EHS,74,MAJ,A
+PH6239,Special Education,GRAD,PHD,EHS,34,MAJ,I
+PH6244,Reading and Language Arts,GRAD,PHD,EHS,34,MAJ,A
+PH6267,College Instruction,GRAD,PHD,EHS,34,MAJ,I
+PH6274,School Counseling,GRAD,PHD,REG,35,MAJ,I
+ND9987,Psych Mental Health Nurse Prac,GRAD,,HSP,32,MAJ,A
+BC5356,COMS-Comm. in Human Services,UGRD,BSC,COM,29,MAJ,I
+CTSNLU,School Nurse,UGRD,,HSP,32,CRT,A
+CTGCCT,Conducting,GRAD,,FAR,51,CRT,A
+BS6326,Human Services,UGRD,BAHCS,EHS,36,MAJ,A
+OR5199,Conducting,UGRD,,FAR,51,MIN,A
+CNEECD,Ch Dev/Family for Elem Ed,UGRD,,,,CON,I
+CNEEGM,German for Elem Education,UGRD,,,,CON,I
+CNEEMU,Music for Elementary Education,UGRD,,,,CON,I
+CNEESI,Swahili for Elem Education,UGRD,,,,CON,I
+CNEESO,Sociology for Elem Education,UGRD,,,,CON,I
+CTBACG,Business Analytics,GRAD,,COB,67,CRT,A
+CTPMCG,Project Management,GRAD,,ENT,47,CRT,A
+ND9972,Post-Mast Family Nurse Pract,GRAD,,HSP,32,MAJ,A
+MY6107,Master of Accountancy,GRAD,MACC,COB,23,MAJ,A
+ND8927,Alt Licensure Prof Dev Inst,GRAD,,EHS,34,MAJ,A
+ND8155,Environ Sustainability Certifi,GRAD,,A&S,0,MAJ,I
+ND8164,Prof Instructional Design,GRAD,,EHS,74,MAJ,I
+MS6600,Social Work,GRAD,MSW,HSP,19,MAJ,A
+BS8179,Health and Physical Education,UGRD,BSHPE,EHS,82,MAJ,A
+OR6158,Business Analytics,UGRD,,COB,67,MIN,A
+BF6328,Interdisciplinary Arts,UGRD,BFA,FAR,55,MAJ,A
+BF5049,Theater Performance Musical Th,UGRD,BFA,FAR,50,MAJ,A
+BF5155,Film,UGRD,BFA,FAR,54,MAJ,A
+ORTHAR,Theater,UGRD,,FAR,50,MIN,A
+BA6601,Social Work,UGRD,BA,HSP,19,MAJ,A
+ND5138,Theater,GRAD,,FAR,50,MAJ,A
+MB6174,Master of Business Analytics,GRAD,MBAN,COB,67,MAJ,A
+CTSNLU,School Nurse Certificate,UGRD,,HSP,32,CRT,A
+ME6301,CMH/Rehab/School Counseling,GRAD,MED,EHS,35,MAJ,I
+CTENCG,Electronic Navigation,GRAD,CERTG,ENT,44,CRT,A
+CTEPPL,K-12 Educ Public Policy Leader,GRAD,CERTG,EHS,74,CRT,A
+ND8929,Pre-Early Childhood Elem Ed,UGRD,,EHS,34,MAJ,A
+AA5014,Office Technology,UGRD,AAB,RHE,59,MAJ,I
+MG8182,Global Health,GRAD,MGH,HSP,90,MAJ,A
+BB6158,Business Analytics,UGRD,BBA,COB,67,MAJ,A
+CTPRSG,Planning Resilient Systems,GRAD,CERTG,GVS,78,CRT,A
+MS8893,Home Economics Education,GRAD,MSHCS,HSP,36,MAJ,I
+CTMUSG,Performance,GRAD,,FAR,51,CRT,A
+CTHCSG,Health Care Services Admin,GRAD,,HSP,85,CRT,I
+CTGLHG,Global Health,GRAD,,HSP,90,CRT,A
+CTBISO,Bioethics and Society,GRAD,,OST,1,CRT,A
+DN1234,Doctor of Nursing Practice,GRAD,DNP,HSP,32,MAJ,A
+MA3101,Mathematics,GRAD,MA,A&S,,MAJ,I
+MA4251,Sociology,GRAD,MA,A&S,20,MAJ,A
+MA4417,"Law, Justice & Culture",GRAD,MA,A&S,65,MAJ,A
+MA5142,Film,GRAD,MA,FAR,54,MAJ,A
+MS6461,Food & Nutri,GRAD,MSHEC,HSP,81,MAJ,I
+MS6463,Textiles & Clothing,GRAD,MSHEC,HSP,36,MAJ,I
+MS6600,Social Work,GRAD,MSW,HSP,80,MAJ,A
+MS7265,Biomedical Engineering,GRAD,MSBE,ENT,42,MAJ,A
+MS7272,Electrical Engineering,GRAD,MS,ENT,44,MAJ,A
+MS8112,Sports Administration,GRAD,MSA,COB,84,MAJ,A
+MS8136,Sport Physiology & Adult Fitne,GRAD,MSRSS,HSP,81,MAJ,I
+MS8560,Individual Prog of Study-HHS,GRAD,MSPE,HSP,0,MAJ,I
+MS8607,Physical Education,GRAD,MS,HSP,39,MAJ,I
+MS8795,Foundation of Teach/Coaching,GRAD,MSPE,HSP,39,MAJ,I
+MS8798,Sport Physiology & Adult Fitne,GRAD,MSPE,HSP,39,MAJ,I
+MS8892,"Apparel,Textiles & Merchandisi",GRAD,MSHCS,HSP,36,MAJ,I
+CTISLM,Islamic Studies,UGRD,,A&S,7,CRT,A
+ENDMLA,Mid Child Gen End in Lang Arts,UGRD,,EHS,,END,A
+ENDMMA,Mid Child Gen Endorse in Math,UGRD,,EHS,,END,A
+ENDMSS,Mid Child Gen End in Soc Stud,UGRD,,EHS,,END,A
+OR4201,Political Science,UGRD,,A&S,11,MIN,A
+OR4251,Sociology,UGRD,,A&S,20,MIN,A
+OR5215,World Religions,UGRD,,A&S,7,MIN,A
+OR5221,French,UGRD,,A&S,16,MIN,A
+ORASTR,Astronomy,UGRD,,A&S,22,MIN,A
+ORBSAD,Business Administration,UGRD,,COB,,MIN,A
+MS8902,Sports Admin/MBA,GRAD,MSA,HSP,39,MAJ,I
+ND5184,Music Theory,GRAD,,FAR,51,MAJ,I
+ND5227,French,GRAD,,A&S,16,MAJ,A
+ND5315,Media Arts & Studies,GRAD,,COM,31,MAJ,A
+ND5325,Hearing Science,GRAD,,HSP,79,MAJ,A
+ND5345,Journalism,GRAD,,COM,30,MAJ,I
+ND6140,Gen Bus Grad,GRAD,,COB,25,MAJ,I
+ND6141,MBA/Sports Admin,GRAD,,COB,25,MAJ,I
+ND6148,MBA/Hlth Admin,GRAD,,COB,25,MAJ,I
+ND6163,Master of Accountancy,GRAD,,COB,23,MAJ,A
+ND6209,Secondary Education,GRAD,,EHS,34,MAJ,I
+ND6225,Instructional Tech,GRAD,,EHS,74,MAJ,A
+ND6238,Adult Services,GRAD,,EHS,34,MAJ,I
+ND6247,Severe Behavioral Handicapped,GRAD,,EHS,34,MAJ,I
+ND6265,Counselor Education,GRAD,,EHS,35,MAJ,A
+ND6270,History With Economics,GRAD,,EHS,34,MAJ,I
+BC8858,TCOM-Media/Politics,UGRD,BSC,COM,31,MAJ,I
+BF5126,Sculpture,UGRD,BFA,FAR,53,MAJ,I
+BF5141,Photography,UGRD,BFA,FAR,53,MAJ,I
+BF5163,Theater Arts & Drama,UGRD,BFA,FAR,50,MAJ,I
+BF5164,Theater Arts & Drama-Directing,UGRD,BFA,FAR,50,MAJ,I
+BF6321,Graphic Design,UGRD,BFA,FAR,53,MAJ,A
+BF6322,Graphic Design-Illustrat Emph,UGRD,BFA,FAR,53,MAJ,I
+BF6901,Picture Editing,UGRD,BFA,COM,53,MAJ,I
+BF6905,Information Graphics,UGRD,BFA,COM,53,MAJ,I
+BF8549,General Theater,UGRD,BFA,FAR,50,MAJ,I
+BF8619,Communication & Organization,UGRD,BFA,FAR,53,MAJ,I
+BF8622,General Speech,UGRD,BFA,FAR,53,MAJ,I
+ND6276,Higher Education,GRAD,,EHS,35,MAJ,A
+ND6280,Counseling in Bus & Indust,GRAD,,EHS,35,MAJ,I
+ND6300,Education Administration,GRAD,,EHS,74,MAJ,I
+ND6301,CMH/Rehab/School Counseling,GRAD,,EHS,35,MAJ,A
+ND6319,Mild-Mod/Mod-Int,GRAD,,EHS,34,MAJ,I
+ND6415,Intern'L & Community Nutrition,GRAD,,HSP,81,MAJ,I
+ND6840,Elem School Supervision,GRAD,,EHS,34,MAJ,I
+ND6868,AYA Integrated Social Studies,GRAD,,EHS,34,MAJ,A
+ND6945,Molecular/Cellular Biol,GRAD,,A&S,0,MAJ,I
+ND7251,Chemical Engineering,GRAD,,ENT,42,MAJ,A
+ND7252,Civil Engineering,GRAD,,ENT,43,MAJ,A
+BJ6911,VICO-Picture Edit,UGRD,BSJ,COM,71,MAJ,I
+BJ6913,VICO-Multi Media,UGRD,BSJ,COM,71,MAJ,I
+BJ6937,Photo-Journalism,UGRD,BSJ,COM,30,MAJ,I
+BJ8692,Journalism,UGRD,BSJ,COM,,MAJ,I
+BM5103,Orchestral Instruments,UGRD,BMUS,FAR,51,MAJ,A
+BS0411,Microbiology,UGRD,BS,A&S,21,MAJ,A
+BS0701,Computer Science,UGRD,BS,ENT,44,MAJ,I
+BS1902,Biological Sciences,UGRD,BSBS,A&S,21,MAJ,A
+BS1910,Economics,UGRD,BSECON,A&S,26,MAJ,A
+BS1931,Astrophysics,UGRD,BSATRO,A&S,22,MAJ,A
+BS2013,Prep Cell Bio & Biotechnology,UGRD,BS,A&S,5,MAJ,I
+BS2015,Bot Field Biology,UGRD,BS,A&S,5,MAJ,I
+ND8130,Athletic Training,GRAD,,HSP,81,MAJ,I
+ND8141,Coaching Education,GRAD,,EHS,82,MAJ,A
+ND8150,Physical Therapy,GRAD,,HSP,79,MAJ,I
+ND8152,Grad Health Care Ser Adm Cert,GRAD,,HSP,80,MAJ,A
+ND8170,Mentor Teacher Professional De,GRAD,,EHS,86,MAJ,A
+ND8887,TESOL Endorse - Non-degree trk,GRAD,,A&S,13,MAJ,A
+BS2117,PBIO Agri-Business,UGRD,BS,A&S,5,MAJ,I
+BS2133,Zoology,UGRD,BS,A&S,21,MAJ,I
+BS2138,Zool Pre-Dentistry,UGRD,BS,A&S,21,MAJ,I
+BS2139,Zool Pre-Exercise Physiology,UGRD,BS,A&S,21,MAJ,I
+BS2147,Microbiology,UGRD,BS,A&S,21,MAJ,I
+BS2501,Bios Pre-Dentistry,UGRD,BS,A&S,21,MAJ,I
+BS2516,Bios/Pre-Exercise Physiology,UGRD,BS,A&S,21,MAJ,I
+BS3101,Mathematics,UGRD,BS,A&S,15,MAJ,A
+BS3104,Math Pre-Meteorology,UGRD,BS,A&S,15,MAJ,I
+BS3300,Occupational Hygiene & Safety,UGRD,BSOHS,HSP,80,MAJ,A
+BS3331,Physics,UGRD,BS,A&S,22,MAJ,A
+BS3332,Physics Applied,UGRD,BS,A&S,22,MAJ,A
+BS3333,Applied Physics,UGRD,BS,A&S,22,MAJ,I
+BS4225,Economics,UGRD,BS,A&S,26,MAJ,A
+PH2518,Microbiology,GRAD,PHD,A&S,21,MAJ,I
+PH5308,Mass Communication--Journalism,GRAD,PHD,COM,30,MAJ,A
+PH5316,Speech-Language Pathology,GRAD,PHD,HSP,79,MAJ,I
+PH5317,Audiology,GRAD,PHD,HSP,79,MAJ,I
+PH5331,Rhetorical Criticism,GRAD,PHD,COM,29,MAJ,I
+PH5333,Instructional Communication,GRAD,PHD,COM,29,MAJ,I
+PH5362,COMS--Relating and Organizing,GRAD,PHD,COM,29,MAJ,A
+PH7259,Mechanical & Systems Engineer,GRAD,PHD,ENT,45,MAJ,A
+PH8592,Speech Pathology,GRAD,PHD,HSP,28,MAJ,I
+PH8788,Speech Pathology,GRAD,PHD,HSP,28,MAJ,I
+PH8806,Public Address,GRAD,PHD,COM,29,MAJ,I
+BS6177,Middle Child Math & Science,UGRD,BSED,EHS,34,MAJ,A
+BS6207,Earth Science-Geology,UGRD,BSED,EHS,34,MAJ,I
+BS6215,Physics-General Studies,UGRD,BSED,EHS,34,MAJ,I
+BS6216,Chemistry-Gen.Science,UGRD,BSED,EHS,34,MAJ,I
+BS6231,Latin,UGRD,BSED,EHS,34,MAJ,I
+BS6260,Environmental Health Science,UGRD,BSEH,HSP,80,MAJ,A
+BS6263,Early Childhood Primary,UGRD,BSED,EHS,34,MAJ,I
+BS6284,History With Government,UGRD,BSED,EHS,34,MAJ,I
+BS6285,History With Geography,UGRD,BSED,EHS,34,MAJ,I
+BS6306,Integrated Language Arts,UGRD,BSED,EHS,34,MAJ,A
+MA8916,I.I.P.,GRAD,MA,EHS,,MAJ,I
+ME6227,Critical Studies in Ed Found,GRAD,MED,EHS,74,MAJ,A
+ME6248,Early Chldspec,GRAD,MED,EHS,34,MAJ,I
+ME6249,Special Ed/Non Certification,GRAD,MED,EHS,34,MAJ,A
+ME6279,Rehabilitation Counseling,GRAD,MED,EHS,35,MAJ,A
+ME6320,Mild-Moderate/Early Child,GRAD,MED,EHS,34,MAJ,I
+ME6501,Ed Media Management,GRAD,MED,EHS,34,MAJ,I
+AA8670,Manufacturing Tech,UGRD,AAS,RHE,59,MAJ,I
+AA8696,Child Development,UGRD,AACD,UNC,39,MAJ,I
+AA8756,Associate in Applied Science,UGRD,AAS,UNC,58,MAJ,I
+BS6310,Physical Science,UGRD,BSED,EHS,34,MAJ,I
+BS6317,Moderate-Intensive Educ. Needs,UGRD,BSED,EHS,34,MAJ,A
+BS6371,Job Training -Food Service,UGRD,BSHEC,HSP,36,MAJ,I
+BS6381,Fashion Merchandis & Textile,UGRD,BSHEC,HSP,36,MAJ,I
+BS6383,Interior Architecture,UGRD,BSHCS,FAR,53,MAJ,I
+BS6390,Family and Consumer Science,UGRD,BSED,EHS,34,MAJ,A
+BS6408,Home Economics General,UGRD,BS,HSP,36,MAJ,I
+BS6409,Home Econ Consumer Educ,UGRD,BS,HSP,36,MAJ,I
+BS6410,Child Development & Fam Life,UGRD,BS,HSP,36,MAJ,I
+BS6455,Nutrtwithsci,UGRD,BSHEC,HSP,81,MAJ,I
+AA8757,Library Information Tech,UGRD,AAS,RHE,59,MAJ,I
+AA8801,Child Development,UGRD,AAS,UNC,58,MAJ,I
+BA0701,Computer Science,UGRD,BA,ENT,44,MAJ,I
+BA1909,History,UGRD,AB-HIS,A&S,12,MAJ,A
+BA1912,Sociology,UGRD,AB-SOC,A&S,20,MAJ,A
+BA1916,English,UGRD,AB-ENG,A&S,8,MAJ,A
+BA1930,Social Work,UGRD,AB-SW,HSP,19,MAJ,A
+BA1934,Anthropology,UGRD,BAANTH,A&S,20,MAJ,A
+BA1939,Studio Art,UGRD,BASTUART,FAR,53,MAJ,A
+BA1943,Women's and Gender Studies,UGRD,AB-WGS,A&S,77,MAJ,A
+BA2114,PBIO Applied Plant Sciences,UGRD,AB,A&S,5,MAJ,I
+BA2139,Zool Pre-Exercise Physiology,UGRD,AB,A&S,21,MAJ,I
+BA2142,Zool Pre-Pharmacy,UGRD,AB,A&S,21,MAJ,I
+BA2505,Bios Pre-Optometry,UGRD,AB,A&S,21,MAJ,I
+BA2506,Bios Pre-Pharmacy,UGRD,AB,A&S,21,MAJ,I
+BS6922,VICO-Photojournalism,UGRD,BSVC,COM,71,MAJ,A
+BS7255,Industrial & Systems Engineer,UGRD,BSISE,ENT,46,MAJ,A
+BS7262,Chemical Engr-Materials Track,UGRD,BSCHE,ENT,42,MAJ,A
+BS7273,Technical Operations Managemen,UGRD,BSTOM,ENT,47,MAJ,A
+BS8114,Sport Sciences General,UGRD,BSSPS,HSP,39,MAJ,I
+BS8124,Sport for Special Populations,UGRD,BSSPS,HSP,39,MAJ,I
+BS8202,Athletic Training/Com Hlth Srv,UGRD,BSH,HSP,80,MAJ,I
+BA3313,Chem Pre-Pharmacy,UGRD,AB,A&S,6,MAJ,I
+BA3331,Physics,UGRD,BA,A&S,22,MAJ,A
+BA4204,Internat. Stud. General,UGRD,AB,INST,3,MAJ,I
+BA4212,Hist Pre-Foreign Service,UGRD,BA,A&S,12,MAJ,I
+BA4222,Econ Pre-Law,UGRD,BA,A&S,26,MAJ,I
+BA4223,Econ Pre-Foreign Service,UGRD,BA,A&S,26,MAJ,I
+BA4231,Geography,UGRD,BA,A&S,9,MAJ,A
+BA4233,Geog Pre-Meteorology,UGRD,AB,A&S,9,MAJ,I
+BA4252,Anthropology,UGRD,BA,A&S,20,MAJ,A
+BA4409,Global Studies - War & Peace,UGRD,BA,INST,3,MAJ,A
+BA5131,Theater,UGRD,BA,FAR,87,MAJ,I
+BA5213,Greek and Latin,UGRD,BA,A&S,7,MAJ,I
+BA5214,Classical Civilization,UGRD,BA,A&S,7,MAJ,A
+BA5215,World Religions,UGRD,BA,A&S,7,MAJ,A
+BS8890,"Restaurant, Hotel and Tourism",UGRD,BSHCS,EHS,83,MAJ,I
+BS8906,Interior Architecture,UGRD,BSHCS,FAR,53,MAJ,I
+BT5510,Technical & Applied Studies,UGRD,BTAS,RHE,76,MAJ,A
+CNEECD,Ch Dev/Family for Elem Ed,UGRD,,,,CON,A
+CNEEGG,Geography for Elem Education,UGRD,,,,CON,A
+CNEEHT,History for Elem Education,UGRD,,,,CON,A
+CNEEPS,Political Science for Elem Ed,UGRD,,,,CON,A
+ND0613,Pre-Business Transfer,UGRD,,UNC,58,MAJ,I
+ND0715,Pre-Visual Communication,UGRD,,UNC,58,MAJ,I
+ND1105,Pre-Engineering,UGRD,,UNC,58,MAJ,A
+ND1112,Pre-Specialized Studies,UGRD,,UNC,58,MAJ,A
+ND1205,Pre-Bach Nursing,UGRD,,HSP,32,MAJ,A
+ND2341,Associate in Nursing,UGRD,,RHE,60,MAJ,I
+ND2342,Associate in Nursing,UGRD,,RHE,60,MAJ,I
+BB6133,Business Entrepreneurship,UGRD,BBA,COB,25,MAJ,I
+BC1920,Media Arts & Studies,UGRD,BSMAS,COM,31,MAJ,A
+BC5302,General Communication,UGRD,BSC,COM,29,MAJ,I
+BC5314,RTV Self Dir,UGRD,BSC,COM,31,MAJ,I
+BC5338,Interpersonal Communication,UGRD,BSC,COM,29,MAJ,I
+BC5350,Media and Technology,UGRD,BSC,COM,31,MAJ,I
+BC5363,Communication Studies,UGRD,BSC,COM,29,MAJ,A
+ND8106,Physical Education,UGRD,,EHS,82,MAJ,I
+ND8123,Sport Management,UGRD,,COB,84,MAJ,I
+ND9961,Transition Program,UGRD,,UNC,58,MAJ,A
+OR6158,Business Analytics,UGRD,,COB,25,MIN,A
+BA5233,English Pre-Theology,UGRD,BA,A&S,8,MAJ,I
+BA6291,Home Econ Educ & Extension,UGRD,AB,HSP,36,MAJ,I
+BA6292,"Housing, Furniture & Mgt.",UGRD,AB,HSP,36,MAJ,I
+BA6407,HEC Interior Design,UGRD,AB,HSP,36,MAJ,I
+BA8541,English Composition,UGRD,AB,A&S,8,MAJ,I
+BA8694,Modern Languages,UGRD,AB,A&S,,MAJ,I
+BA8753,English Literature,UGRD,AB-ENG,A&S,8,MAJ,I
+BA8783,Speech & Hearing Therapy,UGRD,BA,HSP,28,MAJ,I
+BA8822,Bachelor in Architecture,UGRD,BARCH,REG,,MAJ,I
+BB6118,Health Care Management,UGRD,BBA,COB,25,MAJ,I
+BB6119,Production Management,UGRD,BBA,COB,25,MAJ,I
+BS8635,Marketing,UGRD,BSCOM,COB,,MAJ,I
+CTMILS,Military Science,UGRD,,UNC,,CRT,I
+ENDLMS,Endorse in Lib/Media for Sec,UGRD,,,,END,I
+ENDTYP,Endorsement in Keyboarding,UGRD,,,,END,I
+OR5124,Painting,UGRD,,,,MIN,I
+OR7255,Industrial & Systems Engineer,UGRD,,ENT,46,MIN,I
+ORATHT,Athletic Training,UGRD,,HSP,,MIN,I
+ORBOOK,Bookkeeping - Basic Business,UGRD,,,,MIN,I
+ORCOMM,Communications,UGRD,,,,MIN,I
+ORDRAM,Drama,UGRD,,,,MIN,I
+OREDME,Educational Media,UGRD,,,,MIN,I
+ORFART,Fine Arts,UGRD,,,,MIN,I
+ORLSCI,Library Science,UGRD,,,,MIN,I
+ORPTHE,Physical Therapy,UGRD,,,,MIN,I
+ORSCIE,Science,UGRD,,,,MIN,I
+ORZOOL,Zoology,UGRD,,,,MIN,I
+SF6235,Spanish,UGRD,,EHS,34,SEC,I
+SF6288,General Speech-INCO Emphasis,UGRD,,EHS,34,SEC,I
+SF8208,Physical Education Elem-Sec,UGRD,,EHS,34,SEC,I
+SFSEEM,Educational Media,UGRD,,,,SEC,I
+CTDIAB,Diabetes,UGRD,,HSP,81,CRT,A
+CTSART,Sales with a Retail Focus,UGRD,,COB,27,CRT,I
+BS8642,Architectural Engineering,UGRD,BSAE,REG,,MAJ,I
+OR6181,Customer Service,UGRD,,EHS,83,MIN,A
+OR6127,Marketing,UGRD,,COB,27,MIN,A
+ORFILM,Film,UGRD,,FAR,87,MIN,A
+CTWGSQ,LGBTQ Studies,UGRD,,A&S,77,CRT,A
+OR5825,Military Science,UGRD,,UNC,58,MIN,A
+CTGLHL,Global Health,UGRD,,HSP,90,CRT,A
+CTCNST,Construction Management,UGRD,,ENT,43,CRT,A
+AA1100,Associate in Arts-Humanities,UGRD,AA,UNC,58,MAJ,I
+AA5022,Health Technology,UGRD,AAS,RHE,60,MAJ,A
+AA5504,Library Media Tech,UGRD,AAS,RHE,59,MAJ,I
+AA5805,Office Admin. Tech,UGRD,AAB,RHE,59,MAJ,I
+AA5816,Medical Assisting Technology,UGRD,AAS,RHE,60,MAJ,I
+AA5819,Human Services Tech,UGRD,AAS,RHE,59,MAJ,I
+BS8512,Industrial Arts,UGRD,BSED,EHS,34,MAJ,I
+MA5146,Art History,GRAD,MA,FAR,53,MAJ,A
+MA5231,English,GRAD,MA,A&S,8,MAJ,A
+MA5237,English,GRAD,MA,A&S,8,MAJ,A
+BS8534,Consumer Service & Education,UGRD,BSHEC,EHS,34,MAJ,I
+BS8546,General Science,UGRD,BSED,EHS,34,MAJ,I
+BS8558,Home Econ Education & Exten,UGRD,BSED,EHS,34,MAJ,I
+BS8575,Science Modular,UGRD,BSED,EHS,34,MAJ,I
+BS8587,Sec. Ed.: Sec School Comp,UGRD,BSED,EHS,34,MAJ,I
+BS8620,Computer Science,UGRD,BSED,EHS,34,MAJ,I
+BS8669,Basic Business,UGRD,BSED,EHS,34,MAJ,I
+MA5330,COMS-Comm. Theory & Process,GRAD,MA,COM,29,MAJ,I
+MA8606,Hearing & Speech Science,GRAD,MA,HSP,28,MAJ,I
+MA8618,Human Relations,GRAD,MA,REG,19,MAJ,I
+MA8674,Government,GRAD,MA,REG,11,MAJ,I
+MA8737,Creative Writing,GRAD,MA,GRAD,8,MAJ,I
+MA8823,Masters in Comparative Literat,GRAD,MCL,A&S,8,MAJ,I
+MA8859,Telecommunications,GRAD,MA,COM,31,MAJ,I
+MB6140,Gen Bus Grad,GRAD,MBA,COB,25,MAJ,I
+MB6152,MBA--Healthcare Concentration,GRAD,MBA,COB,25,MAJ,A
+BS8706,Home Economics in Business,UGRD,BSHCS,HSP,36,MAJ,I
+BS8721,Chemical Engineering,UGRD,BSCHE,ENT,42,MAJ,I
+BS8739,Earth Science-Composition,UGRD,BSED,EHS,34,MAJ,I
+BS8767,Speech and Hearing Therapy,UGRD,BSED,EHS,34,MAJ,I
+BS8791,Hearing & Speech Sciences,UGRD,BSHSS,HSP,28,MAJ,I
+BS8827,Phys Pre-Astronomy,UGRD,BS,A&S,22,MAJ,I
+BS8867,Geog Info Systems Analyst,UGRD,BS,A&S,9,MAJ,I
+BS8871,Nutrition with Science,UGRD,BSHCS,HSP,36,MAJ,I
+BC8809,INCO-Comm in Human Services,UGRD,BSC,COM,29,MAJ,I
+BC8811,INCO-Organization Comm.,UGRD,BSC,COM,29,MAJ,I
+MB6168,MBA-Operations & Supply Chain,GRAD,MBA,COB,25,MAJ,A
+MB8528,Business Administration,GRAD,MBA,COB,25,MAJ,I
+MB8828,MBA in Marketing,GRAD,MBA,COB,27,MAJ,I
+MF5171,Photography,GRAD,MFA,FAR,53,MAJ,A
+MF8527,Art Administration,GRAD,MFA,FAR,53,MAJ,I
+MF8781,Production Design,GRAD,MFA,FAR,50,MAJ,I
+MH8157,Health Administration,GRAD,MHA,HSP,80,MAJ,A
+MH8500,Health Services Administration,GRAD,MHSAD,HSP,80,MAJ,I
+MM8599,Vocal Performance,GRAD,MM,FAR,51,MAJ,I
+MM8614,Saxaphone,GRAD,MM,FAR,51,MAJ,I
+MP4400,Political Sci Public Adm,GRAD,MPA,A&S,11,MAJ,I
+MS4239,Geography,GRAD,MS,A&S,9,MAJ,A
+ME6871,Mid Child Lic Sci & SS,GRAD,MED,EHS,34,MAJ,A
+ND0209,Individual Prog of Study-HSP,GRAD,,HSP,0,MAJ,I
+ND0809,Individual Prog of Study-EDU,GRAD,,GRAD,0,MAJ,I
+ND1209,Individual Prog of Study,GRAD,,OST,0,MAJ,A
+ND1215,Nurse Administrator,GRAD,,HSP,32,MAJ,I
+ND1219,Educator & Family Nurse Prac,GRAD,,HSP,32,MAJ,I
+ND3101,Mathematics,GRAD,,A&S,15,MAJ,A
+ND4102,School Psychology,GRAD,,A&S,18,MAJ,I
+ND4103,Experimental Psychology,GRAD,,A&S,18,MAJ,A
+ND4201,Political Science,GRAD,,A&S,11,MAJ,A
+ND4207,Latin American Studies,GRAD,,INST,3,MAJ,A
+ND5145,Art Education MA,GRAD,,FAR,53,MAJ,I
+ND5146,Art History,GRAD,,FAR,53,MAJ,A
+ND5170,MA Photo Illustration,GRAD,,FAR,53,MAJ,I
+ME6873,Mid Child Lic Lang Arts & SS,GRAD,MED,EHS,34,MAJ,A
+ME6876,Blended Early Childhd & Sp Ed,GRAD,MED,EHS,34,MAJ,A
+ME8561,Industrial Arts,GRAD,MED,EHS,34,MAJ,I
+MS6350,Early Childhood Education,GRAD,MSHCS,EHS,34,MAJ,I
+MS8917,I.I.P.,GRAD,MS,EHS,,MAJ,I
+PH6272,Education Administration,GRAD,PHD,EHS,74,MAJ,I
+CTDACG,Data Analysis,GRAD,,A&S,65,CRT,A
+ND8870,Integrated Engineering,GRAD,,ENT,45,MAJ,I
+BS6418,Customer Service Leadership,UGRD,BAHCS,EHS,83,MAJ,A
+CTLSSG,certifiedLean-Six Sigma,GRAD,,ENT,46,CRT,A
+CTMLCG,Management and Leadership,GRAD,,COB,25,CRT,A
+CTSSLG,Strategic Selling & Sales Lead,GRAD,,COB,25,CRT,A
+CTFNPG,Post - Mast Family Nurse Pract,GRAD,,HSP,32,CRT,A
+ND2202,Social Sciences,GRAD,,A&S,0,MAJ,A
+CNEECH,Chinese for Elem Education,UGRD,,,,CON,I
+CNEESN,Spanish for Elem Education,UGRD,,,,CON,I
+CTVHCG,Veterans Health,GRAD,,HSP,90,CRT,A
+CTABAG,Advanced Business Analytics,GRAD,,COB,67,CRT,A
+MY6103,Master of Accountancy,GRAD,MACC,COB,23,MAJ,A
+MY6105,Master of Accountancy,GRAD,MACC,COB,23,MAJ,A
+BA1913,General Theater,UGRD,AB-THAR,FAR,50,MAJ,A
+ORFILM,Film,UGRD,,FAR,54,MIN,A
+ND9984,GIS: GIS and Cartography,GRAD,,A&S,9,MAJ,I
+AA5506,Security Safety,UGRD,AAS,RHE,59,MAJ,I
+CTEMCG,Engineering Management,GRAD,CERTG,ENT,46,CRT,A
+CTGLHG,Global Health,GRAD,CERTG,HSP,90,CRT,A
+CTHPCG,Health Policy,GRAD,CERTG,HSP,80,CRT,A
+CTLSSG,certifiedLean-Six Sigma,GRAD,CERTG,ENT,46,CRT,A
+EAATTG,Athletic Training,GRAD,,HSP,81,MAJ,A
+CTBALC,Business Analytics Leadership,GRAD,CERTG,COB,25,CRT,A
+BC5329,Information Telecomm Systems,UGRD,BSC,,70,MAJ,A
+BC5381,Communication,UGRD,BSC,COM,29,MAJ,A
+CTDMTI,Digital Media Trans & Inno,GRAD,CERTG,COM,75,CRT,A
+CTIMNJ,Interacting w Media for NON-Jo,GRAD,CERTG,COM,75,CRT,A
+CTCHIG,Contemporary History Institute,GRAD,,A&S,12,CRT,A
+CTPIND,Prof Instructional Design,GRAD,,EHS,74,CRT,A
+CTWGSG,"Wom, Gen, & Sexuality Studies",GRAD,,A&S,77,CRT,A
+CTLAMG,Latin American Studies,GRAD,,INST,3,CRT,A
+CTTTWG,Transiton to Work,GRAD,,EHS,34,CRT,A
+MA4201,Political Science,GRAD,MA,A&S,11,MAJ,A
+MA4208,Southeast Asian Studies,GRAD,MA,INST,3,MAJ,I
+MA4215,History,GRAD,MA,A&S,12,MAJ,A
+MS6607,Social Work,GRAD,MSW,HSP,80,MAJ,A
+MS6939,Environmental Studies,GRAD,MS,A&S,0,MAJ,I
+MS7251,Chemical Engineering,GRAD,MS,ENT,42,MAJ,A
+MS8754,Physical Education & Health,GRAD,MS,HSP,39,MAJ,I
+MS8794,Athletic Administration,GRAD,MSPE,HSP,39,MAJ,I
+MS8877,Coaching Education,GRAD,MSRSS,HSP,39,MAJ,I
+PH6275,College Student Personnel,GRAD,PHD,EHS,35,MAJ,I
+MS8174,Athletic Training,GRAD,MSAT,HSP,81,MAJ,A
+ND6416,Food and Nutrition,GRAD,,HSP,81,MAJ,I
+CTGISU,Geographic Information Science,UGRD,,A&S,9,CRT,A
+ENDMSC,Mid Child Gen Endorse in Sci,UGRD,,EHS,,END,A
+OR4211,History,UGRD,,A&S,12,MIN,A
+OR5329,Information Telecomm Systems,UGRD,,COM,,MIN,A
+ND5188,Music: Performance/Conducting,GRAD,,FAR,51,MAJ,I
+ND5189,Music: Performance/Accompany,GRAD,,FAR,51,MAJ,I
+ND5241,Philosophy,GRAD,,A&S,17,MAJ,A
+ND6123,General Business Grad,GRAD,,COB,25,MAJ,A
+ND6139,MBA Without Boundaries Program,GRAD,,COB,25,MAJ,I
+ND6211,Special Education,GRAD,,EHS,34,MAJ,I
+ND6221,Industrial Technology,GRAD,,EHS,34,MAJ,I
+ND6223,Supervision,GRAD,,EHS,34,MAJ,I
+ND6236,Mild-Moderate Education Needs,GRAD,,EHS,34,MAJ,A
+ND6237,Moderate-Intensive Educ Needs,GRAD,,EHS,34,MAJ,A
+ND6244,Reading/Language Arts,GRAD,,EHS,34,MAJ,A
+ND6267,College Instruction,GRAD,,EHS,34,MAJ,I
+BC8846,TCOM-Media Studies,UGRD,BSC,COM,31,MAJ,I
+BC8848,TCOM-Video Production,UGRD,BSC,COM,31,MAJ,I
+BC8856,TCOM-Audio/Music Production,UGRD,BSC,COM,31,MAJ,I
+BF5161,Acting,UGRD,BFA,FAR,50,MAJ,A
+BF5198,Interior Architecture,UGRD,BFA,FAR,53,MAJ,A
+BF8525,Architecture,UGRD,BFA,REG,,MAJ,I
+BF8750,Production Design & Technology,UGRD,BFA,FAR,50,MAJ,I
+ND6272,Education Administration,GRAD,,EHS,74,MAJ,A
+ND6404,Family and Consumer Sci Ed,GRAD,,EHS,83,MAJ,I
+ND6845,Spec Learning Disability,GRAD,,EHS,34,MAJ,I
+ND6846,Devhandicapped,GRAD,,EHS,34,MAJ,I
+ND6848,Middle Child Certification,GRAD,,EHS,34,MAJ,I
+ND6849,Middle Child Licensure,GRAD,,EHS,34,MAJ,I
+ND6861,AYA Life Science,GRAD,,EHS,34,MAJ,I
+BJ6933,Journalism Magazine Jour,UGRD,BSJ,COM,30,MAJ,I
+BM5109,Music: Interdisciplinary,UGRD,BMUS,FAR,51,MAJ,I
+BS1203,Baccalaureate Nursing,UGRD,BSN,HSP,32,MAJ,A
+BS1904,Chemistry,UGRD,BSCHEM,A&S,6,MAJ,A
+BS1925,Engineering Physics,UGRD,BSENPH,A&S,22,MAJ,A
+BS1928,Zoology,UGRD,BS-ZOO,A&S,21,MAJ,I
+ND7259,Mechanical & Systems Engineer,GRAD,,ENT,45,MAJ,A
+ND7260,Computer Science,GRAD,,ENT,44,MAJ,A
+ND7267,Electrical Engineering & CS,GRAD,,ENT,44,MAJ,A
+ND8134,Physical Education Pedagogy,GRAD,,EHS,80,MAJ,I
+ND8135,Recreation Studies,GRAD,,EHS,82,MAJ,A
+ND8149,Sportsad/MBA,GRAD,,COB,84,MAJ,I
+ND8151,Grad Gerontology Certificate,GRAD,,HSP,80,MAJ,A
+ND8158,Graduate Bioinformatics Certif,GRAD,,ENT,0,MAJ,A
+ND8165,Grad Clinical Informatics Cert,GRAD,,HSP,80,MAJ,A
+ND8518,Physical Education,GRAD,,EHS,34,MAJ,I
+ND8521,Computer Education,GRAD,,EHS,34,MAJ,I
+ND8921,Tech Facilitator Endorsement,GRAD,,EHS,74,MAJ,A
+ND9906,Global Exchange Partnerships,GRAD,,INST,0,MAJ,A
+NONDEGREEG,Graduate Nondegree Seeking,GRAD,NONDEGRE,GRAD,,MAJ,A
+BS2118,PBIO Cell Biol & Biotechnology,UGRD,BS,A&S,5,MAJ,I
+BS2123,Bios/Clinical Laboratory,UGRD,BS,A&S,21,MAJ,I
+BS2134,Zool Environmental Biology,UGRD,BS,A&S,21,MAJ,I
+BS2137,Zool Nutrition,UGRD,BS,A&S,21,MAJ,I
+BS2141,Zool Pre-Optometry,UGRD,BS,A&S,21,MAJ,I
+BS2143,Zool Pre-Physical Therapy,UGRD,BS,A&S,21,MAJ,I
+BS2502,Bios Pre-Medicine,UGRD,BS,A&S,21,MAJ,I
+BS2507,Bios Pre-Physical Therapy,UGRD,BS,A&S,21,MAJ,A
+BS2513,Zool Entomology,UGRD,BS,A&S,21,MAJ,I
+BS2519,Bios Medical Technology,UGRD,BS,A&S,21,MAJ,I
+BS3102,Math Prep. for Advanced Tng.,UGRD,BS,A&S,15,MAJ,I
+BS3315,Chemistry Environmental,UGRD,BS,A&S,6,MAJ,A
+BS3335,Physics Astrophysics,UGRD,BS,A&S,22,MAJ,A
+BS4235,Geographic Information Science,UGRD,BS,A&S,9,MAJ,A
+PH4910,Translational Biomedical Sci,GRAD,PHD,GRAD,1,MAJ,A
+PH5330,COMS--Comm. Theory and Process,GRAD,PHD,COM,29,MAJ,I
+PH5344,Interpersonal Communication,GRAD,PHD,COM,29,MAJ,I
+PH5360,COMS--Rhetoric/Public Culture,GRAD,PHD,COM,29,MAJ,A
+PH7253,Electrical Engineering,GRAD,PHD,ENT,44,MAJ,I
+PH8576,Home Economics,GRAD,PHD,HSP,36,MAJ,I
+BS4240,Geography Environ Prelaw,UGRD,BS,A&S,9,MAJ,A
+BS5512,Sport and Lifestyle Studies,UGRD,BSSLS,RHE,76,MAJ,A
+BS6213,Dev Handicap Spec Learn Disp,UGRD,BSED,EHS,34,MAJ,I
+BS6221,Industrial Technology,UGRD,BSED,EHS,34,MAJ,I
+BS6262,Hearing and Speech Sciences,UGRD,BSED,EHS,34,MAJ,I
+BS6283,History With Sociology,UGRD,BSED,EHS,34,MAJ,I
+BS6305,Social Studies,UGRD,BSED,EHS,34,MAJ,I
+ME6210,Comp Mental Retarded,GRAD,MED,EHS,34,MAJ,I
+ME6269,Curriculum & Instruction,GRAD,MED,EHS,34,MAJ,A
+ME6274,School Counseling,GRAD,MED,EHS,35,MAJ,A
+ME6396,Physical Science - Physics,GRAD,MED,EHS,34,MAJ,A
+BS6314,Life Science,UGRD,BSED,EHS,34,MAJ,A
+BS6331,Interior Design,UGRD,BS,HSP,36,MAJ,I
+BS6362,Food in Business & Communicat,UGRD,BSHEC,HSP,36,MAJ,I
+BS6363,Nutrition,UGRD,BSHCS,HSP,81,MAJ,I
+BS6370,Fam & Con Sci Edu Teaching,UGRD,BSHCS,EHS,83,MAJ,A
+BS6374,Home Economics in Business,UGRD,BSHEC,HSP,36,MAJ,I
+BS6393,Community Home Service,UGRD,BS,HSP,36,MAJ,I
+BS6405,Housing Furniture & Mgt,UGRD,BS,HSP,36,MAJ,I
+BS6413,HEC Food Service Management,UGRD,BS,HSP,36,MAJ,I
+BS6452,Prim/Elychld,UGRD,BSHEC,HSP,36,MAJ,I
+BS6467,HEC Fashion Merchand. & Promo.,UGRD,BS,HSP,36,MAJ,I
+BS6470,Applied Nutrition,UGRD,BSFNS,HSP,81,MAJ,A
+BS6505,Middle School Secondary/Ed,UGRD,BSED,EHS,34,MAJ,I
+BA1914,French,UGRD,AB-FR,A&S,16,MAJ,A
+BA1927,Botany,UGRD,AB,A&S,5,MAJ,I
+BA1938,Music,UGRD,BAMUS,FAR,51,MAJ,A
+BA2111,Plant Biology,UGRD,BA,A&S,5,MAJ,I
+BA2112,PBIO Pre-Forestry,UGRD,AB,A&S,5,MAJ,I
+BA2119,Field Ecology,UGRD,BA,A&S,5,MAJ,A
+BA2123,Bios/Clinical Laboratory,UGRD,AB,A&S,21,MAJ,I
+BA2140,Zool Pre-Medicine,UGRD,AB,A&S,21,MAJ,I
+BA2502,Bios Pre-Medicine,UGRD,AB,A&S,21,MAJ,I
+BS6921,VICO-Picture Editing,UGRD,BSVC,COM,71,MAJ,I
+BS6923,VICO-Multimedia,UGRD,BSVC,COM,71,MAJ,A
+BS6924,VICO-Infographics/Publ Design,UGRD,BSVC,COM,71,MAJ,A
+BS6925,VICO-Commercial Photography,UGRD,BSVC,COM,71,MAJ,A
+BS6955,Photo Illustration,UGRD,BSVC,COM,53,MAJ,I
+BS8100,Community and Public Health,UGRD,BSH,HSP,80,MAJ,A
+BS8104,Therapeutic Recreation,UGRD,BSRS,EHS,82,MAJ,I
+BS8109,Recreation Management,UGRD,BSRS,EHS,82,MAJ,A
+BS8120,Aquatic Management,UGRD,BSSPS,HSP,39,MAJ,I
+BA3311,Chemistry,UGRD,BA,A&S,6,MAJ,A
+BA3323,Geol Sci Environmental Geology,UGRD,AB,A&S,10,MAJ,I
+BA4101,Psychology,UGRD,BA,A&S,18,MAJ,A
+BA4211,History,UGRD,BA,A&S,12,MAJ,A
+BA4407,Global Studies - Europe,UGRD,BA,INST,3,MAJ,A
+BA4412,"Wom, Gen, & Sexuality Studies",UGRD,BA,A&S,77,MAJ,A
+BA4903,African-American Studies,UGRD,BA,A&S,4,MAJ,A
+BA5050,Studio Art,UGRD,BA,FAR,53,MAJ,A
+BA5212,Greek,UGRD,BA,A&S,7,MAJ,I
+BB6129,Business Pre-Law,UGRD,BBA,COB,25,MAJ,I
+BS8885,Therapeutic Recreation,UGRD,BSRS,HSP,39,MAJ,I
+BS8907,Industrial Technology,UGRD,BSIT,ENT,47,MAJ,I
+CNEEEN,English for Elem Education,UGRD,,,,CON,A
+CNEEGM,German for Elem Education,UGRD,,,,CON,A
+CNEEIM,Indonesian/Malay for Elem Ed,UGRD,,,,CON,A
+CNEELT,Latin for Elementary Education,UGRD,,,,CON,A
+CNEESO,Sociology for Elem Education,UGRD,,,,CON,A
+ND0410,Undecided-A&S,UGRD,,A&S,0,MAJ,A
+ND1204,School Nurse,UGRD,,HSP,32,MAJ,A
+ND1508,Ohio Program of Intensive Eng,UGRD,,A&S,37,MAJ,A
+BB6132,International Business,UGRD,BBA,COB,25,MAJ,A
+BB6138,Operations,UGRD,BBA,COB,25,MAJ,I
+BB6150,Sports Administration,UGRD,BBA,COB,84,MAJ,I
+BB6156,Entrepreneurship,UGRD,BBA,COB,25,MAJ,A
+BB8536,Economics,UGRD,BBA,A&S,0,MAJ,I
+BC5306,INCO-Communication Comp.,UGRD,BSC,COM,29,MAJ,I
+BC5312,Media Management,UGRD,BSC,COM,31,MAJ,I
+BC5348,Media and Society,UGRD,BSC,COM,31,MAJ,I
+BC5356,COMS-Comm. in Human Services,UGRD,BSC,COM,29,MAJ,A
+BC5357,COMS-Comm. and Public Advocacy,UGRD,BSC,COM,29,MAJ,I
+BC5358,COMS-Health Communication,UGRD,BSC,COM,29,MAJ,I
+BC5369,MDIA - Media and Social Change,UGRD,BSC,COM,31,MAJ,A
+BC5374,Applied Communication,UGRD,BSC,COM,29,MAJ,A
+BC8808,INCO-Comm. in Human Services,UGRD,BSC,COM,29,MAJ,I
+ND6295,Vocational Education,UGRD,,EHS,34,MAJ,A
+ND8835,Pre Ret Merch & Fash Prod,UGRD,,EHS,83,MAJ,A
+ND8843,Pre Physical Education,UGRD,,EHS,34,MAJ,I
+ND9811,COB-Exchange,UGRD,,COB,0,MAJ,A
+ND9911,AAS-Nondegree,UGRD,,UNC,0,MAJ,I
+ND9955,High School Option A,UGRD,,UNC,58,MAJ,A
+ND9970,Workshop Special,UGRD,,UNC,58,MAJ,A
+ND9980,Continuing Educ Spec Student,UGRD,,UNC,58,MAJ,I
+NDCOB,COB-Nondegree for Minors,UGRD,NONDEGRE,COB,0,MAJ,A
+BA5232,English Creative Writing,UGRD,BA,A&S,8,MAJ,A
+BA6412,Dietetics,UGRD,AB,HSP,36,MAJ,I
+BA8632,Creative Writing,UGRD,AB,A&S,8,MAJ,I
+BA8653,Journalism,UGRD,AB,COM,,MAJ,I
+BA8812,INCO-Legal Communication,UGRD,BA,COM,29,MAJ,I
+BA8813,INCO-Political Communication,UGRD,BA,COM,29,MAJ,I
+BA8844,Women's Studies,UGRD,BA,A&S,77,MAJ,I
+BB6120,Business Pre-Law,UGRD,BBA,COB,25,MAJ,A
+ENDLME,Endorse in Lib/Media for Elem,UGRD,,,,END,I
+OR0701,Computer Science,UGRD,,ENT,44,MIN,I
+OR5299,English,UGRD,,A&S,8,MIN,I
+OR8874,Basic and Applied Nutrition,UGRD,,HSP,36,MIN,I
+ORCOML,Composition & Literature,UGRD,,,,MIN,I
+ORESCI,Earth Science,UGRD,,,,MIN,I
+ORGSCI,General Science,UGRD,,,,MIN,I
+ORHLTH,Health,UGRD,,,,MIN,I
+ORMGMT,Management,UGRD,,,,MIN,I
+ORPHYS,Physical Science,UGRD,,,,MIN,I
+ORSPCH,Speech,UGRD,,,,MIN,I
+SF6256,Biological Sciences,UGRD,,EHS,34,SEC,I
+SF6258,Earth Science,UGRD,,EHS,34,SEC,I
+VALDIS,Learning Disabilities,UGRD,,,,VAL,I
+OR6602,Social Service,UGRD,,HSP,80,MIN,A
+CTSATS,Sales with Tech Sales,UGRD,,COB,27,CRT,I
+BS8604,Home Economics,UGRD,BSHEC,HSP,36,MAJ,I
+OR8156,Outdoor Recreation & Education,UGRD,,EHS,82,MIN,A
+OR6906,Journalism,UGRD,,COM,30,MIN,A
+CTRUST,Russian Studies,UGRD,,A&S,16,CRT,A
+CTGLCU,Global Leadership,UGRD,,INST,3,CRT,A
+OR4415,Paleontology,UGRD,,A&S,10,MIN,A
+CTLSSM,Lean Sigma Six Methods,UGRD,,ENT,47,CRT,A
+OR5826,Aerospace Studies,UGRD,,UNC,58,MIN,A
+AA1110,Associate in Arts-Soc Sci Emph,UGRD,AA,UNC,58,MAJ,A
+AA5003,Deaf Studies and Interpreting,UGRD,AAS,RHE,60,MAJ,A
+AA5005,Office Admin. Tech,UGRD,AAB,RHE,59,MAJ,A
+AA5013,Electronic Media,UGRD,AAS,RHE,59,MAJ,A
+AA5817,Industrial Maintenance,UGRD,AAS,UNC,60,MAJ,I
+AA5820,Electronic Technology,UGRD,AAS,RHE,60,MAJ,I
+AA5824,Security Safety,UGRD,AAS,RHE,59,MAJ,I
+AA8509,General Secretarial Tech,UGRD,AAB,RHE,59,MAJ,I
+AA8666,Legal Secretarial Tech,UGRD,AAB,RHE,,MAJ,I
+BS8513,Nursing,UGRD,BSN,HSP,32,MAJ,I
+MA5145,Art Education MA,GRAD,MA,FAR,53,MAJ,I
+MA5228,German,GRAD,MA,A&S,16,MAJ,I
+BS8555,History-Mod Social Studies,UGRD,BSED,EHS,34,MAJ,I
+BS8556,History-Social Psychology,UGRD,BSED,EHS,34,MAJ,I
+BS8567,Middle School: Sec Math & Sci,UGRD,BSED,EHS,34,MAJ,I
+BS8583,School Nurse,UGRD,BSH,EHS,34,MAJ,I
+BS8586,Secondary Education,UGRD,BSED,EHS,34,MAJ,I
+BS8628,Recreation-Outdoor Education,UGRD,BSED,EHS,34,MAJ,I
+BS8629,Child Development & Family,UGRD,BSHEC,HSP,36,MAJ,I
+BS8664,Recreation Therapy,UGRD,BSRS,HSP,,MAJ,I
+MA5326,Speech Language Pathology,GRAD,MASLP,HSP,79,MAJ,A
+MA5337,COMS-Comm. Comprehensive,GRAD,MA,COM,29,MAJ,I
+MA5360,COMS--Rhetoric/Public Culture,GRAD,MA,COM,29,MAJ,A
+MA6926,Photography,GRAD,MA,COM,71,MAJ,A
+MA8527,Art Administration,GRAD,MA,FAR,53,MAJ,I
+MA8660,Public Administration,GRAD,MA,A&S,,MAJ,I
+MA8668,Comm. Theory & Process,GRAD,MA,COM,,MAJ,I
+MA8675,Hearing & Speech Therapy,GRAD,MA,HSP,28,MAJ,I
+MA8686,Government,GRAD,MA,A&S,,MAJ,I
+MA8760,INCO-Speech Education,GRAD,MA,COM,29,MAJ,I
+MB6146,Professional MBA Program,GRAD,MBA,COB,25,MAJ,A
+MB6147,MBA/Hlth Admin,GRAD,MBA,COB,25,MAJ,I
+BS8685,Food & Nutrition,UGRD,BSHEC,HSP,,MAJ,I
+BS8689,Special Education,UGRD,BSED,EHS,,MAJ,I
+BS8695,Child Development,UGRD,BSHEC,HSP,,MAJ,I
+BS8697,Sciences Chemistry,UGRD,BSED,EHS,,MAJ,I
+BS8700,Communication Comp,UGRD,BSED,EHS,,MAJ,I
+BS8701,Vocational Home Econ,UGRD,BSHEC,HSP,,MAJ,I
+BS8703,Agriculture,UGRD,BS,COB,,MAJ,I
+BS8713,Art,UGRD,BSED,EHS,,MAJ,I
+BS8729,English: Secondary Education,UGRD,BSED,EHS,34,MAJ,I
+BS8736,Special Education,UGRD,BSED,EHS,34,MAJ,I
+BS8751,Child Development,UGRD,BSHEC,HSP,36,MAJ,I
+BS8752,Community Services,UGRD,BSHEC,HSP,36,MAJ,I
+BS8766,Vocational Home Econ Ed,UGRD,BSED,EHS,34,MAJ,I
+BS8771,Human Nutrition & Food Service,UGRD,BSHEC,HSP,36,MAJ,I
+BS8803,Interior Design,UGRD,BSHCS,HSP,36,MAJ,I
+BS8875,Nutrition,UGRD,BSHCS,HSP,36,MAJ,I
+BC8810,INCO-Organization Comm.,UGRD,BSC,COM,29,MAJ,I
+MB6167,MBA-Strategic Selling & Sales,GRAD,MBA,COB,25,MAJ,A
+MB6170,PMBA-Strategic Selling & Sales,GRAD,MBA,COB,25,MAJ,A
+MB8621,Finance,GRAD,MBA,COB,24,MAJ,I
+MF5142,Film,GRAD,MFA,FAR,54,MAJ,A
+MF5160,Production Technology,GRAD,MFA,FAR,50,MAJ,A
+MF8657,Art Education,GRAD,MFA,FAR,50,MAJ,I
+MF8749,Applied Music and Literature,GRAD,MFA,FAR,51,MAJ,I
+MH8133,Health Promotion,GRAD,MHA,HSP,80,MAJ,I
+MH8139,Health Administration,GRAD,MHA,HSP,80,MAJ,I
+MH8146,Health Admin/MBA,GRAD,MHA,HSP,80,MAJ,I
+MI5367,Info and Telecom Systems,GRAD,MITS,COM,70,MAJ,A
+MM5099,Music--Performance & Pedagogy,GRAD,MM,FAR,51,MAJ,A
+MM5183,Music History and Literature,GRAD,MM,FAR,51,MAJ,A
+MM5188,Music--Performance/Conducting,GRAD,MM,FAR,51,MAJ,A
+MM8779,Voice,GRAD,MM,FAR,51,MAJ,I
+MP4410,Public Administration,GRAD,MPA,GVS,78,MAJ,A
+MP6356,Physician Assistant Practice,GRAD,MPAP,HSP,79,MAJ,A
+MS1213,Nurse Educator,GRAD,MSN,HSP,32,MAJ,A
+MS1216,Admin & Family Nurse Prac,GRAD,MSN,HSP,32,MAJ,A
+MS1229,Educr & Fam Nrse Practitioner,GRAD,MSN,HSP,32,MAJ,A
+MS2018,Botany,GRAD,MS,A&S,5,MAJ,I
+MS4102,School Psychology,GRAD,MS,A&S,18,MAJ,I
+MS4106,Indust/Organiz Psychology,GRAD,MS,A&S,18,MAJ,A
+ME6869,AYA Integrated Science,GRAD,MED,EHS,34,MAJ,A
+ND0409,Individual Prog of Study-A&S,GRAD,,A&S,0,MAJ,I
+ND1217,"Educ,Admin,&Family Nurse Prac",GRAD,,HSP,32,MAJ,I
+ND2111,Plant Biology,GRAD,,A&S,5,MAJ,A
+ND2521,Bios Plant Biology,GRAD,,A&S,21,MAJ,A
+ND4101,Psychology,GRAD,,A&S,18,MAJ,A
+ND4215,History,GRAD,,A&S,12,MAJ,A
+ND4221,Economics,GRAD,,A&S,26,MAJ,A
+ND5099,Music: Performance/Pedagogy,GRAD,,FAR,51,MAJ,I
+ND5109,Music: Interdisciplinary,GRAD,,FAR,51,MAJ,I
+ND5134,Production Design & Technology,GRAD,,FAR,50,MAJ,I
+ND5147,Art History Studio,GRAD,,FAR,53,MAJ,A
+ND5180,Performance Certificate,GRAD,,FAR,51,MAJ,A
+ND5182,Music Education,GRAD,,FAR,51,MAJ,A
+ME6874,Mid Child Lic Lang Arts & Sci,GRAD,MED,EHS,34,MAJ,A
+ME8521,Computer Education,GRAD,MED,EHS,34,MAJ,I
+ME8531,College Teaching,GRAD,MED,EHS,34,MAJ,I
+ME8733,Elementary Administration,GRAD,MED,REG,35,MAJ,I
+ME8743,Media Noncertification,GRAD,MED,EHS,34,MAJ,I
+ME8862,Community/Rehab Counsel,GRAD,MED,EHS,35,MAJ,I
+MS6404,Home Economics Education,GRAD,MSHCS,EHS,83,MAJ,I
+MS6406,Textiles & Clothing,GRAD,MSHCS,EHS,83,MAJ,I
+MS8160,Coaching Education,GRAD,MSRSS,EHS,82,MAJ,A
+PH6271,Economic Education,GRAD,PHD,EHS,34,MAJ,I
+ND7272,Electrical Engineering,GRAD,,ENT,44,MAJ,A
+BC5342,COMS-Organization Comm.,UGRD,BSC,COM,29,MAJ,I
+CTGMCG,Global Management,GRAD,,COB,25,CRT,A
+MS6606,Social Work,GRAD,MSW,HSP,80,MAJ,A
+ND9997,Transition to Work,GRAD,,EHS,34,MAJ,A
+MS1237,Psych-Mental Health Nurse Prac,GRAD,MSN,HSP,32,MAJ,A
+CNEEAB,Arabic for Elem Education,UGRD,,,,CON,I
+CNEEGG,Geography for Elem Education,UGRD,,,,CON,I
+CTEPCG,Epidemiology,GRAD,,HSP,80,CRT,A
+ND6165,Master of Accountancy,GRAD,,COB,23,MAJ,I
+MY6106,Master of Accountancy,GRAD,MACC,COB,23,MAJ,A
+BS6340,Integrated Healthcare Studies,UGRD,BSIHS,HSP,90,MAJ,A
+AA5216,Mental Health Tech,UGRD,AA,HSP,19,MAJ,I
+AA8566,Mental Health Tech,UGRD,AA,HSP,19,MAJ,I
+CTFEMU,"Festival, Event, & Entert Mgt",UGRD,,COB,84,CRT,A
+ND9918,UNC-Nondegree,UGRD,,UNC,58,MAJ,A
+MA4217,War and Peace Studies,GRAD,MA,INST,3,MAJ,A
+ND7272,Electrical Engineering,GRAD,,ENT,44,MAJ,I
+ND8153,African Community Health Certi,GRAD,,HSP,80,MAJ,I
+MS1241,Adult-Ger Acute Care Nurse Pra,GRAD,MSN,HSP,32,MAJ,A
+BF1906,Dance Tutorial,UGRD,BFA-DA,FAR,52,MAJ,A
+BF1924,Film Tutorial,UGRD,BFAFILMT,FAR,54,MAJ,A
+ND9964,Veterans Health,GRAD,,HSP,90,MAJ,I
+ND9985,GIS: Geospat Analysis & Prog,GRAD,,A&S,9,MAJ,I
+ND9996,Graduate Cert COB eCampus,GRAD,,COB,25,MAJ,I
+ND9997,Transition to Work,GRAD,,EHS,34,MAJ,I
+AA5003,Deaf Studies and Interpreting,UGRD,AAS,RHE,60,MAJ,I
+CTBVCG,Business Venturing,GRAD,CERTG,COB,25,CRT,A
+CTCING,Clinical Informatics,GRAD,CERTG,HSP,90,CRT,A
+CTENVG,Environmental Sustainability,GRAD,CERTG,GVS,78,CRT,A
+CTGISA,GIS: Geospat Analysis & Prog,GRAD,CERTG,A&S,9,CRT,A
+CTTTWG,Transiton to Work,GRAD,CERTG,EHS,34,CRT,A
+CTVHCG,Veterans Health,GRAD,CERTG,HSP,90,CRT,A
+AA5011,Computer Technology,UGRD,AAB,RHE,59,MAJ,A
+CTATRG,Athletic Training Residency,GRAD,,HSP,81,CRT,A
+CTESRC,"Env Stud, Sust and Resilience",UGRD,,GVS,78,CRT,A
+CTPCCU,Podcasting,UGRD,,COM,75,CRT,A
+MI5366,Info and Telecom Systems,GRAD,MITS,,70,MAJ,A
+MS3325,Geological Sciences -Ecampus,GRAD,MS,A&S,10,MAJ,A
+BF5202,Interior Architecture,UGRD,BFA,FAR,53,MAJ,A
+CTBING,Bioinformatics,GRAD,,ENT,44,CRT,A
+CTAFMG,African Cult Thru Music/Dance,GRAD,,INST,3,CRT,A
+CTDVPG,Development Practice,GRAD,,INST,3,CRT,A
+CTGISC,GIS: GIS and Cartograpy,GRAD,,A&S,9,CRT,A
+MA0609,Individual Prog of Study-COB,GRAD,MA,COB,0,MAJ,I
+MA1009,Individual Prog of Study-FAR,GRAD,MA,FAR,0,MAJ,I
+MA4101,Psychology,GRAD,MA,A&S,18,MAJ,I
+MA4102,School Psychology,GRAD,MA,A&S,18,MAJ,I
+MA4207,Latin American Studies,GRAD,MA,INST,3,MAJ,A
+MA4216,Asian Studies,GRAD,MA,INST,3,MAJ,A
+MA4400,Political Sci Public Adm,GRAD,MAPA,A&S,11,MAJ,I
+MA5120,Art-Interdisciplinary,GRAD,MA,FAR,53,MAJ,A
+MS6415,Intl and Community Nutrition,GRAD,MSHCS,HSP,81,MAJ,I
+MS7252,Civil Engineering,GRAD,MS,ENT,43,MAJ,A
+MS7253,Electrical Engineering,GRAD,MS,ENT,44,MAJ,A
+MS7255,Industrial and Systems Enginee,GRAD,MS,ENT,46,MAJ,A
+MS8130,Athletic Training,GRAD,MSAT,HSP,81,MAJ,A
+MS8147,Exercise Physiology Clinical,GRAD,MSPEX,HSP,81,MAJ,A
+MS8501,Health Promotion,GRAD,MSPE,HSP,80,MAJ,I
+PH6840,Elem School Supervision,GRAD,PHD,EHS,34,MAJ,I
+PH6844,Math Secondary School,GRAD,PHD,EHS,34,MAJ,I
+PH8671,Elementary School Admin,GRAD,PHD,REG,35,MAJ,I
+ND4910,Translational Biomedical Sci,GRAD,,GRAD,1,MAJ,A
+CTBINU,Bioinformatics,UGRD,,ENT,44,CRT,A
+CTDIVU,Diversity Studies,UGRD,,EHS,74,CRT,A
+CTWRIT,Writing,UGRD,,A&S,8,CRT,A
+OR3321,Geological Sciences,UGRD,,A&S,10,MIN,A
+OR3331,Physics,UGRD,,A&S,22,MIN,A
+OR5212,Greek,UGRD,,A&S,7,MIN,A
+OR5214,Classical Civilization,UGRD,,A&S,7,MIN,A
+OR7260,Computer Science,UGRD,,ENT,,MIN,A
+MS8901,Athletic Administration,GRAD,MSRSS,HSP,39,MAJ,I
+MS8904,Sportsad/MBA,GRAD,MSA,HSP,39,MAJ,I
+ND5186,Music Composition/Theory,GRAD,,FAR,51,MAJ,I
+ND5317,Audiology,GRAD,,HSP,79,MAJ,I
+ND5324,Speech-Language Science,GRAD,,HSP,79,MAJ,A
+ND5331,Rhetorical Criticism,GRAD,,COM,29,MAJ,I
+ND5332,Organizational Communication,GRAD,,COM,29,MAJ,I
+ND5346,Telecommunications,GRAD,,COM,31,MAJ,I
+ND6142,MBA/Sports Admin,GRAD,,COB,25,MAJ,I
+ND6144,MBA China,GRAD,,COB,25,MAJ,I
+ND6145,MBA India,GRAD,,COB,25,MAJ,I
+ND6164,Master of Accountancy,GRAD,,COB,23,MAJ,A
+ND6220,Early Child Intervent Special,GRAD,,EHS,34,MAJ,A
+ND6239,Special Education,GRAD,,EHS,34,MAJ,I
+ND6240,Acclaim Mathematics Education,GRAD,,EHS,34,MAJ,I
+ND6266,Talented & Gifted,GRAD,,EHS,34,MAJ,I
+BC8855,TCOM-Audio/Media Production,UGRD,BSC,COM,31,MAJ,I
+BF5128,Printmaking,UGRD,BFA,FAR,53,MAJ,I
+BF5136,Theater Education,UGRD,BFA,FAR,50,MAJ,I
+BF5154,Dance - Perf and Choreography,UGRD,BFA,FAR,52,MAJ,A
+BF5158,Playwriting,UGRD,BFA,FAR,50,MAJ,A
+BF8643,Visual Communication,UGRD,BFA,COM,,MAJ,I
+BF8683,Radio-Television,UGRD,BFA,FAR,,MAJ,I
+BF8691,Speech Corrections,UGRD,BFA,FAR,,MAJ,I
+ND6274,School Counseling,GRAD,,EHS,35,MAJ,A
+ND6296,CMH/Rehabilitation Counseling,GRAD,,EHS,35,MAJ,I
+ND6297,Rehabilitation/CMH Counseling,GRAD,,EHS,35,MAJ,A
+ND6323,Clinical Rehabilitation Counse,GRAD,,EHS,35,MAJ,A
+ND6351,Family Studies,GRAD,,HSP,80,MAJ,I
+ND6503,Media Design/Dev/Prod,GRAD,,EHS,34,MAJ,I
+ND6604,Social Work,GRAD,,HSP,80,MAJ,A
+ND6867,AYA Integrated Mathematics,GRAD,,EHS,34,MAJ,I
+ND7253,Electrical Engineering,GRAD,,ENT,44,MAJ,A
+BJ6906,Journalism News and Informatio,UGRD,BSJ,COM,30,MAJ,A
+BJ6912,VICO-Photo Communication,UGRD,BSJ,COM,71,MAJ,I
+BJ6914,VICO-Info Graphics,UGRD,BSJ,COM,71,MAJ,I
+BJ6930,Visual Communication,UGRD,BSJ,COM,71,MAJ,I
+BJ6934,Journalism Newswriting/Edit,UGRD,BSJ,COM,30,MAJ,A
+BJ6936,Journalism Broadcast News,UGRD,BSJ,COM,30,MAJ,I
+BJ8768,Journalism,UGRD,BSJ,COM,,MAJ,I
+BM5114,Music History Lit,UGRD,BMUS,FAR,51,MAJ,I
+BM8738,Music Theory & Composition,UGRD,BMUS,FAR,51,MAJ,I
+BS1112,Specialized Studies,UGRD,BSS,UNC,58,MAJ,A
+BS1903,Mathematics,UGRD,BSMATH,A&S,15,MAJ,A
+BS1927,Botany,UGRD,BS,A&S,5,MAJ,I
+BS2011,Bot Agri-Business,UGRD,BS,A&S,5,MAJ,I
+BS2014,Bot Environmental Biology,UGRD,BS,A&S,5,MAJ,I
+BS2018,Botany,UGRD,BS,A&S,5,MAJ,I
+ND7265,Biomedical Engineering,GRAD,,ENT,42,MAJ,A
+ND8111,Physiology of Exercise,GRAD,,HSP,81,MAJ,A
+ND8115,Acute Care Administration,GRAD,,HSP,80,MAJ,I
+ND8129,Sports Admin/MBA,GRAD,,COB,84,MAJ,I
+ND8144,Health Administration,GRAD,,HSP,80,MAJ,I
+ND8145,Public Health,GRAD,,HSP,80,MAJ,A
+ND8148,Health Admin/MBA,GRAD,,HSP,80,MAJ,I
+ND8155,Environ Sustainability Certifi,GRAD,,A&S,0,MAJ,A
+ND8164,Prof Instructional Design,GRAD,,EHS,74,MAJ,A
+ND8516,Elementary Guidance & Counsel,GRAD,,REG,35,MAJ,I
+ND8772,Applied Linguistics/TEFL,GRAD,,A&S,13,MAJ,I
+ND8924,Superintendent Licensure,GRAD,,EHS,74,MAJ,A
+NDGRAD,GRAD Stand Alone Certificate,GRAD,NONDEGRE,GRAD,1,MAJ,A
+PH0909,Individual Prog of Study-ENT,GRAD,PHD,ENT,0,MAJ,I
+BS2114,PBIO Applied Plant Sciences,UGRD,BS,A&S,5,MAJ,I
+BS2121,Biological Sciences,UGRD,BS,A&S,21,MAJ,A
+BS2135,Zool Marine Biology,UGRD,BS,A&S,21,MAJ,I
+BS2142,Zool Pre-Pharmacy,UGRD,BS,A&S,21,MAJ,I
+BS2145,Zool Wildlife Biology,UGRD,BS,A&S,21,MAJ,I
+BS2508,Bios Pre-Veterinary Medicine,UGRD,BS,A&S,21,MAJ,I
+BS2515,Bios Wildlife Biology,UGRD,BS,A&S,21,MAJ,A
+BS3103,Math Applied,UGRD,BS,A&S,15,MAJ,A
+BS3309,Industrial Hygiene,UGRD,BSIH,HSP,80,MAJ,I
+BS3311,Chemistry,UGRD,BS,A&S,6,MAJ,A
+BS3312,Chem Pre-Dentistry,UGRD,BS,A&S,6,MAJ,A
+BS3322,Geol Sci Water Resources,UGRD,BS,A&S,10,MAJ,I
+BS3334,Phys Prep. for Advanced Tng.,UGRD,BS,A&S,22,MAJ,I
+BS3336,Phys Pre-Meteorology,UGRD,BS,A&S,22,MAJ,I
+BS4232,Geog Environmental,UGRD,BS,A&S,9,MAJ,A
+PH2146,Microbiology,GRAD,PHD,A&S,21,MAJ,I
+PH4199,Government,GRAD,PHD,REG,11,MAJ,I
+PH5231,English,GRAD,PHD,A&S,8,MAJ,A
+PH6945,Molecular and Cellular Biology,GRAD,PHD,A&S,0,MAJ,I
+PH6949,Molecular and Cellular Biology,GRAD,PHD,A&S,5,MAJ,A
+PH7267,Electrical Engineering & CS,GRAD,PHD,ENT,44,MAJ,A
+PH8618,Human Relations,GRAD,PHD,REG,19,MAJ,I
+PH8789,Audiology,GRAD,PHD,HSP,28,MAJ,I
+PH8841,Speech Pathology,GRAD,PHD,HSP,28,MAJ,I
+PH8872,Electrical Engineering,GRAD,PHD,ENT,44,MAJ,I
+MA6271,Economic Education,GRAD,MA,EHS,34,MAJ,I
+BS6206,Earth Science-Physics,UGRD,BSED,EHS,34,MAJ,I
+BS6208,Physics-Chemistry,UGRD,BSED,EHS,34,MAJ,I
+BS6235,Spanish,UGRD,BSED,EHS,34,MAJ,A
+BS6251,Bio-Chemistry,UGRD,BSED,EHS,34,MAJ,I
+BS6255,Mathematics,UGRD,BSED,EHS,34,MAJ,I
+BS6256,Biological Sciences,UGRD,BSED,EHS,34,MAJ,I
+BS6286,History With Soc. & Anth,UGRD,BSED,EHS,34,MAJ,I
+BS6289,Child Development & Fam Life,UGRD,BSHEC,HSP,80,MAJ,I
+BS6293,Textiles and Clothing,UGRD,BSHEC,HSP,36,MAJ,I
+BS6294,General Speech-Theater Emph,UGRD,BSED,EHS,34,MAJ,I
+MA8553,Guidance & Counseling,GRAD,MA,REG,35,MAJ,I
+MA8615,Counselor Education-Music,GRAD,MA,REG,35,MAJ,I
+ME6182,Family & Consumer Sciences Edu,GRAD,MED,EHS,83,MAJ,A
+ME6221,Industrial Technology,GRAD,MED,EHS,34,MAJ,I
+ME6236,Mild-Moderate Education Needs,GRAD,MED,EHS,34,MAJ,A
+ME6266,Talented & Gifted,GRAD,MED,EHS,34,MAJ,I
+ME6275,College Student Personnel,GRAD,MED,EHS,35,MAJ,A
+ME6277,Ed Research and Evaluation,GRAD,MED,EHS,74,MAJ,A
+ME6297,Rehabilitation/CMH Counseling,GRAD,MED,EHS,35,MAJ,A
+ME6299,School Rehabilitation,GRAD,MED,EHS,35,MAJ,I
+ME6301,CMH/Rehab/School Counseling,GRAD,MED,EHS,35,MAJ,A
+ME6324,CMH/Clinical Rehab Counsel,GRAD,MED,EHS,35,MAJ,A
+ME6506,Computer Educ and Technology,GRAD,MED,EHS,74,MAJ,A
+ME6845,Spec Learning Disability,GRAD,MED,EHS,34,MAJ,I
+ME6859,AYA Physical Science,GRAD,MED,EHS,34,MAJ,I
+ME6860,AYA Physical Education,GRAD,MED,EHS,34,MAJ,I
+ME6865,Spanish Education,GRAD,MED,EHS,34,MAJ,I
+AA8707,Assoc RTV Pp,UGRD,AAS,UNC,58,MAJ,I
+BS6309,Integrated Science,UGRD,BSED,EHS,34,MAJ,A
+BS6350,Early Childhood Education,UGRD,BSHCS,HSP,36,MAJ,I
+BS6355,Early Childhood,UGRD,BSED,EHS,34,MAJ,I
+BS6373,Job Training -Com & Home Servi,UGRD,BSHEC,HSP,36,MAJ,I
+BS6453,Diet & Community Nutrition,UGRD,BSHEC,HSP,81,MAJ,I
+BS6504,Middle School Elementary/Ed,UGRD,BSED,EHS,34,MAJ,I
+AA8819,Aviation Technology,UGRD,AAS,RHE,58,MAJ,I
+BA1917,Philosophy,UGRD,AB-PHIL,A&S,17,MAJ,A
+BA1944,Geography,UGRD,AB-GEO,A&S,9,MAJ,A
+BA2113,PBIO Environmental Biology,UGRD,AB,A&S,5,MAJ,I
+BA2115,PBIO Applied Ecology,UGRD,AB,A&S,5,MAJ,I
+BA2122,Zool Bacteriology,UGRD,AB,A&S,21,MAJ,I
+BA2129,Bios Environmental Biology,UGRD,BA,A&S,21,MAJ,A
+BA2501,Bios Pre-Dentistry,UGRD,AB,A&S,21,MAJ,I
+BS6953,Photo Multi Media,UGRD,BSVC,COM,53,MAJ,I
+BS7254,El. Eng. W/ Computer Eng. Trk,UGRD,BSEE,ENT,44,MAJ,A
+BS7269,Aviation Flight,UGRD,BSA,ENT,41,MAJ,A
+BS8108,Outdoor Education,UGRD,BSRS,EHS,82,MAJ,I
+BS8113,Adventure Recreation,UGRD,BSRS,EHS,82,MAJ,I
+BS8879,Physical Education,UGRD,BSPE,EHS,82,MAJ,I
+BS8883,Adventure Recreation,UGRD,BSRS,EHS,82,MAJ,I
+BA2515,Bios Wildlife Biology,UGRD,AB,A&S,21,MAJ,I
+BA3110,Math/Meteorology,UGRD,BA,A&S,15,MAJ,I
+BA3322,Geol Sci Water Resources,UGRD,AB,A&S,10,MAJ,I
+BA4107,Psychology,UGRD,BA,A&S,18,MAJ,A
+BA4199,Government,UGRD,BA,REG,11,MAJ,I
+BA4200,Political Sci Public Admin.,UGRD,BA,A&S,11,MAJ,I
+BA4201,Political Science,UGRD,BA,A&S,11,MAJ,A
+BA4202,Political Sci Pre-Foreign Serv,UGRD,BA,A&S,11,MAJ,I
+BA4221,Economics,UGRD,BA,A&S,26,MAJ,A
+BA4235,Geographic Information Science,UGRD,AB,A&S,9,MAJ,I
+BA4236,Geog Cartography,UGRD,BA,A&S,9,MAJ,I
+BA5111,Music,UGRD,BA,FAR,51,MAJ,I
+BA5194,Theater,UGRD,BA,FAR,50,MAJ,A
+BS8886,Outdoor Education,UGRD,BSRS,HSP,39,MAJ,I
+CNEEAF,Afro-Amer Studies for Elem Ed,UGRD,,,,CON,A
+ND0712,Pre-Interpersonal Com,UGRD,,UNC,58,MAJ,I
+ND0714,Pre-Telecommunication,UGRD,,UNC,58,MAJ,I
+ND1113,Non Degree-OLN,UGRD,,UNC,58,MAJ,I
+ND1207,Undecided,UGRD,,UNC,58,MAJ,A
+ND2210,Pre-Criminal Justice,UGRD,,UNC,58,MAJ,A
+BB6130,Human Resource Management,UGRD,BBA,COB,25,MAJ,I
+BB6137,Management Infor Systems,UGRD,BBA,COB,67,MAJ,A
+BC5313,Video Production,UGRD,BSC,COM,31,MAJ,A
+BC5321,TCOM-Audience Research,UGRD,BSC,COM,31,MAJ,I
+BC5336,Audio Production,UGRD,BSC,COM,31,MAJ,I
+BC5339,COMS-Comm. in Human Services,UGRD,BSC,COM,29,MAJ,I
+BC5355,Media and Politics,UGRD,BSC,COM,31,MAJ,I
+BC8523,Telecommunication,UGRD,BSC,COM,31,MAJ,I
+BA5221,French,UGRD,BA,A&S,16,MAJ,A
+ND5139,Theater: Pre-Major,UGRD,,FAR,50,MAJ,I
+ND5374,Pre-Applied Communication,UGRD,,COM,29,MAJ,A
+ND8122,Exercise Physiology,UGRD,,HSP,81,MAJ,I
+ND8833,Pre Associate in Nursing,UGRD,,HSP,60,MAJ,A
+ND9813,EDU-Exchange,UGRD,,EHS,0,MAJ,A
+ND9907,HTC-Nondegree,UGRD,,HTC,0,MAJ,A
+ND9913,COB-Nondegree,UGRD,,COB,0,MAJ,A
+ND9918,UNC-Nondegree,UGRD,,UNC,0,MAJ,A
+ND9920,Transfer Probation,UGRD,,UNC,58,MAJ,A
+BA5235,English Tutorial,UGRD,BA,A&S,8,MAJ,I
+BA5340,INCO-Communication Theory,UGRD,BA,COM,29,MAJ,I
+BA6261,Interpersonal Communication,UGRD,AB,COM,29,MAJ,I
+BA6289,Child Development & Fam Life,UGRD,AB,HSP,36,MAJ,I
+BA6464,HEC-Interdes,UGRD,AB,HSP,36,MAJ,I
+BA6932,Journalism Advertising,UGRD,BA,COM,30,MAJ,I
+BA8548,General Studies,UGRD,AB,FAR,58,MAJ,I
+BA8554,Higher Ed: College Teaching,UGRD,AB,EHS,34,MAJ,I
+BA8663,Language,UGRD,AB,A&S,,MAJ,I
+BA8909,Inst/Africa,UGRD,BA,INST,3,MAJ,I
+ND9982,Regional Higher Ed Partnership,UGRD,,RHE,76,MAJ,A
+OR0411,Microbiology,UGRD,,A&S,21,MIN,I
+OR8521,Computer Education,UGRD,,,,MIN,I
+OR8873,"Hearing, Speech, Language Sci",UGRD,,HSP,,MIN,I
+ORBOTY,Botany,UGRD,,,,MIN,I
+ORCOAC,Coaching,UGRD,,,,MIN,I
+ORMK12,Media K-13,UGRD,,,,MIN,I
+SF6203,English,UGRD,,EHS,34,SEC,I
+SF6221,Industrial Technology,UGRD,,EHS,34,SEC,I
+SF6233,German,UGRD,,EHS,34,SEC,I
+CTLJCU,"Law, Justice, and Culture",UGRD,,A&S,11,CRT,A
+CTMUSE,Museum Studies,UGRD,,FAR,53,CRT,A
+OR2111,Plant Biology,UGRD,,A&S,5,MIN,A
+CTIBUS,International Business,UGRD,,COB,25,CRT,A
+OR7270,Aviation Management,UGRD,,ENT,41,MIN,A
+CTECTO,Ecotourism,UGRD,,EHS,82,CRT,A
+ORDNCS,Dance: Somatic Studies,UGRD,,FAR,87,MIN,A
+ORARTH,Art History,UGRD,,FAR,53,MIN,A
+CTAFRI,African Studies,UGRD,,INST,3,CRT,A
+CTEAST,East Asian Studies,UGRD,,INST,3,CRT,A
+CTEURO,European Studies,UGRD,,INST,3,CRT,A
+CTLAMS,Latin American Studies,UGRD,,INST,3,CRT,A
+CTFSCU,Food and Society,UGRD,,A&S,65,CRT,A
+CTPMCU,Project Management,UGRD,,ENT,47,CRT,A
+CTPAHW,Perform Arts Health & Wellness,UGRD,,HSP,81,CRT,A
+OR8100,Community and Public Health,UGRD,,HSP,80,MIN,A
+AA2341,Associate in Nursing,UGRD,AAS,RHE,60,MAJ,I
+AA5501,Real Estate Tech,UGRD,AAB,RHE,59,MAJ,I
+AA5821,Ind.Tech-Manufacturing,UGRD,AAS,RHE,60,MAJ,I
+AA8566,Mental Health Tech,UGRD,AA,A&S,19,MAJ,I
+BS8510,General Science Composition,UGRD,BSED,EHS,34,MAJ,I
+BS8511,History Modular,UGRD,BSED,EHS,34,MAJ,I
+MA5169,MA Photo Communication,GRAD,MA,FAR,53,MAJ,I
+MA5170,MA Photo Illustration,GRAD,MA,FAR,53,MAJ,I
+MA5171,Photography,GRAD,MA,FAR,53,MAJ,I
+BS8518,Physical Education,UGRD,BSED,EHS,34,MAJ,I
+BS8532,Community Health Services,UGRD,BSED,EHS,34,MAJ,I
+BS8551,General Speech,UGRD,BSED,EHS,34,MAJ,I
+BS8553,Guidance & Counseling,UGRD,BSED,EHS,,MAJ,I
+BS8609,Pre-Physical Therapy,UGRD,BS,HSP,66,MAJ,I
+BS8630,Consumer Serv & Educ,UGRD,BSHEC,HSP,36,MAJ,I
+BS8640,Child Development & Family,UGRD,BSHEC,EHS,,MAJ,I
+BS8644,Athletic Training/Exer Physiol,UGRD,BSH,HSP,39,MAJ,I
+BS8654,Recreation Therapy,UGRD,BSRS,A&S,,MAJ,I
+MA5315,Media Arts & Studies,GRAD,MA,COM,31,MAJ,A
+MA5317,Audiology,GRAD,MAHSLS,HSP,79,MAJ,I
+MA5335,Information Systems,GRAD,MA,COM,29,MAJ,I
+MA5346,Telecommunications,GRAD,MA,COM,31,MAJ,I
+MA8564,Latin American Studies,GRAD,MA,A&S,11,MAJ,I
+MA8720,African Studies,GRAD,MA,INST,3,MAJ,I
+MA8788,Speech Pathology,GRAD,MAHSS,HSP,28,MAJ,I
+MA8790,Speech-Language Pathology,GRAD,MAHSS,HSP,28,MAJ,I
+MA8818,INCO-Comm. Theory & Process,GRAD,MA,COM,29,MAJ,I
+MB6148,MBA/Hlth Admin,GRAD,MBA,COB,25,MAJ,I
+BS8725,Biology,UGRD,BSED,EHS,,MAJ,I
+BS8733,Elementary Administration,UGRD,BSED,REG,35,MAJ,I
+BS8740,Elementary Education K-8,UGRD,BSED,EHS,34,MAJ,I
+BS8745,Wilderness Skills,UGRD,BSRS,HSP,39,MAJ,I
+BS8775,VICO-Info Graphics/Page Design,UGRD,BSVC,COM,71,MAJ,I
+BS8782,Hearing & Speech Therapy,UGRD,BSHS,HSP,28,MAJ,I
+BS8804,VICO-Photo Illustration,UGRD,BSVC,COM,71,MAJ,I
+MB6154,MBA--Accounting Concentration,GRAD,MBA,COB,25,MAJ,A
+MB6157,MBA--Business Analytics,GRAD,MBA,COB,25,MAJ,A
+MB6166,MBA-Business Venturing Concent,GRAD,MBA,COB,25,MAJ,A
+MB6173,Master of Business Analytics,GRAD,MBAN,COB,25,MAJ,A
+MB8677,Management,GRAD,MBA,COB,25,MAJ,I
+ME8605,Home Economics,GRAD,MED,HSP,36,MAJ,I
+MF5132,Acting,GRAD,MFA,FAR,50,MAJ,A
+MF5135,Playwriting,GRAD,MFA,FAR,50,MAJ,A
+MF5140,Theater Comprehensive,GRAD,MFA,FAR,50,MAJ,I
+MF5172,Ceramics,GRAD,MFA,FAR,53,MAJ,A
+MF8591,Music Education,GRAD,MFA,FAR,51,MAJ,I
+MF8820,Music Theory,GRAD,MFA,FAR,51,MAJ,I
+MG8172,Global Health,GRAD,MGH,HSP,90,MAJ,A
+MH8115,Acute Care Administration,GRAD,MHA,HSP,80,MAJ,I
+MH8148,Health Admin/MBA,GRAD,MHA,HSP,80,MAJ,I
+MI5366,Info and Telecom Systems,GRAD,MITS,COM,70,MAJ,A
+MM5196,Perf-Collaborative Piano-Vocal,GRAD,MM,FAR,51,MAJ,I
+MM5197,Perf-Collaborative Piano-Instr,GRAD,MM,FAR,51,MAJ,A
+MM8688,Music,GRAD,MMUS,FAR,,MAJ,I
+MS1226,Nurse Administrator,GRAD,MSN,HSP,32,MAJ,A
+MS2201,Social Science,GRAD,MSS,A&S,0,MAJ,I
+MS3311,Chemistry,GRAD,MS,A&S,6,MAJ,A
+ME6866,AYA Integrated Language Arts,GRAD,MED,EHS,34,MAJ,A
+ME6867,AYA Integrated Mathematics,GRAD,MED,EHS,34,MAJ,A
+MS8905,Sports Administration,GRAD,MSA,HSP,39,MAJ,I
+MS8914,I.I.P.,GRAD,MS,HSP,,MAJ,I
+MY6164,Master of Accountancy,GRAD,MACC,COB,23,MAJ,A
+MZ4226,Financial Economics,GRAD,MFE,A&S,26,MAJ,A
+ND2518,Microbiology,GRAD,,A&S,21,MAJ,I
+ND3311,Chemistry,GRAD,,A&S,6,MAJ,A
+ND3321,Geological Sciences,GRAD,,A&S,10,MAJ,A
+ND3331,Physics,GRAD,,A&S,22,MAJ,A
+ND4400,Political Sci Public Adm,GRAD,,A&S,11,MAJ,I
+ND5110,Music,GRAD,,FAR,51,MAJ,I
+ND5132,Acting,GRAD,,FAR,50,MAJ,I
+ND5135,Playwriting,GRAD,,FAR,50,MAJ,I
+ND5140,Theater Comprehensive,GRAD,,FAR,50,MAJ,I
+ND5169,MA Photo Communication,GRAD,,FAR,53,MAJ,I
+ME6875,Mid Child Lic Lang Arts & Math,GRAD,MED,EHS,34,MAJ,A
+ME8518,Physical Education,GRAD,MED,EHS,34,MAJ,I
+ME8582,Remedial Reading,GRAD,MED,EHS,34,MAJ,I
+ME8746,Guid. & Couns. Human Relations,GRAD,MED,REG,35,MAJ,I
+MS6364,"Apparel,Textiles & Merchandisi",GRAD,MSHCS,EHS,83,MAJ,A
+ND8869,Early Child Generalist Endorse,GRAD,,EHS,34,MAJ,A
+CTGSHG,"Gender, Sexualities & Health",GRAD,,A&S,77,CRT,A
+CTEPPL,K-12 Educ Public Policy Leader,GRAD,,EHS,74,CRT,A
+MA4416,"Law, Justice & Culture",GRAD,MA,A&S,65,MAJ,A
+MM5199,"Cond: Choral, Orchestral, Wind",GRAD,MM,FAR,51,MAJ,A
+BS6474,Nutrition Science,UGRD,BSFNS,HSP,81,MAJ,A
+CTHRMU,Human Resource Management,UGRD,,COB,25,CRT,A
+CTELCG,Engineering Leadership,GRAD,,ENT,46,CRT,A
+CTBACG,Business Analytics,GRAD,,COB,25,CRT,A
+ND9995,Graduate Certificate COB,GRAD,,COB,25,MAJ,A
+OR5168,Stage Management,UGRD,,FAR,87,MIN,A
+CNEEAF,Afro-Amer Studies for Elem Ed,UGRD,,,,CON,I
+CNEEAN,Anthropology for Elem Ed,UGRD,,,,CON,I
+CNEEEN,English for Elem Education,UGRD,,,,CON,I
+CNEERU,Russian for Elem Education,UGRD,,,,CON,I
+BF5155,Film,UGRD,BFA,FAR,87,MAJ,A
+OR4242,Geog - Urban Plan & Sustain,UGRD,,A&S,9,MIN,A
+CTENCG,Electronic Navigation,GRAD,,ENT,44,CRT,A
+ND9855,Global Health,GRAD,,HSP,90,MAJ,A
+MS6101,Professional MS in Management,GRAD,MSMGT,COB,25,MAJ,A
+CTAMMU,Actor Musicianship: Music Focu,UGRD,,FAR,50,CRT,A
+CTAMTU,Actor Musicianship: Theater,UGRD,,FAR,50,CRT,A
+BS8178,Exercise Physiology Pre-Athlet,UGRD,BSPEX,HSP,81,MAJ,A
+OR6602,Social Service,UGRD,,HSP,19,MIN,A
+OR5151,Dance,UGRD,,FAR,52,MIN,I
+ORDNCH,Dance: History and Theory,UGRD,,FAR,52,MIN,A
+ND9971,Post-Mast Adult Geron Acute,GRAD,,HSP,32,MAJ,I
+ND9972,Post-Mast Family Nurse Pract,GRAD,,HSP,32,MAJ,I
+ND9987,Psych Mental Health Nurse Prac,GRAD,,HSP,32,MAJ,I
+CTFIPL,Financial Planning Certificate,UGRD,,COB,24,CRT,A
+AA5016,Travel & Tourism Management,UGRD,AAS,RHE,59,MAJ,I
+CTACHG,African Community Health Svcs,GRAD,CERTG,HSP,90,CRT,A
+CTBING,Bioinformatics,GRAD,CERTG,ENT,44,CRT,A
+CTFNPG,Post - Mast Family Nurse Pract,GRAD,CERTG,HSP,32,CRT,A
+CTMLCG,Management and Leadership,GRAD,CERTG,COB,25,CRT,A
+CTOAMG,Operations & Supply Chain Mgt,GRAD,CERTG,COB,25,CRT,A
+CTTEFL,Teaching English Foreign Lang,GRAD,CERTG,A&S,13,CRT,A
+CTEMLC,Environmental Change Mgmt Lead,GRAD,,GVS,78,CRT,A
+CTISEG,Engineering Analytics,GRAD,CERTG,ENT,46,CRT,A
+ENDREG,Graduate Reading Endorsement,GRAD,,EHS,,END,A
+CTACHG,African Community Health Svcs,GRAD,,HSP,90,CRT,A
+CTSPDG,Sport and Development,GRAD,,INST,,CRT,A
+CTHPCG,Health Policy,GRAD,,HSP,80,CRT,A
+AU5317,Audiology,GRAD,AUD,HSP,79,MAJ,A
+AU5378,Audiology,GRAD,AUD,HSP,79,MAJ,A
+DN1235,Doctor of Nursing Practice,GRAD,DNP,HSP,32,MAJ,A
+MA0309,Individual Prog of Study-INT,GRAD,MA,INST,0,MAJ,I
+MA4103,Experimental Psychology,GRAD,MA,A&S,18,MAJ,I
+MA4209,Intl Development Studies,GRAD,MA,INST,3,MAJ,A
+MA5129,Theater History and Criticism,GRAD,MA,FAR,50,MAJ,I
+MS6402,Child Development & Fam Life,GRAD,MSHCS,HSP,80,MAJ,I
+MS6469,Child and Family Studies,GRAD,MSCFS,HSP,80,MAJ,A
+MS6604,Social Work,GRAD,MSW,HSP,80,MAJ,A
+MS6927,Journalism,GRAD,MS,COM,30,MAJ,A
+MS6956,Environmental Studies,GRAD,MSES,GVS,78,MAJ,A
+MS8159,Sports Administration (Hk),GRAD,MSA,COB,84,MAJ,I
+MS8161,Sports Administration,GRAD,MSA,COB,84,MAJ,A
+MS8605,Home Economics,GRAD,MS,HSP,36,MAJ,I
+MS8793,Athletic Training,GRAD,MSPE,HSP,39,MAJ,I
+MS8796,Physical Education,GRAD,MSPE,HSP,39,MAJ,I
+MS8876,Coaching Education,GRAD,MSRSS,HSP,39,MAJ,I
+PH8748,Reading Supervision,GRAD,PHD,EHS,34,MAJ,I
+ND9983,War and Peace Studies,GRAD,,INST,3,MAJ,A
+CTSALE,Sales,UGRD,,COB,27,CRT,A
+OR2121,Biological Sciences,UGRD,,A&S,21,MIN,A
+OR4101,Psychology,UGRD,,A&S,18,MIN,A
+ORJAPN,Japanese,UGRD,,A&S,13,MIN,A
+ND5185,Music Composition,GRAD,,FAR,51,MAJ,I
+ND5228,German,GRAD,,A&S,16,MAJ,I
+ND5243,Liberal Studies,GRAD,,A&S,17,MAJ,I
+ND5323,Speech-Language Pathology,GRAD,,HSP,79,MAJ,I
+ND5344,Interpersonal Communication,GRAD,,COM,29,MAJ,I
+ND5360,COMS-Rhetoric/Public Culture,GRAD,,COM,29,MAJ,I
+ND5361,COMS-Health Communication,GRAD,,COM,29,MAJ,I
+ND5376,COMS-Communication Studies,GRAD,,COM,29,MAJ,A
+ND6165,Master of Accountancy,GRAD,,COB,23,MAJ,A
+BC8845,Telecommunications,UGRD,BST,COM,31,MAJ,I
+BC8852,TCOM-Media/International,UGRD,BSC,COM,31,MAJ,I
+BC8853,TCOM-Media/Technologies,UGRD,BSC,COM,31,MAJ,I
+BF1913,General Theater,UGRD,BFATH,FAR,87,MAJ,A
+BF1933,Art,UGRD,BFAA,FAR,53,MAJ,I
+BF5123,Art History,UGRD,BFA,FAR,53,MAJ,I
+BF5124,Painting,UGRD,BFA,FAR,53,MAJ,I
+BF5125,Art Pre-Major,UGRD,BFA,FAR,53,MAJ,I
+BF5144,Art Therapy,UGRD,BFA,FAR,53,MAJ,I
+BF8526,Art,UGRD,BFA,FAR,53,MAJ,I
+BF8574,Speech & Hearing Therapy,UGRD,BFA,FAR,53,MAJ,I
+BF8726,Industrial Design,UGRD,BFA,FAR,,MAJ,I
+ND6275,College Student Personnel,GRAD,,EHS,35,MAJ,I
+ND6841,Reading Education,GRAD,,EHS,34,MAJ,A
+ND6858,Adolescent/Young Adult License,GRAD,,EHS,34,MAJ,I
+ND6859,AYA Physical Science,GRAD,,EHS,34,MAJ,I
+ND6942,Individual Program of Study,GRAD,,GRAD,0,MAJ,A
+ND6947,Molecular/Cellular Biol,GRAD,,A&S,21,MAJ,A
+BJ8522,Journalism,UGRD,BSJ,COM,30,MAJ,I
+BM5112,Applied Music,UGRD,BMUS,FAR,51,MAJ,I
+BM5119,Music Therapy-Education,UGRD,BMUS,FAR,51,MAJ,I
+BS1222,Baccalaureate Nursing,UGRD,BSN,HSP,32,MAJ,A
+BS1937,Neuroscience,UGRD,BSNEURO,A&S,21,MAJ,A
+BS1948,Geological Sciences,UGRD,BSGS,A&S,10,MAJ,A
+BS2113,PBIO Environmental Biology,UGRD,BS,A&S,5,MAJ,I
+ND8132,Foundation of Teach/Coaching,GRAD,,HSP,39,MAJ,I
+ND8136,Sport Physiology & Adult Fitne,GRAD,,HSP,81,MAJ,I
+ND8137,Community Health/Promotion,GRAD,,HSP,80,MAJ,I
+ND8146,Health Admin/MBA,GRAD,,HSP,80,MAJ,I
+ND8503,Mathematics,GRAD,,EHS,34,MAJ,A
+ND8760,INCO-Speech Education,GRAD,,COM,29,MAJ,I
+ND8773,Theater: General,GRAD,,FAR,50,MAJ,I
+PH0209,Individual Prog of Study-HSP,GRAD,PHD,HSP,0,MAJ,I
+PH0409,Individual Prog of Study-A&S,GRAD,PHD,A&S,0,MAJ,I
+PH0411,Microbiology,GRAD,PHD,A&S,21,MAJ,I
+BS2140,Zool Pre-Medicine,UGRD,BS,A&S,21,MAJ,I
+BS2511,Zool Animal Behavior,UGRD,BS,A&S,21,MAJ,I
+BS2520,Bios/Cell & Molecular Biology,UGRD,BS,A&S,21,MAJ,A
+BS3316,Chemistry/Biochem,UGRD,BS,A&S,6,MAJ,A
+BS4231,Geography,UGRD,BS,A&S,9,MAJ,A
+BS4234,Geog Urban Regional Planning,UGRD,BS,A&S,9,MAJ,A
+BS4236,Geog Cartography,UGRD,BS,A&S,9,MAJ,I
+PH1009,Individual Prog of Study-FAR,GRAD,PHD,FAR,0,MAJ,I
+PH2018,Botany,GRAD,PHD,A&S,5,MAJ,I
+PH2111,Plant Biology,GRAD,PHD,A&S,5,MAJ,A
+PH4103,Experimental Psychology,GRAD,PHD,A&S,18,MAJ,A
+PH5315,Media Arts and Studies,GRAD,PHD,COM,31,MAJ,I
+PH8616,Journalism,GRAD,PHD,COM,30,MAJ,I
+PH8761,Cross Cultural Communication,GRAD,PHD,COM,29,MAJ,I
+PH8860,Mass Communication-TCOM,GRAD,PHD,COM,31,MAJ,I
+MA0809,Individual Prog of Study-EHS,GRAD,MA,EHS,0,MAJ,I
+BS4238,Geography/Meteorology,UGRD,BS,A&S,9,MAJ,A
+BS4242,Geography - Urb Plan & Sustain,UGRD,BS,A&S,9,MAJ,A
+BS6179,Middle Child Lang Arts/Science,UGRD,BSED,EHS,34,MAJ,A
+BS6205,Earth Science-Chemistry,UGRD,BSED,EHS,34,MAJ,I
+BS6214,Social Studies Comprehensive,UGRD,BSED,EHS,34,MAJ,I
+BS6218,Multihandicapped,UGRD,BSED,EHS,34,MAJ,I
+BS6232,French,UGRD,BSED,EHS,34,MAJ,A
+BS6242,Music Ed -Choral Emphasis,UGRD,BSED,EHS,34,MAJ,I
+BS6252,Bio-Phyics,UGRD,BSED,EHS,34,MAJ,I
+BS6253,Bio-General Science,UGRD,BSED,EHS,34,MAJ,I
+BS6254,Bio-Earth Science,UGRD,BSED,EHS,34,MAJ,I
+BS6258,Earth Science,UGRD,BSED,EHS,34,MAJ,I
+BS6259,Physics,UGRD,BSED,EHS,34,MAJ,I
+BS6291,Home Econ Educ & Extension,UGRD,BSHEC,HSP,36,MAJ,I
+BS6292,"Housing, Furniture & Mgt.",UGRD,BSHEC,HSP,36,MAJ,I
+BS6303,Math,UGRD,BSED,EHS,34,MAJ,I
+ME6209,Secondary Education,GRAD,MED,EHS,34,MAJ,I
+ME6211,Special Education,GRAD,MED,EHS,34,MAJ,I
+ME6237,Moderate-Intensive Educ Needs,GRAD,MED,EHS,34,MAJ,A
+ME6296,CMH/Rehabilitation Counseling,GRAD,MED,EHS,35,MAJ,I
+ME6318,Moderate-Intensive/Early Child,GRAD,MED,EHS,34,MAJ,I
+ME6319,Mild-Mod/Mod-Int,GRAD,MED,EHS,34,MAJ,I
+ME6395,Physical Science - Phys & Chem,GRAD,MED,EHS,34,MAJ,A
+ME6839,Middle Child Education,GRAD,MED,EHS,34,MAJ,A
+ME6840,Elem School Supervision,GRAD,MED,EHS,34,MAJ,I
+ME6842,Middle School Education,GRAD,MED,EHS,34,MAJ,I
+ME6858,Adolescent/Young Adult License,GRAD,MED,EHS,34,MAJ,I
+AA8715,Child Development,UGRD,AA,UNC,58,MAJ,I
+BS6311,Music Education,UGRD,BSED,EHS,34,MAJ,I
+BS6312,Physical Education,UGRD,BSED,EHS,34,MAJ,I
+BS6354,Special Education Early Chld,UGRD,BSHEC,HSP,36,MAJ,I
+BS6372,Job Training -Child Care Serv,UGRD,BSHEC,HSP,36,MAJ,I
+BS6391,Training in Food Service,UGRD,BS,HSP,36,MAJ,I
+BS6394,Early Child Intervention Spec,UGRD,BSED,EHS,34,MAJ,I
+BS6396,Physical Science - Physics,UGRD,BSED,EHS,34,MAJ,A
+BS6407,HEC Interior Design,UGRD,BS,HSP,36,MAJ,I
+BS6412,Dietetics,UGRD,BS,HSP,36,MAJ,I
+BS6417,Customer Service,UGRD,BAHCS,EHS,83,MAJ,A
+BS6451,Family Study,UGRD,BSHEC,HSP,80,MAJ,I
+AS1104,Associate in Science,UGRD,AS,UNC,58,MAJ,A
+BA1908,Political Science,UGRD,AB-POL,A&S,11,MAJ,A
+BA1910,Economics,UGRD,AB-ECON,A&S,26,MAJ,I
+BA1918,Communication Studies,UGRD,ABCOMS,COM,29,MAJ,I
+BA1928,Zoology,UGRD,AB,A&S,21,MAJ,I
+BA1935,Art History,UGRD,BAARTH,FAR,53,MAJ,A
+BA2134,Zool Environmental Biology,UGRD,AB,A&S,21,MAJ,I
+BA2509,Bios Environmental Biology,UGRD,AB,A&S,21,MAJ,I
+BS6954,Information Graphics,UGRD,BSVC,COM,53,MAJ,I
+BS7253,Electrical Engineering,UGRD,BSEE,ENT,44,MAJ,A
+BS7264,Chemical Engr-Energy&Env Track,UGRD,BSCHE,ENT,42,MAJ,A
+BS8106,Physical Education,UGRD,BSPE,EHS,82,MAJ,A
+BS8117,Athletic Training,UGRD,BSAT,HSP,81,MAJ,A
+BS8125,Youth and Sports,UGRD,BSSPS,HSP,39,MAJ,I
+BS8156,Outdoor Recreation & Education,UGRD,BSRS,EHS,82,MAJ,A
+BS8167,Sport Management,UGRD,BSM,COB,84,MAJ,A
+BS8169,Phys Activity & Sport Coaching,UGRD,BSPE,EHS,82,MAJ,A
+BS8880,Outdoor Recreation & Education,UGRD,BSRS,EHS,82,MAJ,I
+BA2513,Zool Entomology,UGRD,AB,A&S,21,MAJ,I
+BA3102,Math Prep. for Advanced Tng.,UGRD,BA,A&S,15,MAJ,I
+BA3104,Math Pre-Meteorology,UGRD,BA,A&S,15,MAJ,I
+BA3105,Math Prep. for Actuarial Sci,UGRD,BA,A&S,15,MAJ,I
+BA3333,Applied Physics,UGRD,AB,A&S,22,MAJ,I
+BA3337,Engineering Physics,UGRD,AB,A&S,22,MAJ,I
+BA4203,Political Sci Pre-Law,UGRD,BA,A&S,11,MAJ,A
+BA4251,Sociology,UGRD,BA,A&S,20,MAJ,A
+BA4406,Global Studies - Asia,UGRD,BA,INST,3,MAJ,A
+CNEEIC,Interpersonal Comm for Elem Ed,UGRD,,,,CON,A
+CNEESC,Science for Elem Education,UGRD,,,,CON,A
+CNEESI,Swahili for Elem Education,UGRD,,,,CON,A
+ND0611,Pre-Business COB,UGRD,,COB,0,MAJ,A
+ND0810,Undecided Education,UGRD,,EHS,0,MAJ,A
+ND1201,Undecided,UGRD,,UNC,58,MAJ,A
+ND1211,Individual Program of Study,UGRD,,UNC,0,MAJ,A
+ND1212,Specialized Studies,UGRD,,UNC,58,MAJ,I
+ND1223,Pre-Bach Nursing,UGRD,,HSP,32,MAJ,A
+ND2506,Bios Pre-Pharmacy,UGRD,,A&S,21,MAJ,I
+BB6149,Business Administration,UGRD,BBA,COB,25,MAJ,A
+BB8705,Management-Manpower Track,UGRD,BBA,COB,,MAJ,I
+BB8784,Management,UGRD,BBA,COB,25,MAJ,I
+BC5303,INCO-General Speech W/Cert.,UGRD,BSC,COM,29,MAJ,I
+BC5311,Media Studies,UGRD,BSC,COM,31,MAJ,A
+BC5343,COMS-Political Communication,UGRD,BSC,COM,29,MAJ,I
+BC5347,COMS-Organization Comm.,UGRD,BSC,COM,29,MAJ,I
+BC5372,MDIA - Screenwriting & Prod,UGRD,BSC,COM,31,MAJ,A
+BA5230,English Literature & Writing,UGRD,BA,A&S,8,MAJ,A
+ND5153,General Art,UGRD,,FAR,53,MAJ,A
+ND5508,Pre-Assoc. in Individ. Studies,UGRD,,UNC,58,MAJ,A
+ND6383,Interior Architecture,UGRD,,FAR,53,MAJ,I
+ND8127,Athletic Training/Health Educ,UGRD,,HSP,81,MAJ,I
+ND8840,Pre Sport Management,UGRD,,COB,84,MAJ,A
+ND9810,A&S-Exchange,UGRD,,A&S,0,MAJ,A
+ND9815,FAR-Exchange,UGRD,,FAR,0,MAJ,A
+ND9816,UNC-Exchange,UGRD,,UNC,58,MAJ,A
+ND9817,HSP-Exchange,UGRD,,HSP,0,MAJ,A
+ND9915,EDU-Nondegree,UGRD,,EHS,0,MAJ,A
+ND9917,FAR-Nondegree,UGRD,,FAR,0,MAJ,A
+ND9919,HSP-Nondegree,UGRD,,HSP,0,MAJ,A
+ND9950,Summer Only,UGRD,,UNC,58,MAJ,A
+NDCOM,COM-Nondegree for Minors,UGRD,NONDEGRE,COM,0,MAJ,A
+NDHSP,HSP-Nondegree for Minors,UGRD,NONDEGRE,HSP,0,MAJ,A
+NDHTC,HTC-Nondegree for Minors,UGRD,NONDEGRE,HTC,0,MAJ,A
+NDRHE,RHE-Nondegree for Minors,UGRD,NONDEGRE,RHE,0,MAJ,A
+BA6393,Community Home Service,UGRD,AB,HSP,36,MAJ,I
+BA6414,Fashion Retail Merchandising,UGRD,AB,HSP,36,MAJ,I
+BA6601,Social Work,UGRD,BA,HSP,80,MAJ,A
+BA6934,Journalism Newswriting/Edit,UGRD,BA,COM,30,MAJ,I
+BA6936,Journalism Broadcast News,UGRD,BA,COM,30,MAJ,I
+BA8608,Cutler Program,UGRD,AB,UNC,58,MAJ,I
+BA8639,Southeast Asia Studies,UGRD,AB,INST,,MAJ,I
+BA8808,INCO-Comm. in Human Services,UGRD,BA,COM,29,MAJ,I
+BA8817,Interpersonal Communication,UGRD,BA,COM,29,MAJ,I
+CTGLOU,Global Learning Community,UGRD,,COM,,CRT,I
+CTWSTV,Women's Studies,UGRD,,A&S,,CRT,I
+OR7257,Mechanical Engineering,UGRD,,ENT,48,MIN,I
+OR8891,Retail Merchandising,UGRD,,HSP,,MIN,I
+ORDART,Dramatic Arts,UGRD,,,,MIN,I
+ORDIET,Dietetics and Comm Nutrition,UGRD,,,,MIN,I
+ORJOUR,Journalism,UGRD,,,,MIN,I
+ORSOPS,Social Psychology,UGRD,,,,MIN,I
+ORTCOM,Media Arts & Studies,UGRD,,COM,,MIN,I
+SF6202,Bookkeeping,UGRD,,EHS,34,SEC,I
+SFSEEC,Economics,UGRD,,,,SEC,I
+SFSEJM,Journalism,UGRD,,,,SEC,I
+CTSAFS,Sales with Fin Svcs Focus,UGRD,,COB,,CRT,I
+CTSASM,Sales Spec in Media Sales,UGRD,,COB,,CRT,I
+CTENTR,Entrepreneurship,UGRD,,COB,25,CRT,A
+OR5151,Dance,UGRD,,FAR,87,MIN,A
+ORDNCH,Dance: History and Theory,UGRD,,FAR,87,MIN,A
+ORTHAR,Theater,UGRD,,FAR,87,MIN,A
+ORARTM,Art,UGRD,,FAR,53,MIN,A
+CTSOME,Social Media,UGRD,,COM,75,CRT,A
+CTASIA,Asian Studies,UGRD,,INST,3,CRT,A
+CTTECH,Technology and Society,UGRD,,A&S,26,CRT,A
+AA1114,Arts and Humanities Emphasis,UGRD,AA,UNC,58,MAJ,A
+AA2342,Associate in Nursing,UGRD,AAS,HSP,60,MAJ,A
+AA5015,Office Management Tech,UGRD,AAB,RHE,59,MAJ,I
+AA5201,Human Services Tech,UGRD,AAS,RHE,59,MAJ,A
+AA5318,Electronic Technology,UGRD,AAS,RHE,60,MAJ,I
+AA5505,Law Enforcement Tech,UGRD,AAS,RHE,59,MAJ,A
+AA5801,Associate in Nursing,UGRD,AAS,RHE,60,MAJ,I
+AA7268,Aviation Flight Technology,UGRD,AAS,ENT,41,MAJ,A
+BS8514,Home Economics Education,UGRD,BSHEC,HSP,36,MAJ,I
+BS8517,English Composition,UGRD,BSED,EHS,34,MAJ,I
+BS8559,Human Nutrition & Food Service,UGRD,BSHEC,EHS,34,MAJ,I
+BS8561,Industrial Arts,UGRD,BSED,EHS,34,MAJ,I
+BS8563,Interpersonal Communication,UGRD,BSED,EHS,34,MAJ,I
+BS8610,School Nurse,UGRD,BSED,EHS,34,MAJ,I
+BS8646,Athletic Training/Health Educ,UGRD,BSH,HSP,39,MAJ,I
+MA5323,Speech-Language Pathology,GRAD,MAHSLS,HSP,79,MAJ,I
+MA5331,Rhetorical Criticism,GRAD,MA,COM,29,MAJ,I
+MA5362,COMS--Relating and Organizing,GRAD,MA,COM,29,MAJ,A
+MA8723,Audiology,GRAD,MA,HSP,,MAJ,I
+MA8769,Speech Pathology,GRAD,MA,HSP,28,MAJ,I
+MB6123,General Business,GRAD,MBA,COB,25,MAJ,A
+MB6143,MBA Brazil,GRAD,MBA,COB,25,MAJ,I
+MB6144,MBA China,GRAD,MBA,COB,25,MAJ,I
+BS8680,"Consumer Homemaking, Coop Ext",UGRD,BSHEC,HSP,,MAJ,I
+BS8744,Social Studies Comprehensive,UGRD,BSED,EHS,34,MAJ,I
+BS8758,Airway Science,UGRD,BSAS,ENT,41,MAJ,I
+BS8763,Music Education,UGRD,BSED,EHS,,MAJ,I
+BS8765,Speech,UGRD,BSED,EHS,34,MAJ,I
+BS8807,Recreation Management,UGRD,BSED,EHS,,MAJ,I
+MB6172,PMBA-Accounting Concentration,GRAD,MBA,COB,25,MAJ,A
+MB8717,Acct and Quantitative Methods,GRAD,MBA,COB,25,MAJ,I
+MF5173,Painting,GRAD,MFA,FAR,53,MAJ,I
+MF5174,Printmaking,GRAD,MFA,FAR,53,MAJ,A
+MF5176,Graphic Design,GRAD,MFA,FAR,53,MAJ,A
+MF5377,Communication Media Arts,GRAD,MFA,COM,75,MAJ,A
+MF6942,Individual Program of Study,GRAD,MFA,FAR,0,MAJ,I
+MH8137,Community Health/Promotion,GRAD,MHA,HSP,80,MAJ,I
+MH8603,Individual Prog of Study - HHS,GRAD,MHSA,HSP,0,MAJ,I
+ML5243,Liberal Studies,GRAD,MLS,A&S,17,MAJ,I
+MM5189,Music--Performance and Accomp,GRAD,MM,FAR,51,MAJ,I
+MM5190,Music Education,GRAD,MM,FAR,51,MAJ,A
+MS1224,Family Nurse Practitioner,GRAD,MSN,HSP,32,MAJ,A
+MS1225,Nurse Educator,GRAD,MSN,HSP,32,MAJ,A
+MS1231,Acute Nrse Pract & Nrse Ed,GRAD,MSN,HSP,32,MAJ,I
+MS2517,Biological Sciences,GRAD,MS,A&S,21,MAJ,A
+MS4104,Clinical Psychology,GRAD,MS,A&S,18,MAJ,A
+MS5345,Journalism,GRAD,MS,COM,30,MAJ,I
+MS6121,Accounting,GRAD,MSAC,COB,23,MAJ,I
+ME6868,AYA Integrated Social Studies,GRAD,MED,EHS,34,MAJ,A
+ND3111,Mathematics,GRAD,,A&S,15,MAJ,A
+ND4206,African Studies,GRAD,,INST,3,MAJ,A
+ND4208,Southeast Asia Studies,GRAD,,INST,3,MAJ,I
+ND4209,Development Studies,GRAD,,INST,3,MAJ,A
+ND5133,Children Drama,GRAD,,FAR,50,MAJ,I
+ND5159,Production Design,GRAD,,FAR,50,MAJ,I
+ND5174,Printmaking,GRAD,,FAR,53,MAJ,A
+ND5175,Sculpture,GRAD,,FAR,53,MAJ,A
+ME8503,Mathematics,GRAD,MED,EHS,34,MAJ,I
+ME8538,Elem. Principalship,GRAD,MED,REG,35,MAJ,I
+ME8671,Elementary School Admin,GRAD,MED,REG,35,MAJ,I
+MS6359,Hospitality and Tourism,GRAD,MSHCS,EHS,83,MAJ,A
+MS8141,Coaching Education,GRAD,MSRSS,EHS,82,MAJ,A
+PH6269,Curriculum and Instruction,GRAD,PHD,EHS,34,MAJ,A
+ND9990,K-12 Educ Public Policy Leader,GRAD,,EHS,74,MAJ,A
+ND8503,Mathematics,GRAD,,EHS,34,MAJ,I
+ND9989,"Gender, Sexualities & Health",GRAD,,A&S,77,MAJ,A
+CTFING,Finance,GRAD,,COB,25,CRT,A
+CTOAMG,Operations & Supply Chain Mgt,GRAD,,COB,25,CRT,A
+BF5200,Acting - Musical Theater,UGRD,BFA,FAR,87,MAJ,A
+CNEEHT,History for Elem Education,UGRD,,,,CON,I
+CNEEIC,Interpersonal Comm for Elem Ed,UGRD,,,,CON,I
+CNEEPS,Political Science for Elem Ed,UGRD,,,,CON,I
+CNEESC,Science for Elem Education,UGRD,,,,CON,I
+ND6164,Master of Accountancy,GRAD,,COB,23,MAJ,I
+CTESLG,Experimental Study of Language,GRAD,,HSP,79,CRT,A
+ND9850,Healthcare Leadership,GRAD,,HSP,90,MAJ,A
+MS6100,MS in Management,GRAD,MSMGT,COB,25,MAJ,A
+BF5048,Theater Performance - Acting,UGRD,BFA,FAR,87,MAJ,A
+ND6340,HSP-Und/integrated HC Studies,UGRD,,HSP,90,MAJ,A
+MS6327,Professional Tennis Management,GRAD,MSRSS,EHS,82,MAJ,A
+MS6607,Social Work,GRAD,MSW,HSP,19,MAJ,A
+BS8176,Outdoor Recreation & Education,UGRD,BSPRLS,EHS,82,MAJ,A
+ND4243,GIS: Geospat Analysis & Prog,GRAD,,A&S,9,MAJ,A
+BF5048,Theater Performance - Acting,UGRD,BFA,FAR,50,MAJ,A
+MA5056,Arts Administration,GRAD,MA,FAR,53,MAJ,A
+ND9856,Accounting -GRADN,GRAD,,COB,23,MAJ,A
+MS8181,Exercise Physiology Human Perf,GRAD,MS,HSP,81,MAJ,A
+AA8707,Assoc RTV Performance Prod,UGRD,AAS,UNC,58,MAJ,I
+BB6137,Analytics and Information Syst,UGRD,BBA,COB,67,MAJ,A
+CTDACG,Data Analysis,GRAD,CERTG,A&S,65,CRT,A
+CTDIAG,Diabetes,GRAD,CERTG,HSP,81,CRT,A
+CTLAMG,Latin American Studies,GRAD,CERTG,INST,3,CRT,A
+CTMUSG,Performance,GRAD,CERTG,FAR,51,CRT,A
+CTNEDG,Post-Masters Nurse Educator,GRAD,CERTG,HSP,32,CRT,A
+BS6228,Early Childhood,UGRD,BSED,EHS,34,MAJ,A
+CTFPCU,Financial Programming Cert,UGRD,,COB,24,CRT,A
+CTMSPR,Media for STEM Professionals,GRAD,CERTG,COM,75,CRT,A
+CTGISG,Geographic Information Science,GRAD,,A&S,9,CRT,A
+CTEDSP,Educational Specialist,GRAD,,EHS,86,CRT,I
+CTAFRG,African Studies,GRAD,,INST,3,CRT,A
+CTHCLG,Healthcare Leadership,GRAD,,HSP,90,CRT,A
+CTCING,Clinical Informatics,GRAD,,HSP,90,CRT,A
+CTGISA,GIS: Geospat Analysis & Prog,GRAD,,A&S,9,CRT,A
+DP8150,Physical Therapy,GRAD,DPT,HSP,79,MAJ,I
+MA0909,Individual Prog of Study-ENT,GRAD,MA,ENT,0,MAJ,I
+MA4211,History,GRAD,MA,A&S,12,MAJ,I
+MS6351,Family Studies,GRAD,MSHCS,HSP,80,MAJ,I
+MS6416,Food and Nutrition,GRAD,MSHCS,HSP,81,MAJ,I
+MS7271,Civil Engineering,GRAD,MS,ENT,43,MAJ,A
+MS8111,Physiology of Exercise,GRAD,MSPEX,HSP,81,MAJ,A
+MS8600,Home Economics,GRAD,MS,HSP,36,MAJ,I
+MS8612,Human Dev. & Family Ecology,GRAD,MS,COM,29,MAJ,I
+MS8672,Human Nutrition & Food Science,GRAD,MSHEC,HSP,36,MAJ,I
+PH6277,Ed Research and Evaluation,GRAD,PHD,EHS,74,MAJ,A
+PH6843,Secondary School Supervision,GRAD,PHD,EHS,34,MAJ,I
+PH6856,Science Education,GRAD,PHD,EHS,34,MAJ,A
+PH6944,General Education,GRAD,PHD,EHS,0,MAJ,I
+CTJWST,Jewish Studies,UGRD,,A&S,12,CRT,A
+OR3101,Mathematics,UGRD,,A&S,15,MIN,A
+OR4233,Geography/Meteorology,UGRD,,A&S,9,MIN,A
+OR5224,Russian,UGRD,,A&S,16,MIN,A
+OR5231,English,UGRD,,A&S,8,MIN,A
+OR5241,Philosophy,UGRD,,A&S,17,MIN,A
+ORIART,Interdisciplinary Arts,UGRD,,FAR,55,MIN,A
+ND5183,Music History & Literature,GRAD,,FAR,51,MAJ,I
+ND5192,Interdisciplinary Arts,GRAD,,FAR,55,MAJ,I
+ND5226,Modern Language,GRAD,,A&S,16,MAJ,I
+ND5307,Mass Comm-Media Arts & Studies,GRAD,,COM,31,MAJ,A
+ND5328,Communication Tech & Policy,GRAD,,COM,70,MAJ,I
+ND5330,COMS-Comm. Theory & Process,GRAD,,COM,29,MAJ,I
+ND6134,Executive MBA Program,GRAD,,COB,25,MAJ,I
+ND6146,Professional MBA Program,GRAD,,COB,25,MAJ,I
+ND6245,Math Education,GRAD,,EHS,34,MAJ,A
+ND6248,Early Chldspec,GRAD,,EHS,34,MAJ,I
+ND6249,Special Ed/Non Certification,GRAD,,EHS,34,MAJ,A
+BC8857,TCOM-Audio/Post Production,UGRD,BSC,COM,31,MAJ,I
+BF1011,Dual Emphasis,UGRD,BFA,FAR,0,MAJ,I
+BF5051,Studio Art,UGRD,BFA,FAR,53,MAJ,A
+BF5118,Studio Arts,UGRD,BFA,FAR,53,MAJ,I
+BF5127,Ceramics,UGRD,BFA,FAR,53,MAJ,I
+BF5162,Production Design,UGRD,BFA,FAR,50,MAJ,A
+BF5166,Theater Arts/Drama-Dramaturgy,UGRD,BFA,FAR,50,MAJ,I
+BF8596,Theater,UGRD,BFA,FAR,50,MAJ,I
+BF8626,Theater Comp,UGRD,BFA,FAR,50,MAJ,I
+BF8637,Theater,UGRD,BFA,FAR,,MAJ,I
+BF8724,Children'S Theater,UGRD,BFA,FAR,50,MAJ,I
+ND6299,School Rehabilitation,GRAD,,EHS,35,MAJ,I
+ND6318,Moderate-Intensive/Early Child,GRAD,,EHS,34,MAJ,I
+ND6320,Mild-Moderate/Early Child,GRAD,,EHS,34,MAJ,I
+ND6401,Home Economics,GRAD,,HSP,36,MAJ,I
+ND6460,Child Development & Fam Life,GRAD,,HSP,80,MAJ,I
+ND6836,Long Term Hlth Care Admin,GRAD,,HSP,80,MAJ,I
+ND6847,Elementary Education,GRAD,,EHS,34,MAJ,I
+ND6856,Science Education,GRAD,,EHS,34,MAJ,A
+ND6862,AYA Earth/Space Science,GRAD,,EHS,34,MAJ,I
+ND6990,HSP-Undecided Grd,GRAD,,GRAD,0,MAJ,A
+BG1102,General Studies,UGRD,BGS,UNC,58,MAJ,I
+BJ6932,Journalism Advertising,UGRD,BSJ,COM,30,MAJ,A
+BJ8866,Journalism Advertising Mgt,UGRD,BSJ,COM,30,MAJ,I
+BM5101,Voice,UGRD,BMUS,FAR,51,MAJ,A
+BM5102,Organ,UGRD,BMUS,FAR,51,MAJ,A
+BM5107,Music Edu Instrumental Emph,UGRD,BMUS,FAR,51,MAJ,A
+BM5115,Music Therapy,UGRD,BMUS,FAR,51,MAJ,A
+BS1901,Environmental & Plant Biology,UGRD,BSEPB,A&S,5,MAJ,A
+BS1919,"Hearing, Speech, Language Sci",UGRD,BSHSLS,HSP,28,MAJ,A
+ND7255,Industrial & Systems Engineer,GRAD,,ENT,46,MAJ,A
+ND8112,Sports Administration,GRAD,,COB,84,MAJ,A
+ND8131,Athletic Administration,GRAD,,COB,84,MAJ,I
+ND8143,Athletic Administration,GRAD,,HSP,84,MAJ,I
+ND8166,Grad African Hum Studies Cert,GRAD,,INST,3,MAJ,A
+ND8870,Integrated Engineering,GRAD,,ENT,45,MAJ,A
+ND9921,Comp Assist Lang Learning,GRAD,,A&S,13,MAJ,A
+ND9985,GIS: Geospat Analysis & Prog,GRAD,,A&S,9,MAJ,A
+ND9993,Engineering Management,GRAD,,ENT,46,MAJ,A
+BS2120,Environmental & Plant Bio,UGRD,BS,A&S,5,MAJ,A
+BS2125,Biological Sci-Neurobiology,UGRD,BS,A&S,21,MAJ,I
+BS2126,"Bios-Marine,Freshwater,&Enviro",UGRD,BS,A&S,21,MAJ,A
+BS2136,Zool Medical Technology,UGRD,BS,A&S,21,MAJ,I
+BS2522,Bios Wildlife and Conservation,UGRD,BS,A&S,21,MAJ,A
+BS3308,Industrial Hygiene,UGRD,BS,HSP,39,MAJ,I
+BS3310,Forensic Chemistry,UGRD,BS,A&S,6,MAJ,A
+BS3313,Chem Pre-Pharmacy,UGRD,BS,A&S,6,MAJ,A
+PH2132,Zoology,GRAD,PHD,A&S,21,MAJ,I
+PH2521,Bios Plant Biology,GRAD,PHD,A&S,5,MAJ,I
+PH3101,Mathematics,GRAD,PHD,A&S,15,MAJ,A
+PH4106,Indust/Organiz Psychology,GRAD,PHD,A&S,18,MAJ,A
+PH5191,Comparative Art,GRAD,PHD,FAR,55,MAJ,I
+PH5192,Interdisciplinary Arts,GRAD,PHD,FAR,55,MAJ,A
+PH5307,Mass Comm-Media Arts & Studies,GRAD,PHD,COM,31,MAJ,A
+PH5324,Speech-Language Science,GRAD,PHD,HSP,79,MAJ,A
+PH5337,COMS--Comm. Comprehensive,GRAD,PHD,COM,29,MAJ,I
+PH6943,Indiv Program of Study-FAR,GRAD,PHD,FAR,0,MAJ,I
+PH6946,Molecular and Cellular Biology,GRAD,PHD,A&S,6,MAJ,A
+PH7251,Chemical Engineering,GRAD,PHD,ENT,42,MAJ,A
+PH8544,Family Living,GRAD,PHD,HSP,36,MAJ,I
+PH8759,INCO-Rhetoric & Public Address,GRAD,PHD,COM,29,MAJ,I
+BS6178,Middle Child Lang/Soc Stu,UGRD,BSED,EHS,34,MAJ,A
+BS6200,Comprehensive Business Edu,UGRD,BSED,EHS,34,MAJ,I
+BS6201,Art Education,UGRD,BSED,EHS,34,MAJ,I
+BS6203,English,UGRD,BSED,EHS,34,MAJ,I
+BS6288,General Speech-INCO Emphasis,UGRD,BSED,EHS,34,MAJ,I
+ME6222,Microcomputers in Education,GRAD,MED,EHS,74,MAJ,I
+ME6226,Cultural Studies,GRAD,MED,EHS,74,MAJ,A
+ME6247,Severe Behavioral Handicapped,GRAD,MED,EHS,34,MAJ,I
+ME6397,Physical Science - Chemistry,GRAD,MED,EHS,34,MAJ,A
+ME6503,Media Design/Dev/Prod,GRAD,MED,EHS,34,MAJ,I
+ME6841,Reading Education,GRAD,MED,EHS,34,MAJ,A
+ME6843,Secondary School Supervision,GRAD,MED,EHS,34,MAJ,I
+ME6861,AYA Life Science,GRAD,MED,EHS,34,MAJ,A
+ME6862,AYA Earth/Space Science,GRAD,MED,EHS,34,MAJ,A
+ME6863,French Education,GRAD,MED,EHS,34,MAJ,I
+BS6357,Integrated Healthcare Studies,UGRD,BSIHS,HSP,90,MAJ,A
+BS6360,Applied Nutrition,UGRD,BSHCS,HSP,81,MAJ,A
+BS6380,Retail Merch & Fash Prod Dev,UGRD,BSHCS,EHS,83,MAJ,A
+BS6395,Physical Science - Phys & Chem,UGRD,BSED,EHS,34,MAJ,A
+BS6414,Fashion Retail Merchandising,UGRD,BS,HSP,36,MAJ,I
+BS6472,Nutrition,UGRD,BSFNS,HSP,81,MAJ,A
+BS6500,Education Media Certification,UGRD,BSED,EHS,34,MAJ,I
+BS6605,Social Work,UGRD,BSW,HSP,19,MAJ,A
+BS6837,Health Education,UGRD,BSH,HSP,80,MAJ,I
+BS6852,Math/Science,UGRD,BSED,EHS,34,MAJ,I
+AA8898,Child Development,UGRD,AAS,HSP,36,MAJ,I
+BA1915,Spanish,UGRD,AB-SPAN,A&S,16,MAJ,A
+BA2135,Zool Marine Biology,UGRD,AB,A&S,21,MAJ,I
+BA2137,Zool Nutrition,UGRD,AB,A&S,21,MAJ,I
+BA2138,Zool Pre-Dentistry,UGRD,AB,A&S,21,MAJ,I
+BA2143,Zool Pre-Physical Therapy,UGRD,AB,A&S,21,MAJ,I
+BA2511,Zool Animal Behavior,UGRD,AB,A&S,21,MAJ,I
+BS6854,Early Childhood,UGRD,BSED,EHS,34,MAJ,A
+BS6952,Photo Communication,UGRD,BSVC,COM,53,MAJ,I
+BS7251,Chemical Engineering,UGRD,BSCHE,ENT,42,MAJ,A
+BS7258,Aviation,UGRD,BSA,ENT,41,MAJ,A
+BS7274,Energy Engineering,UGRD,BSENENG,ENT,48,MAJ,A
+BS8102,P E Elementary,UGRD,BSPE,HSP,39,MAJ,I
+BS8103,P E Secondary,UGRD,BSPE,HSP,39,MAJ,I
+BS8116,Physical Therapy,UGRD,BSPT,HSP,79,MAJ,I
+BS8208,Physical Education Elem-Sec,UGRD,BSED,EHS,34,MAJ,I
+BS8502,Sport Sciences General,UGRD,BSPE,HSP,39,MAJ,I
+BS8881,Recreation Management,UGRD,BSRS,EHS,82,MAJ,I
+BA2512,Zool Analysis,UGRD,AB,A&S,21,MAJ,I
+BA2514,Bios Marine Biology,UGRD,BA,A&S,21,MAJ,I
+BA3336,Phys Pre-Meteorology,UGRD,AB,A&S,22,MAJ,I
+BA4205,International Studies,UGRD,AB,INST,3,MAJ,I
+BA4234,Geog Urban Regional Planning,UGRD,BA,A&S,9,MAJ,I
+BA4253,Soc Criminology,UGRD,BA,A&S,20,MAJ,A
+BA5193,Art,UGRD,BA,FAR,53,MAJ,A
+BB6125,Finance,UGRD,BBA,COB,24,MAJ,A
+BB6128,Quantitative Business Analys.,UGRD,BBA,COB,25,MAJ,I
+BS8884,Campus Recreation,UGRD,BSRS,HSP,39,MAJ,I
+BS8899,Sport Management,UGRD,BSSPS,COB,84,MAJ,I
+CNEEAN,Anthropology for Elem Ed,UGRD,,,,CON,A
+CNEEAR,Art for Elementary Education,UGRD,,,,CON,A
+CNEEIL,Italian for Elem Education,UGRD,,,,CON,A
+CNEESN,Spanish for Elem Education,UGRD,,,,CON,A
+ND0407,Undecided Sciences-A&S,UGRD,,A&S,0,MAJ,A
+ND0408,Undecided Social Sciences-A&S,UGRD,,A&S,0,MAJ,A
+ND0612,Pre-Business,UGRD,,UNC,58,MAJ,I
+ND0910,Undecided Engineering,UGRD,,ENT,0,MAJ,A
+ND1111,Assoc in Arts-Social Science,UGRD,,UNC,58,MAJ,I
+ND1202,Special Student,UGRD,,UNC,58,MAJ,A
+ND1220,Pre-Nursing,UGRD,,HSP,32,MAJ,A
+ND3313,Chem Pre-Pharmacy,UGRD,,A&S,6,MAJ,I
+ND5117,Music: Pre-Major,UGRD,,FAR,51,MAJ,A
+BB6131,Comp Systems in Business,UGRD,BBA,COB,25,MAJ,I
+BB8528,Business Administration,UGRD,BBA,COB,25,MAJ,I
+BB8569,Pers. & Industrial Relations,UGRD,BBA,COB,25,MAJ,I
+BB8770,Sm Business Entrepreneurship,UGRD,BBA,COB,25,MAJ,I
+BB8800,Marketing & General Business,UGRD,BBA,COB,27,MAJ,I
+BC5352,Audio-Media Production,UGRD,BSC,COM,31,MAJ,I
+BC5353,Audio-Music Production,UGRD,BSC,COM,31,MAJ,A
+BC5359,COMS-Health Communication,UGRD,BSC,COM,29,MAJ,I
+BC5370,MDIA - Games and Animation,UGRD,BSC,COM,31,MAJ,A
+BA5222,German,UGRD,BA,A&S,16,MAJ,A
+ND5152,Dance: Pre-Major,UGRD,,FAR,52,MAJ,I
+ND6900,Visual Com-FAR,UGRD,,FAR,53,MAJ,I
+ND8126,Athletic Training/Com Hlth Srv,UGRD,,HSP,81,MAJ,I
+ND8834,Pre Early Childhood,UGRD,,EHS,34,MAJ,I
+ND8839,Pre Exercise Physiology,UGRD,,HSP,81,MAJ,A
+ND9910,Associate Special,UGRD,,UNC,58,MAJ,I
+ND9912,A&S-Nondegree,UGRD,,A&S,0,MAJ,A
+ND9916,ENT-Nondegree,UGRD,,ENT,0,MAJ,A
+ND9952,Quarter Only,UGRD,,UNC,58,MAJ,I
+ND9956,High School Option B,UGRD,,UNC,58,MAJ,A
+ND9958,High School Summer Only,UGRD,,UNC,58,MAJ,A
+ND9960,High School Scholar,UGRD,,UNC,58,MAJ,A
+ND9962,Special Advising Status,UGRD,,UNC,58,MAJ,A
+NDAPSC,APSC-Nondegree for Minors,UGRD,NONDEGRE,REG,,MAJ,A
+NDUNC,UNC-Nondegree for Minors,UGRD,NONDEGRE,UNC,0,MAJ,A
+BA5341,COMS-Legal Communication,UGRD,BA,COM,29,MAJ,I
+BA6293,Textiles and Clothing,UGRD,AB,HSP,36,MAJ,I
+BA8525,Architecture,UGRD,BAARCH,REG,,MAJ,I
+BA8912,Inst/Latin America,UGRD,BA,INST,3,MAJ,I
+BB1926,Business Administration,UGRD,BBA,COB,25,MAJ,A
+BB6122,General Business,UGRD,BBA,COB,25,MAJ,A
+ENDDED,Endorsement in Driver Ed,UGRD,,,,END,I
+OR6321,Graphic Design,UGRD,,,,MIN,I
+OR6453,Diet & Community Nutrition,UGRD,,HSP,36,MIN,I
+ORBASB,Basic Business,UGRD,,,,MIN,I
+ORCART,Comparative Arts,UGRD,,FAR,,MIN,I
+OREDUC,Education,UGRD,,,,MIN,I
+ORHECO,Home Economics,UGRD,,,,MIN,I
+ORINCO,Interpersonal Communication,UGRD,,COM,,MIN,I
+ORSSCI,Social Science Science,UGRD,,,,MIN,I
+ORTELC,Telecommunications,UGRD,,COM,,MIN,I
+SF6500,Education Media Certification,UGRD,,EHS,34,SEC,I
+SFSECH,Chemistry,UGRD,,,,SEC,I
+VALAPE,Adapted Physical Education,UGRD,,,,VAL,I
+VALMID,Middle School,UGRD,,,,VAL,I
+BS8698,Civil Engineering,UGRD,BSCHE,ENT,,MAJ,I
+OR6380,Retail Merch & Fash Prod Dev,UGRD,,EHS,83,MIN,A
+CTSPNU,Sports Nutrition,UGRD,,HSP,81,CRT,A
+CTSCMU,Supply Chain Management,UGRD,,COB,25,CRT,A
+AA5006,Business Mgt Tech,UGRD,AAB,RHE,59,MAJ,A
+AA5016,Travel & Tourism Management,UGRD,AAS,RHE,59,MAJ,A
+AA5018,Environmental Engineering Tech,UGRD,AAS,RHE,60,MAJ,A
+AA5019,Medical Assisting Technology,UGRD,AAS,RHE,60,MAJ,A
+AA5803,Deaf Studies and Interpreting,UGRD,AAS,RHE,60,MAJ,I
+AA5804,Hazard Materials Technology,UGRD,AAS,RHE,60,MAJ,I
+AA5806,Business Mgt Tech,UGRD,AAB,RHE,59,MAJ,I
+AA8602,Industrial Technology,UGRD,AAS,RHE,60,MAJ,I
+AA8638,Medical Secretarial Tech,UGRD,AAB,RHE,,MAJ,I
+MA5227,French,GRAD,MA,A&S,16,MAJ,A
+MA5229,Spanish,GRAD,MA,A&S,16,MAJ,A
+MA5241,Philosophy,GRAD,MA,A&S,17,MAJ,A
+BS8529,Business Ed. Comp.,UGRD,BSED,EHS,34,MAJ,I
+BS8571,Physical Education & Health,UGRD,BSED,HSP,39,MAJ,I
+BS8581,Prep. Environmental Geography,UGRD,BS,A&S,9,MAJ,I
+BS8625,School Nurse,UGRD,BSH,HSP,32,MAJ,I
+BS8627,Modern Languages,UGRD,BSED,EHS,34,MAJ,I
+BS8641,Comprehensive Science,UGRD,BSED,EHS,,MAJ,I
+BS8645,Athletic Training/Com Hlth Srv,UGRD,BSH,HSP,39,MAJ,I
+BS8659,Child Development,UGRD,BSHEC,HSP,,MAJ,I
+BS8661,Home Economics Education,UGRD,BSHEC,HSP,,MAJ,I
+BS8673,Interior Design,UGRD,BSHEC,EHS,34,MAJ,I
+MA5316,Speech-Language Pathology,GRAD,MAHSLS,HSP,79,MAJ,I
+MA5344,Interpersonal Communication,GRAD,MA,COM,29,MAJ,I
+MA8611,Music Administration,GRAD,MA,FAR,51,MAJ,I
+MA8650,School Administration,GRAD,MA,EHS,,MAJ,I
+MA8704,American History,GRAD,MA,A&S,,MAJ,I
+MA8759,INCO-Rhetoric & Public Address,GRAD,MA,COM,29,MAJ,I
+MA8841,Speech Pathology,GRAD,MAHSLS,HSP,28,MAJ,I
+BS8708,Fash Ret Mer,UGRD,BSHCS,HSP,36,MAJ,I
+BS8709,Dietetics/Community Nutrition,UGRD,BSHCS,HSP,36,MAJ,I
+BS8728,English Education,UGRD,BSED,EHS,34,MAJ,I
+BS8777,African-American Studies,UGRD,BSAAS,A&S,4,MAJ,I
+BS8778,Black Studies,UGRD,BS,A&S,4,MAJ,I
+BS8780,Elem. Educ/Early Childhood,UGRD,BSED,EHS,34,MAJ,I
+BS8786,Phys Sci Comp W/ Chemistry Emp,UGRD,BSED,EHS,34,MAJ,I
+BS8792,Hearing & Speech,UGRD,BSHSS,HSP,28,MAJ,I
+MB8617,Quantitative Methods,GRAD,MBA,COB,25,MAJ,I
+MF5133,Children Drama,GRAD,MFA,FAR,50,MAJ,I
+MF5134,Production Design and Tech,GRAD,MFA,FAR,50,MAJ,I
+MF5147,Art History Studio,GRAD,MFA,FAR,53,MAJ,I
+MH6836,Long Term Hlth Care Admin,GRAD,MHA,HSP,80,MAJ,I
+MH8105,Community Health Services,GRAD,MHA,HSP,80,MAJ,I
+MM5181,Music Performance,GRAD,MM,FAR,51,MAJ,A
+MM8568,Music Perform-Piano Pedagogy,GRAD,MM,FAR,51,MAJ,I
+MM8624,Piano Pedagogy,GRAD,MM,FAR,51,MAJ,I
+MP4411,Executive MPA Program,GRAD,MPA,GVS,78,MAJ,A
+MS0409,Individual Prog of Study-A&S,GRAD,MS,A&S,0,MAJ,I
+MS0709,Individual Prog of Study-COM,GRAD,MS,COM,0,MAJ,I
+MS1214,Family Nurse Practitioner,GRAD,MSN,HSP,32,MAJ,A
+MS1219,Educator & Family Nurse Prac,GRAD,MSN,HSP,32,MAJ,A
+MS1228,Nurse Educator & Administrator,GRAD,MSN,HSP,32,MAJ,A
+MS1236,Adult-Ger Acute Care Nurse Pra,GRAD,MSN,HSP,32,MAJ,A
+MS2132,Zoology,GRAD,MS,A&S,21,MAJ,I
+MS3101,Mathematics,GRAD,MS,A&S,15,MAJ,A
+MS3111,Mathematics,GRAD,MS,A&S,15,MAJ,A
+MS3317,Chemistry,GRAD,MS,A&S,6,MAJ,A
+ME6870,Mid Child Lic Math & SS,GRAD,MED,EHS,34,MAJ,A
+MY6165,Master of Accountancy,GRAD,MACC,COB,23,MAJ,A
+ND0309,Individual Prog of Study-INT,GRAD,,INST,0,MAJ,I
+ND2018,Botany,GRAD,,A&S,5,MAJ,I
+ND2201,Social Science,GRAD,,A&S,0,MAJ,I
+ND4104,Clinical Psychology,GRAD,,A&S,18,MAJ,A
+ND4106,Indust/Organiz. Psychology,GRAD,,A&S,18,MAJ,A
+ND4210,Administrative Studies,GRAD,,INST,3,MAJ,I
+ND4216,Asian Studies,GRAD,,INST,3,MAJ,A
+ND5129,Theater History & Criticism,GRAD,,FAR,50,MAJ,I
+ND5130,Directing,GRAD,,FAR,50,MAJ,I
+ME8516,Elementary Guidance & Counsel,GRAD,MED,REG,35,MAJ,I
+ME8584,School Psychology,GRAD,MED,EHS,34,MAJ,I
+ME8731,Secondary Educ Administration,GRAD,MED,REG,35,MAJ,I
+ME8742,Mathematics Comprehensive,GRAD,MED,EHS,34,MAJ,I
+ME8861,Community/Agency Counsel,GRAD,MED,EHS,35,MAJ,I
+MS8135,Recreation Studies,GRAD,MSRSS,EHS,82,MAJ,A
+MS8163,Coaching Education--Soccer,GRAD,MSRSS,EHS,82,MAJ,A
+ND0820,Undecided Education,GRAD,,EHS,0,MAJ,A
+PH6209,Secondary Education,GRAD,PHD,EHS,34,MAJ,I
+PH6223,Supervision,GRAD,PHD,EHS,34,MAJ,I
+PH6240,Acclaim Mathematics Education,GRAD,PHD,EHS,34,MAJ,I
+PH6245,Math Education,GRAD,PHD,EHS,34,MAJ,A
+PH6268,Middle Child,GRAD,PHD,EHS,34,MAJ,I
+ND9988,Non-degree Nursing Early Start,UGRD,,HSP,32,MAJ,A
+EAATTG,Athletic Training,GRAD,MSAT,HSP,81,MAJ,A
+MS1239,Nurse Leader,GRAD,MSN,HSP,32,MAJ,A
+CNEEIL,Italian for Elem Education,UGRD,,,,CON,I
+CNEEMH,Math for Elementary Education,UGRD,,,,CON,I
+ND6163,Master of Accountancy,GRAD,,COB,23,MAJ,I
+CTVAMG,Visual Arts Management,GRAD,,FAR,53,CRT,A
+ND9851,Health Policy,GRAD,,HSP,80,MAJ,A
+ND9852,Clinical Informatics,GRAD,,HSP,90,MAJ,A
+ND9853,Veterans Health,GRAD,,HSP,90,MAJ,A
+BF5049,Theater Performance Musical Th,UGRD,BFA,FAR,87,MAJ,A
+OR6928,Advertising & Public Relations,UGRD,,COM,30,MIN,A
+NDAPSC,APSC-Nondegree for Minors,UGRD,NONDEGRE,REG,,MAJ,I
+CTTPMG,Theater & Production Mgt,GRAD,,FAR,50,CRT,A
+ND8151,Grad Gerontology Certificate,GRAD,,HSP,80,MAJ,I
+ND8158,Graduate Bioinformatics Certif,GRAD,,ENT,0,MAJ,I
+MS6604,Social Work,GRAD,MSW,HSP,19,MAJ,A
+ND6600,Social Work,GRAD,,HSP,19,MAJ,A
+ND6604,Social Work,GRAD,,HSP,19,MAJ,A
+ND1242,Undecided Intended Nursing,UGRD,,HSP,32,MAJ,A
+BF1913,General Theater,UGRD,BFATH,FAR,50,MAJ,A
+BF5200,Acting - Musical Theater,UGRD,BFA,FAR,50,MAJ,A
+OR5168,Stage Management,UGRD,,FAR,50,MIN,A
+ORDNCS,Dance: Somatic Studies,UGRD,,FAR,52,MIN,A
+ND9990,K-12 Educ Public Policy Leader,GRAD,,EHS,74,MAJ,I
+CTANPG,Post - Mast Adult Geron Acute,GRAD,CERTG,HSP,32,CRT,A
+CTELCG,Engineering Leadership,GRAD,CERTG,ENT,46,CRT,A
+CTEPCG,Epidemiology,GRAD,CERTG,HSP,80,CRT,A
+CTGERG,Gerontology,GRAD,CERTG,HSP,90,CRT,A
+CTGSHG,"Gender, Sexualities & Health",GRAD,CERTG,A&S,77,CRT,A
+CTHCLG,Healthcare Leadership,GRAD,CERTG,HSP,90,CRT,A
+CTPIND,Prof Instructional Design,GRAD,CERTG,EHS,74,CRT,A
+ND8928,Early Childhood Generalist End,UGRD,,EHS,34,END,A
+OR5329,Information Telecomm Systems,UGRD,,,,MIN,A
+MA5227,French,GRAD,MA,A&S,16,MAJ,I
+MA5293,Applied Linguistics,GRAD,MA,A&S,13,MAJ,A
+CTBFSU,Banking and Financial Service,UGRD,,COB,24,CRT,A
+CTCRRG,Community Risk and Resilience,GRAD,CERTG,GVS,78,CRT,A
+CTNLCG,Nursing Leadership Post-Maste,GRAD,CERTG,HSP,32,CRT,A
+MI5367,Info and Telecom Systems,GRAD,MITS,,70,MAJ,A
+MS8895,Early Childhood Education,GRAD,MSHCS,HSP,36,MAJ,I
+CTWSTW,Women's Studies,GRAD,,A&S,,CRT,I
+CTENVG,Environmental Sustainability,GRAD,,GVS,78,CRT,A
+CTAHSG,African Humanitarian Studies,GRAD,,INST,,CRT,A
+CTEASG,East Asian Studies,GRAD,,INST,,CRT,A
+CTGERG,Gerontology,GRAD,,HSP,90,CRT,A
+CTPMHN,Psych Mental Health Nurse Prac,GRAD,,HSP,32,CRT,A
+MA0209,Individual Prog of Study-HSP,GRAD,MA,HSP,0,MAJ,I
+MA0409,Individual Prog of Study-A&S,GRAD,MA,A&S,0,MAJ,I
+MA4199,Government,GRAD,MA,REG,11,MAJ,I
+MA4218,Communication and Dev Studies,GRAD,MA,INST,3,MAJ,A
+MA4231,Geography,GRAD,MA,A&S,9,MAJ,A
+MS6473,Food and Nutrition Sciences,GRAD,MSFNS,HSP,81,MAJ,A
+MS7257,Mechanical Engineering,GRAD,MS,ENT,48,MAJ,A
+MS8131,Athletic Administration,GRAD,MSRSS,COB,84,MAJ,I
+MS8149,Sportsad/MBA,GRAD,MSA,COB,84,MAJ,A
+MS8162,Athletic Administration,GRAD,MSAA,COB,84,MAJ,A
+MS8580,Physiology of Exercise,GRAD,MSPE,HSP,39,MAJ,I
+MS8679,Child Development,GRAD,MS,HSP,,MAJ,I
+MS8799,Coaching Education,GRAD,MSPE,HSP,39,MAJ,I
+MS8888,Physical Education Pedagogy,GRAD,MSRSS,HSP,39,MAJ,I
+PH6276,Higher Education,GRAD,PHD,EHS,35,MAJ,A
+PH6300,Education Administration,GRAD,PHD,EHS,74,MAJ,I
+PH6841,Reading Education,GRAD,PHD,EHS,34,MAJ,I
+PH6847,Elementary Education,GRAD,PHD,EHS,34,MAJ,I
+PH8918,I.I.P.,GRAD,PHD,EHS,,MAJ,I
+ND4401,Executive Mpa Program,GRAD,,A&S,11,MAJ,I
+DO8722,Osteopathy,MED,DOST,OST,63,MAJ,I
+OR3311,Chemistry,UGRD,,A&S,6,MIN,A
+OR4252,Anthropology,UGRD,,A&S,20,MIN,A
+OR4903,African-American Studies,UGRD,,A&S,4,MIN,A
+OR5211,Latin,UGRD,,A&S,7,MIN,A
+OR5290,Linguistics,UGRD,,A&S,13,MIN,A
+ORJAZZ,Jazz Studies,UGRD,,FAR,51,MIN,A
+ORMUSI,Music,UGRD,,FAR,51,MIN,A
+OR5305,Communication Sciences & Disor,UGRD,,HSP,79,MIN,A
+ND5191,Comparative Art,GRAD,,FAR,55,MAJ,I
+ND5229,Spanish,GRAD,,A&S,16,MAJ,A
+ND5308,Mass Communication-Jour,GRAD,,COM,30,MAJ,I
+ND5333,Instructional Communication,GRAD,,COM,29,MAJ,I
+ND5335,Information Systems,GRAD,,COM,29,MAJ,I
+ND5362,COMS-Relating and Organizing,GRAD,,COM,29,MAJ,I
+ND6147,MBA/Hlth Admin,GRAD,,COB,25,MAJ,I
+ND6243,Secondary Educ/Cert,GRAD,,EHS,34,MAJ,I
+ND6268,Middle Child,GRAD,,EHS,34,MAJ,I
+BC8849,TCOM-Audio Production,UGRD,BSC,COM,31,MAJ,I
+BC8854,TCOM-Media/Individualized,UGRD,BSC,COM,31,MAJ,I
+BF1906,Dance Tutorial,UGRD,BFA-DA,FAR,87,MAJ,A
+BF1940,Studio Art,UGRD,BFASA,FAR,53,MAJ,A
+BF6902,Photo Communication,UGRD,BFA,COM,53,MAJ,I
+BF6904,Photo Multi Media,UGRD,BFA,COM,53,MAJ,I
+BF8573,Music Education,UGRD,BFA,FAR,51,MAJ,I
+ND6271,Economic Education,GRAD,,EHS,34,MAJ,I
+ND6273,Guidance Counsel & Student,GRAD,,REG,35,MAJ,I
+ND6279,Rehabilitation Counseling,GRAD,,EHS,35,MAJ,I
+ND6324,CMH/Clinical Rehab Counsel,GRAD,,EHS,35,MAJ,A
+ND6350,Early Childhood Education,GRAD,,EHS,34,MAJ,I
+ND6402,Child Development & Fam Life,GRAD,,HSP,80,MAJ,I
+ND6461,Food & Nutri,GRAD,,HSP,81,MAJ,I
+ND6462,Home Economics Education,GRAD,,HSP,36,MAJ,I
+ND6600,Social Work,GRAD,,HSP,80,MAJ,A
+ND6844,Math Secondary School,GRAD,,EHS,34,MAJ,I
+ND6873,Mid Child Lic Lang Arts & SS,GRAD,,EHS,34,MAJ,A
+ND6926,Photography,GRAD,,COM,71,MAJ,A
+ND6943,Indiv Program of Study-FAR,GRAD,,FAR,0,MAJ,I
+ND6944,General Education,GRAD,,GRAD,0,MAJ,I
+BJ1923,Journalism,UGRD,BSJ,COM,30,MAJ,A
+BJ6908,Journalism Pre-Major,UGRD,BSJ,COM,30,MAJ,I
+BJ6910,Journalism-Carr Van Anda,UGRD,BSJ,COM,30,MAJ,A
+BJ6935,Journalism Public Relations,UGRD,BSJ,COM,30,MAJ,A
+BM5116,Music Theory,UGRD,BMUS,FAR,51,MAJ,I
+BS1946,Trans Hlth Studies Appl Nutr,UGRD,BSTRANH,HSP,81,MAJ,A
+BS2111,Plant Biology,UGRD,BS,A&S,5,MAJ,I
+ND7257,Mechanical Engineering,GRAD,,ENT,48,MAJ,A
+ND8133,Health Promotion,GRAD,,HSP,80,MAJ,I
+ND8153,African Community Health Certi,GRAD,,HSP,80,MAJ,A
+ND8168,Healthcare Leadership,GRAD,,HSP,90,MAJ,A
+ND8519,Educational Leadership: Sec,GRAD,,REG,35,MAJ,I
+ND8759,INCO-Rhetoric & Public Address,GRAD,,COM,29,MAJ,I
+ND8922,Reading Endorsement,GRAD,,EHS,34,MAJ,A
+ND9992,certifiedLean-Six Sigma,GRAD,,ENT,46,MAJ,A
+PH0709,Individual Prog of Study-COM,GRAD,PHD,COM,0,MAJ,I
+BS2115,PBIO Applied Ecology,UGRD,BS,A&S,5,MAJ,I
+BS2510,BIOS Nutrition,UGRD,BS,A&S,21,MAJ,I
+BS2512,Zool Analysis,UGRD,BS,A&S,21,MAJ,I
+BS2514,Bios Marine Biology,UGRD,BS,A&S,21,MAJ,I
+BS3110,Math/Meteorology,UGRD,BS,A&S,15,MAJ,I
+BS3321,Geological Sciences,UGRD,BS,A&S,10,MAJ,A
+BS3337,Engineering Physics,UGRD,BS,A&S,22,MAJ,I
+PH3331,Physics,GRAD,PHD,A&S,22,MAJ,A
+PH4101,Psychology,GRAD,PHD,A&S,18,MAJ,I
+PH4104,Clinical Psychology,GRAD,PHD,A&S,18,MAJ,A
+PH5325,Hearing Science,GRAD,PHD,HSP,79,MAJ,A
+PH6947,Molecular and Cellular Biology,GRAD,PHD,A&S,21,MAJ,A
+PH8760,INCO-Speech Education,GRAD,PHD,COM,29,MAJ,I
+PH8790,Speech-Language Pathology,GRAD,PHD,HSP,28,MAJ,I
+PH8818,INCO-Comm. Theory & Process,GRAD,PHD,COM,29,MAJ,I
+PH8915,I.I.P.,GRAD,PHD,HSP,,MAJ,I
+BS6234,Russian,UGRD,BSED,EHS,34,MAJ,A
+BS6270,History With Economics,UGRD,BSED,EHS,34,MAJ,I
+BS6281,Ed Mental Retarded Elem,UGRD,BSED,EHS,34,MAJ,I
+BS6304,Science,UGRD,BSED,EHS,34,MAJ,I
+BS6307,Integrated Mathematics,UGRD,BSED,EHS,34,MAJ,A
+ME6238,Adult Services,GRAD,MED,EHS,34,MAJ,I
+ME6272,Education Administration,GRAD,MED,EHS,74,MAJ,A
+ME6276,Higher Education,GRAD,MED,EHS,35,MAJ,A
+ME6278,Clinical Mental Health Counsel,GRAD,MED,EHS,35,MAJ,A
+ME6280,Counseling in Bus & Indust,GRAD,MED,EHS,35,MAJ,I
+ME6323,Clinical Rehabilitation Counse,GRAD,MED,EHS,35,MAJ,A
+ME6325,Teaching and Learning,GRAD,MED,EHS,34,MAJ,A
+ME6844,Math Secondary School,GRAD,MED,EHS,34,MAJ,I
+ME6848,Middle Child Certification,GRAD,MED,EHS,34,MAJ,I
+ME6849,Middle Child Licensure,GRAD,MED,EHS,34,MAJ,I
+ME6864,German Education,GRAD,MED,EHS,34,MAJ,I
+BS6316,Mild-Moderate Educ. Needs,UGRD,BSED,EHS,34,MAJ,A
+BS6392,Child Care Service,UGRD,BSED,EHS,34,MAJ,I
+BS6397,Physical Science - Chemistry,UGRD,BSED,EHS,34,MAJ,A
+BS6836,Long Term Hlth Care Admin,UGRD,BSH,HSP,80,MAJ,A
+BS6851,Lang Arts/Soc St,UGRD,BSED,EHS,34,MAJ,I
+BA1907,Psychology,UGRD,AB-PSY,A&S,18,MAJ,I
+BA1942,Environmental Studies,UGRD,AB-ENVIR,GVS,78,MAJ,A
+BA2136,Zool Medical Technology,UGRD,AB,A&S,21,MAJ,I
+BA2145,Zool Wildlife Biology,UGRD,AB,A&S,21,MAJ,I
+BA2147,Microbiology,UGRD,AB,A&S,21,MAJ,I
+BS6951,Picture Editing,UGRD,BSVC,COM,53,MAJ,I
+BS7256,Engineering Tech & MGMT,UGRD,BSETM,ENT,47,MAJ,A
+BS7257,Mechanical Engineering,UGRD,BSME,ENT,48,MAJ,A
+BS8105,Community Health Services,UGRD,BSH,HSP,80,MAJ,A
+BS8118,Athletic Train With Sport Sci,UGRD,BSPE,HSP,81,MAJ,I
+BS8121,Coaching,UGRD,BSSPS,EHS,82,MAJ,I
+BS8122,Exercise Physiology,UGRD,BSPEX,HSP,81,MAJ,A
+BS8127,Athletic Training/Health Educ,UGRD,BSAT,HSP,81,MAJ,I
+BS8504,Hearing & Speech Therapy,UGRD,BSHS,HSP,28,MAJ,I
+BA2516,Bios/Pre-Exercise Physiology,UGRD,AB,A&S,21,MAJ,I
+BA3101,Mathematics,UGRD,BA,A&S,15,MAJ,A
+BA3315,Chemistry Environmental,UGRD,BA,A&S,6,MAJ,I
+BA3334,Phys Prep. for Advanced Tng.,UGRD,AB,A&S,22,MAJ,I
+BA4232,Geog Environmental,UGRD,AB,A&S,9,MAJ,I
+BA4241,Geog - Globalization & Develop,UGRD,BA,A&S,9,MAJ,A
+BA4402,Women's and Gender Studies,UGRD,BA,A&S,77,MAJ,A
+BA5149,Art History,UGRD,BA,FAR,53,MAJ,A
+BA5211,Latin,UGRD,BA,A&S,7,MAJ,I
+BS8891,Retail Merchandising,UGRD,BSHCS,EHS,83,MAJ,I
+BS8896,Early Childhood,UGRD,BSED,EHS,34,MAJ,I
+CNEECH,Chinese for Elem Education,UGRD,,,,CON,A
+CNEEMH,Math for Elementary Education,UGRD,,,,CON,A
+ND0711,Pre-Communication Management,UGRD,,UNC,58,MAJ,I
+ND0713,Undecided,UGRD,,UNC,58,MAJ,A
+ND1206,Undecided,UGRD,,UNC,58,MAJ,A
+ND1290,Undec-Exempt,UGRD,,UNC,58,MAJ,I
+BB6135,Mgt Info Sys Data Proc Track,UGRD,BBA,COB,67,MAJ,I
+BB6158,Business Analytics,UGRD,BBA,COB,25,MAJ,A
+BC5300,INCO-Pre-Major,UGRD,BSC,COM,29,MAJ,I
+BC5322,Digital Media - SEGA,UGRD,BSC,COM,31,MAJ,I
+BC5329,Information Telecomm Systems,UGRD,BSC,COM,70,MAJ,A
+BC5351,Media Individualized,UGRD,BSC,COM,31,MAJ,A
+BC5364,Communication Studies,UGRD,BSC,COM,29,MAJ,A
+BC5371,MDIA - Music Prod & Record Ind,UGRD,BSC,COM,31,MAJ,A
+ND6355,Early Childhood,UGRD,,EHS,34,MAJ,I
+ND6380,Retail & Fash Prod Development,UGRD,,EHS,83,MAJ,I
+ND6854,Early Childhood,UGRD,,EHS,34,MAJ,I
+ND7273,Pre-Technical Operations Mgmt,UGRD,,ENT,47,MAJ,A
+ND8114,Sport Sciences General,UGRD,,HSP,39,MAJ,I
+ND8140,Physical Therapy,UGRD,,HSP,79,MAJ,I
+ND8837,Pre Early Childhood,UGRD,,EHS,34,MAJ,A
+ND9818,HTC-Exchange,UGRD,,HTC,0,MAJ,A
+ND9957,High School Other,UGRD,,UNC,58,MAJ,A
+NDEHS,EHS-Nondegree for Minors,UGRD,NONDEGRE,EHS,0,MAJ,A
+BA5241,Philosophy,UGRD,BA,A&S,17,MAJ,A
+BA5339,COMS-Comm. in Human Services,UGRD,BA,COM,29,MAJ,I
+BA5342,COMS-Organization Comm.,UGRD,BA,COM,29,MAJ,I
+BA6465,HEC Family Studies,UGRD,AB,HSP,36,MAJ,I
+BA8911,Inst/Europe,UGRD,BA,INST,3,MAJ,I
+OR8109,Recreation Management,UGRD,,EHS,39,MIN,A
+OR7251,Chemical Engineering,UGRD,,ENT,42,MIN,I
+OR7256,Industrial Technology,UGRD,,ENT,47,MIN,I
+OR8135,Recreation Studies,UGRD,,HSP,,MIN,I
+ORARAB,Arabic,UGRD,,,,MIN,I
+ORITAL,Italian,UGRD,,,,MIN,I
+ORPEDU,Physical Education,UGRD,,,,MIN,I
+ORSTRI,String,UGRD,,,21,MIN,I
+SF6231,Latin,UGRD,,EHS,34,SEC,I
+SF6259,Physics,UGRD,,EHS,34,SEC,I
+SFPK12,Physical Education,UGRD,,EHS,,SEC,I
+SFSEHT,History,UGRD,,,,SEC,I
+SFSESP,Sociology & Psychology,UGRD,,,,SEC,I
+VALDAT,Data Processing,UGRD,,,,VAL,I
+VALPKD,Pre-Kindergarten,UGRD,,,,VAL,I
+CTENVS,Environmental Studies,UGRD,,GVS,78,CRT,A
+OR2120,Environmental and Plant Bio,UGRD,,A&S,5,MIN,A
+CTEMPI,Empirical Study of Language,UGRD,,A&S,65,CRT,I
+ORACTI,Acting,UGRD,,FAR,,MIN,I
+CTLEAD,Strategic Leadership,UGRD,,COB,25,CRT,A
+CTWLTH,Wealth and Poverty,UGRD,,A&S,9,CRT,A
+CTSEAS,Southeast Asian Studies,UGRD,,INST,3,CRT,A
+AA1101,Associate in Arts,UGRD,AA,UNC,58,MAJ,A
+AA1108,Interior Design,UGRD,AA,UNC,58,MAJ,I
+AA1109,Textiles and Clothing,UGRD,AA,UNC,58,MAJ,I
+AA5002,Accounting Technology,UGRD,AAB,RHE,59,MAJ,A
+AA5010,Computer Sci Applied Bus,UGRD,AAB,RHE,59,MAJ,A
+AA5506,Security Safety,UGRD,AAS,RHE,59,MAJ,A
+AA5810,Electronic Media,UGRD,AAS,UNC,58,MAJ,I
+AA5815,Environmental Engineering Tech,UGRD,AAS,UNC,60,MAJ,I
+AA5818,Materials Management Techology,UGRD,AAS,UNC,60,MAJ,I
+AA7250,Aviation Technology,UGRD,AAS,ENT,41,MAJ,I
+AA8533,Computer Science Tech,UGRD,AAB,RHE,59,MAJ,I
+BS8552,Government,UGRD,BSED,EHS,34,MAJ,I
+BS8557,Home Economics,UGRD,BSHEC,HSP,36,MAJ,I
+BS8562,Industrial Arts Comp,UGRD,BSED,EHS,34,MAJ,I
+BS8565,Math: Middle School,UGRD,BSED,EHS,34,MAJ,I
+BS8585,Science Comp,UGRD,BSED,EHS,34,MAJ,I
+BS8595,Speech Pathology,UGRD,BSHS,HSP,28,MAJ,I
+BS8600,Home Economics,UGRD,BS,HSP,,MAJ,I
+BS8608,Cutler Program,UGRD,BS,UNC,58,MAJ,I
+BS8613,Fashion Merchandising,UGRD,BSHEC,EHS,34,MAJ,I
+BS8636,Secretarial Studies,UGRD,BSSS,COB,,MAJ,I
+BS8647,Home Economics,UGRD,BSED,EHS,,MAJ,I
+BS8649,Housing,UGRD,BSHEC,HSP,,MAJ,I
+BS8651,Consumer Service & Education,UGRD,BSHEC,EHS,,MAJ,I
+BS8658,H Ec Education & Extension,UGRD,BSED,EHS,,MAJ,I
+MA5332,Organizational Communication,GRAD,MA,COM,29,MAJ,A
+MA5334,Intercultural/Cross Cultural,GRAD,MA,COM,29,MAJ,I
+MA5361,COMS-Health Communication,GRAD,MA,COM,29,MAJ,A
+MA8631,Radio-TV,GRAD,MA,COM,31,MAJ,I
+MA8773,Theater: General,GRAD,MA,FAR,50,MAJ,I
+MB6134,Executive MBA Program,GRAD,MBA,COB,25,MAJ,I
+MB6139,MBA Without Boundaries Program,GRAD,MBA,COB,25,MAJ,I
+BS8684,Food & Nutrition,UGRD,BS,HSP,,MAJ,I
+BS8712,Human Environment & Design,UGRD,BSHEC,HSP,36,MAJ,I
+BS8776,Home Economics,UGRD,BSED,EHS,34,MAJ,I
+BS8785,Human Dev. in Family Ecology,UGRD,BSHEC,EHS,,MAJ,I
+BS8824,Early Childhood Education,UGRD,BSHCS,HSP,36,MAJ,I
+BS8873,"Hearing, Speech, Language Sci",UGRD,BSHSLS,HSP,79,MAJ,I
+BC8812,INCO-Legal Communication,UGRD,BSC,COM,29,MAJ,I
+MB6171,PMBA_Operations & Supply Chain,GRAD,MBA,COB,25,MAJ,A
+ME7266,Engineering Management,GRAD,MEM,ENT,46,MAJ,A
+MF1009,Individual Prog of Study-FAR,GRAD,MFA,FAR,0,MAJ,I
+MF5130,Directing,GRAD,MFA,FAR,50,MAJ,A
+MF5138,Theater,GRAD,MFA,FAR,50,MAJ,I
+MH8144,Health Administration,GRAD,MHA,HSP,80,MAJ,I
+MM5186,Music Composition and Theory,GRAD,MM,FAR,51,MAJ,I
+MM5187,Music Therapy,GRAD,MM,FAR,51,MAJ,A
+MP4413,Public Administration,GRAD,MPA,GVS,78,MAJ,A
+MP8145,Public Health,GRAD,MPH,HSP,80,MAJ,A
+MS0909,Individual Prog of Study-ENT,GRAD,MS,ENT,0,MAJ,I
+MS1215,Nurse Administrator,GRAD,MSN,HSP,32,MAJ,A
+MS1218,Nurse Educator & Administrator,GRAD,MSN,HSP,32,MAJ,A
+MS1227,Admin & Fam Nurse Practitioner,GRAD,MSN,HSP,32,MAJ,A
+MS1232,Acute Care Nrse Prac & Admin,GRAD,MSN,HSP,32,MAJ,I
+MS2111,Plant Biology,GRAD,MS,A&S,5,MAJ,A
+MS2121,Biological Sciences,GRAD,MS,A&S,21,MAJ,I
+MS2146,Microbiology,GRAD,MS,A&S,21,MAJ,I
+MS2202,Social Sciences,GRAD,MSS,A&S,0,MAJ,A
+MS4103,Experimental Psychology,GRAD,MS,A&S,18,MAJ,A
+ND1009,Individual Prog of Study-FAR,GRAD,,FAR,0,MAJ,I
+ND1218,Nurse Educator & Administrator,GRAD,,HSP,32,MAJ,I
+ND5120,Art-Interdisciplinary,GRAD,,FAR,53,MAJ,I
+ND5160,Production Technology,GRAD,,FAR,50,MAJ,I
+ND5171,Photography,GRAD,,FAR,53,MAJ,A
+ME6944,General Education,GRAD,MED,EHS,34,MAJ,I
+ME8515,Secondary Guidance & Counsel,GRAD,MED,REG,35,MAJ,I
+ME8711,School Administration,GRAD,MED,REG,35,MAJ,I
+ME8714,High School Administration,GRAD,MED,REG,35,MAJ,I
+ME8730,Community Counseling,GRAD,MED,REG,35,MAJ,I
+ME8863,Rehab/Community Counseling,GRAD,MED,EHS,35,MAJ,I
+ME8864,School/Community Counsel,GRAD,MED,EHS,35,MAJ,I
+MS8134,Physical Education Pedagogy,GRAD,MSRSS,EHS,82,MAJ,A
+MS8787,Nutrition,GRAD,MSED,EHS,34,MAJ,I
+PH6224,Social Studies Education,GRAD,PHD,EHS,34,MAJ,A
+PH6265,Counselor Education,GRAD,PHD,EHS,35,MAJ,A
+ND9986,Post-Masters Nurse Educator,GRAD,,HSP,32,MAJ,A
+ND9991,Data Analysis,GRAD,,A&S,65,MAJ,A
+ND9994,Engineering Leadership,GRAD,,ENT,46,MAJ,A
+CTWHSU,Workplace Health and Safety,UGRD,,HSP,80,CRT,A
+CTBVCG,Business Venturing,GRAD,,COB,25,CRT,A
+CTHRMG,Human Resources Management,GRAD,,COB,25,CRT,A
+MB6174,Master of Business Analytics,GRAD,MBAN,COB,25,MAJ,A
+CTANPG,Post - Mast Adult Geron Acute,GRAD,,HSP,32,CRT,A
+MS1238,Psych-Mental Health Nurse Prac,GRAD,MSN,HSP,32,MAJ,A
+MS1240,Nurse Leader,GRAD,MSN,HSP,32,MAJ,A
+CNEEAR,Art for Elementary Education,UGRD,,,,CON,I
+CNEEEC,Economics for Elem Education,UGRD,,,,CON,I
+CNEEFR,French for Elem Education,UGRD,,,,CON,I
+CNEEGK,Greek for Elementary Education,UGRD,,,,CON,I
+CNEEJP,Japanese for Elem Education,UGRD,,,,CON,I
+CNEELT,Latin for Elementary Education,UGRD,,,,CON,I
+OR4241,Geog - Globalization & Develop,UGRD,,A&S,9,MIN,A
+CTMLDG,Music Leadership,GRAD,,FAR,51,CRT,A
+ND9963,Health Policy,GRAD,,HSP,80,MAJ,A
+ND9965,Clinical Informatics,GRAD,,HSP,90,MAJ,A
+BS1919,"Hearing, Speech, Language Sci",UGRD,BSHSLS,HSP,79,MAJ,A
+MY6104,Master of Accountancy,GRAD,MACC,COB,23,MAJ,A
+OR5380,Health Services Administration,UGRD,,HSP,80,MIN,A
+OR6117,Sport Management,UGRD,,COB,84,MIN,A
+MS8180,Recreation Studies,GRAD,MSPRLS,EHS,82,MAJ,A
+BS8177,Recreation Management,UGRD,BSPRLS,EHS,82,MAJ,A
+ND6603,Pre Social Work,UGRD,,HSP,19,MAJ,A
+OR5154,Dance - Perf & Choreography,UGRD,,FAR,52,MIN,A
+ND9963,Health Policy,GRAD,,HSP,80,MAJ,I
+ND9965,Clinical Informatics,GRAD,,HSP,90,MAJ,I
+ND9991,Data Analysis,GRAD,,A&S,65,MAJ,I
+ND9992,certifiedLean-Six Sigma,GRAD,,ENT,46,MAJ,I
+ND9993,Engineering Management,GRAD,,ENT,46,MAJ,I
+MA5055,Community Dance,GRAD,MA,FAR,52,MAJ,A
+AA5010,Computer Science Technology,UGRD,AAB,RHE,59,MAJ,A
+CTAHSG,African Humanitarian Studies,GRAD,CERTG,INST,,CRT,A
+CTFING,Finance,GRAD,CERTG,COB,25,CRT,A
+CTGMCG,Global Management,GRAD,CERTG,COB,25,CRT,A
+CTHRMG,Human Resources Management,GRAD,CERTG,COB,25,CRT,A
+CTSSLG,Strategic Selling & Sales Lead,GRAD,CERTG,COB,25,CRT,A
+NDOUHP,Ohio Honors Program,UGRD,NONDOTHR,HTC,89,HON,A
+CTCCOM,Crisis Communication,GRAD,CERTG,COM,75,CRT,A
+BF5057,Studio Art - Art Therapy,UGRD,BFA,FAR,53,MAJ,A

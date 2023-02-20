@@ -1,0 +1,112 @@
+# How do their students, in their academic plans, perform compared to students from other departments/colleges?
+
+## Set up and load data
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment='', warning = FALSE)
+```
+
+```{r }
+rm(list =ls())
+library(pacman)
+p_load(tidyverse, ggplot2, broom, mice, kableExtra, data.table, ggrepel)
+load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/questions/data_230214_1659.Rdata")
+```
+
+## Research question
+**How do their students, in their academic plans, perform compared to students from other departments/colleges?**
+To compare students in those three academic plans (Physics, Biology (Human Anatomy), and Spanish) with others, I combine all data sets.
+Then, I select academic plan from **acad_plan** data set and put student into two groups in the overall data set. 
+Next, I compare those groups based on plot and welch test.
+
+
+## Data cleaning
+1. Combine all data sets
+2. Select academic plan from **acad_plan** data set
+3. Put student into two groups based on their academic plan
+```{r collapse=TRUE}
+DF <- course_enrollments %>% 
+  full_join(class_inventory, by = c("term_code","class_nbr")) %>%
+  full_join(class_instructors, by = c("term_code", "class_nbr")) %>%
+  full_join(acad_plan, c("acad_plan","dept_code")) %>%
+  full_join(student_details, by = "student_id_number")
+```
+
+```{r collapse=TRUE}
+cols_factor <- c("acad_plan","subject","acad_career","degree","college","eff_status")
+DF <- as.data.table(DF)
+DF[,c(cols_factor) := lapply(.SD,as.factor), .SDcols = cols_factor]
+```
+
+```{r}
+summary(DF)
+```
+Notice that there are some rows in the data set with NA values for student_id_number, term_code, class_nbr, completed_flag, success, etc.
+
+```{r collapse=TRUE}
+plan <- acad_plan %>% 
+  filter(acad_plan_desc %in% c("Bios Human Biology","Physics","Spanish")) 
+DF <- DF %>%
+  mutate(
+    treat = case_when(
+      acad_plan %in% plan$acad_plan~ "Y",
+      is.na(acad_plan) ~ NA_character_,
+      TRUE ~ "N"
+    )
+  )
+DF$treat <- as.factor(DF$treat)
+```
+
+## Visualization
+
+<details><summary>Visualization code</summary>
+```{r eval=FALSE}
+p3 <- DF %>%
+  select(c("treat","success")) %>%
+  group_by(treat) %>%
+  count(success) %>%
+  mutate(percent = round(n/sum(n),3)) %>%
+  filter(success == "Y") %>%
+  ggplot(aes(x = treat, y = percent, fill = treat)) +
+  geom_bar(width = 0.5, position = position_dodge(0.5), stat = "identity") +
+  geom_text(aes(label = percent), size = 6, vjust = -.8) +
+  scale_fill_manual(values = c("#56B4E9", "#E69F00")) +
+  scale_x_discrete(
+    limits =c("Y","N"),
+    labels = c("Physics, Biology, and Spanish", "Others")) +
+  labs(
+    y = "Success rate",
+    x = "Department",
+    title = "Do students in Physics, Biology, and Spanish has higher success rate?"
+  ) +
+  theme_classic() +
+  theme(
+        legend.position = "none",
+        axis.title.y = element_text(face = "bold", vjust = 0.9, size = 16),
+        axis.title.x = element_text(face = "bold", vjust = 0.9, size = 16),
+        axis.text = element_text(colour = "black", size = 14),
+        plot.title = element_text(face = "bold", size = 20)
+  ) 
+```
+</details>
+
+```{r eval=FALSE, include=FALSE}
+ggsave('D:/R/data analysis/Institutional research/technical-exercise/static/images/p3.png', width = 12, height = 8, plot = p3)
+```
+
+![](/images/p3.png)
+The plot shows that success rates of student in those three academic plans (Physics, Biology (Human Anatomy), and Spanish) are different with others. To have strong evidence, I conduct Welch test to compare those groups.
+
+## Welch test
+
+```{r}
+compare <- DF %>%
+  select(c("success", "treat")) %>%
+  drop_na()
+compare$success <- as.numeric(compare$success)
+oneway.test(success~treat, data = compare,var.equal=FALSE)
+```
+
+## Conclusion
+While the plot indicates success rates of those two groups are different, the Welch test shows that those difference are not statistically significant.
+

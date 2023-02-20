@@ -1,0 +1,112 @@
+# Are some of their instructors better than others?
+
+
+
+## Set up and load data
+
+
+```r
+rm(list =ls())
+library(pacman)
+p_load(tidyverse, ggplot2)
+load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/questions/data_230214_1659.Rdata")
+```
+
+## Research question
+**Are some of their instructors better than others?**
+
+Information related to instructors is from **class_instructors** data set, and information about student success is from **course_enrollments** data set.
+
+## Data cleaning
+1. Combine those two data sets via term_code and class_nubr variables.
+2.Calculate success rate per instructor.
+
+```r
+instructor <- course_enrollments %>%
+  full_join(
+    class_instructors, 
+    by = c("term_code","class_nbr")
+    ) %>%
+  group_by(instructor_id_number) %>%
+  count(success) %>%
+  mutate(
+    percent = round(n/sum(n),2)
+    ) %>%
+  filter(success =="Y") %>%
+  ungroup()%>%
+  mutate(
+    med = median(percent),
+    mean = mean(percent))
+```
+
+
+## Visualization
+
+<details><summary>Visualization code</summary>
+
+```r
+instructor %>%
+  ggplot(aes(instructor_id_number, percent, colour = instructor_id_number)) +
+  geom_point(size = 2) +
+  scale_colour_identity() +
+  scale_y_continuous(
+    limits = c(0,1),
+    breaks = seq(0,1, by = 0.25)
+  ) +
+  geom_hline(yintercept = 0.78, linetype = "dashed") +
+  geom_hline(yintercept = instructor$mean, linetype = "dashed") +
+  annotate("text", x = 2770, y = 0.80, label='atop(bold("Median=0.78"))', size = 6, parse = TRUE) +
+  annotate("text", x = 2200, y = 0.68, label='atop(bold("Mean=0.75"))', size = 6, parse = TRUE) +
+  labs(
+    x = "Instructor ID number",
+    y = "Success rate",
+    title = "Are some of their instructors better than others?\n"
+  ) +
+  scale_fill_viridis_c() +
+  theme_classic() +
+  theme(
+        legend.position = "none",
+        axis.title.y = element_text(face = "bold", vjust = 0.9, size = 20),
+        axis.title.x = element_text(face = "bold", vjust = 0.9, size = 20),
+        axis.text = element_text(colour = "black", size = 16,),
+        plot.title = element_text(face = "bold", size = 28),
+        plot.caption = element_text(size = 10)
+  ) 
+```
+</details>
+
+
+
+
+![](/images/p2.png)
+By adding lines that showing the median and mean success rate, we can see that there are some instructors have higher success rate than others. However, while the plot can provide some hints about the research question, we still need strong evidence to confirm it. Next, I divide instructors into two groups based on the median of success rates and conduct Welch test.
+
+## Welch test
+
+```r
+instructor <- instructor %>%
+  mutate(
+    group = case_when(
+      percent >= med ~ 1,
+      .default = 0
+    )
+  )
+```
+
+
+```r
+oneway.test(percent~group, data = instructor,var.equal=FALSE)
+```
+
+```
+
+	One-way analysis of means (not assuming equal variances)
+
+data:  percent and group
+F = 370.94, num df = 1.00, denom df = 122.64, p-value < 2.2e-16
+```
+## Conclusion
+The Welch test shows that instructors' performance does have difference. 
+
+
+
