@@ -41,11 +41,16 @@ DF[,c(cols_factor) := lapply(.SD,as.factor), .SDcols = cols_factor]
 
 ```{r}
 summary(DF)
-
-DF <- DF%>%
-  filter(!is.na(official_grade))
 ```
-Notice that there are some rows in the data set with NA values for acad_career, degree, college, etc. However, since we want to focus on comparing success rates between three academic plans and others, we can ignore those missing values.
+Multiple important variables have plenty of missing values. For example, official grade has 89759 missing values. Since we want to compare students' performance, I drop those missing values.
+
+```{r}
+DF <- DF%>%
+  filter(!is.na(official_grade)) 
+
+summary(DF)
+```
+Notice that there are still some rows in the data set with NA values for acad_career, degree, college, etc. However, since we want to focus on comparing success rates between three academic plans and others, we can ignore those missing values.
 
 ```{r collapse=TRUE}
 plan <- acad_plan %>% 
