@@ -1,0 +1,21 @@
+
+# Summary
+
+Through analyzing data sets, I have following thoughts on Physics, Biology (Human Anatomy), and Spanish academic plans:
+
+1.  While statistical test does not significant difference on student success between those three academic plans and others, they do have slight lower success rates based on the data.
+
+<!-- -->
+
+2.  According to the data sets, two aspects can consider to improve student success:
+
+- Students’ perspectives
+  - Interestingly, ACT score is negatively associated with success rates. Considering current trend of test-optional admissions, those three departments can review their admission requirements and reconsider about importance of ACT or SAT. They may need more data to analyze it and make decisions.
+
+  - Hardship score is also negatively associated with success rates. Therefore, those departments might consider about financial support for students.
+- Instructors’ perspectives
+  - While those data sets do not prove that teaching frequently can improve instructors’ performance, the visualization of box plot does show that teaching more than five terms leads to a slightly decreasing in success rates.
+
+  - Moreover, regression models indicate that the number of courses instructors teach is negatively associated with performance.
+
+  - To improve students’ success, those departments might want to review instructors’ teaching loads. Since those classes are entry level courses, considering costs, they could hire more graduate students as teaching assistants, or recruit more adjunct professors and instructors.
