@@ -13,7 +13,7 @@ library(tidyverse)
 ```
 
 
-# Research questions
+## Research questions
 
 1.What are our overall success rates (C or better)?
 
@@ -28,7 +28,7 @@ library(tidyverse)
 6.How do their students, in their academic plans, perform compared to students from other departments/colleges?
 
 
-# Description
+
 
 ## Data
 
@@ -45,6 +45,7 @@ course_enrollments <- read.csv(file = "D:/R/data analysis/Institutional research
 student_details <- read.csv(file = "D:/R/data analysis/Institutional research/technical-exercise/content/docs/data/student_details.csv")
 ```
 
+### Description
 +  **acad_plan** describes detail information related to academic plan
 ```{r echo=FALSE}
 head(acad_plan,6)
