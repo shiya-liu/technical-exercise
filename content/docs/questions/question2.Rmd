@@ -6,7 +6,7 @@ knitr::opts_chunk$set(echo = TRUE, comment='', warning = FALSE)
 
 ## Set up and load data
 
-```{r }
+```{r}
 rm(list =ls())
 library(pacman)
 p_load(tidyverse, broom, ggplot2, kableExtra, mice, interactions)

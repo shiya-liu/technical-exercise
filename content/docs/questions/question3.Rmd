@@ -18,7 +18,7 @@ load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/
 ## Research question
 **Are success rates improving or getting worse?**
 
-For this question, I examine success rates over terms (**term_code**) from **course_enrollments* data set via robust Welch test to determine whether success rates improve or not. 
+For this question, I examine success rates over terms (**term_code**) from **course_enrollments** data set via robust Welch test to determine whether success rates improve or not. 
 Welch test is proved to be robust under all conditions.
 
 

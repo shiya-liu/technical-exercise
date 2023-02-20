@@ -5,6 +5,12 @@
 ## Set up and load data
 
 
+```r
+rm(list =ls())
+library(pacman)
+p_load(tidyverse, broom, ggplot2, kableExtra, mice, interactions)
+load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/questions/data_230214_1659.Rdata")
+```
 
 ## Research question
 **What student information helps predict success in their courses?**
@@ -189,7 +195,7 @@ The results show that all three independent variables are statistically signific
 
 Intuitively, those three variables might interact with each other when predicting **success** variable. To verify it, I first examine the interaction. Next, based on the results, I choose the interactions to add in the model.
 
-1. Evaluate interactions
+<details><summary>Evaluate interactions</summary>
 
 -   ACT_score*hardship_score
 
@@ -278,9 +284,10 @@ Slope of hs_gpa_entry when hardship_score =  1.7405663 (+ 1 SD):
 ```
 
 For hs_gpa_entry, the slope of hardship_score is also significantly different from zero and positive. Overall, those two interactions are significant. So, I model these interactions and compare the new model with the previous basic model.
+</details>
 
 
-2. Run model with interactions
+<details><summary>Run model with interactions</summary>
 
 
 ```r
@@ -352,6 +359,7 @@ broom::tidy(lrFull, exp = TRUE) %>%
   </tr>
 </tbody>
 </table>
+</details>
 
 All variables, including interactions are statistically significant associated with the dependent variable
 
