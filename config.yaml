@@ -3,21 +3,24 @@ title: Shiya Liu
 theme: hugo-book
 disablePathToLower: yes
 enableGitInfo: yes
+enableEmoji : true
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 markup:
   goldmark:
     renderer:
-      unsafe: yes
+      unsafe: true
   tableOfContents:
     startLevel: 1
 languages:
   en:
-    contentDir: content.en
+    contentDir: content
     languageName: English
     weight: 1
 imaging:
   resampleFilter: lanczos
   quality: 75
   anchor: smart
+
 
 params:
   BookComments: yes
@@ -32,3 +35,9 @@ params:
   BookToC: yes
   BookTranslatedOnly: no
   BookMenuBundle: /menu
+  features:
+  syntax_highlighter:
+    theme_light: xcode-light
+    theme_dark: xcode-dark
+
+
