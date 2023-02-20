@@ -21,15 +21,6 @@ load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/
 For this question, I examine success rates over terms (**term_code**) from **course_enrollments* data set via robust Welch test to determine whether success rates improve or not. 
 Welch test is proved to be robust under all conditions.
 
-## Data cleaning
-```{r eval=FALSE, include=FALSE}
-success <- course_enrollments %>%
-  group_by(term_code) %>%
-  summarise(
-    success = sum(success == "Y"),
-    n = n(),
-    percent = round(100*success/n,2))
-```
 
 
 ## Visualization
