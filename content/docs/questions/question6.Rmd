@@ -22,27 +22,30 @@ Next, I compare those groups based on plot and welch test.
 
 
 ## Data cleaning
-1. Combine all data sets
+1. Combine all data sets and drop observations without official grades
 2. Select academic plan from **acad_plan** data set
 3. Put student into two groups based on their academic plan
 ```{r collapse=TRUE}
 DF <- course_enrollments %>% 
-  full_join(class_inventory, by = c("term_code","class_nbr")) %>%
+  left_join(class_inventory, by = c("term_code","class_nbr")) %>%
   full_join(class_instructors, by = c("term_code", "class_nbr")) %>%
   full_join(acad_plan, c("acad_plan","dept_code")) %>%
   full_join(student_details, by = "student_id_number")
 ```
 
 ```{r collapse=TRUE}
-cols_factor <- c("acad_plan","subject","acad_career","degree","college","eff_status")
+cols_factor <- c("acad_plan","subject","acad_career","degree","college","eff_status","official_grade")
 DF <- as.data.table(DF)
 DF[,c(cols_factor) := lapply(.SD,as.factor), .SDcols = cols_factor]
 ```
 
 ```{r}
 summary(DF)
+
+DF <- DF%>%
+  filter(!is.na(official_grade))
 ```
-Notice that there are some rows in the data set with NA values for student_id_number, term_code, class_nbr, completed_flag, success, etc.
+Notice that there are some rows in the data set with NA values for acad_career, degree, college, etc. However, since we want to focus on comparing success rates between three academic plans and others, we can ignore those missing values.
 
 ```{r collapse=TRUE}
 plan <- acad_plan %>% 
@@ -62,7 +65,7 @@ DF$treat <- as.factor(DF$treat)
 
 <details><summary>Visualization code</summary>
 ```{r eval=FALSE}
-p3 <- DF %>%
+DF %>%
   select(c("treat","success")) %>%
   group_by(treat) %>%
   count(success) %>%
