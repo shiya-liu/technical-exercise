@@ -165,7 +165,7 @@ Next, I conduct logistic regression to examine how those three variables predict
 
 ## Logistic regression
 1. Run basic logistic regression model
-2. Evaluate interactions
+2. Evaluate potential interactions
 3. Run model with interactions
 4. Compare two models
 
@@ -189,9 +189,9 @@ When we interpret the results, we look at the odds ratio.
 
 -   Odds ratio is an measure of association between dependent variable and independent variables in the logistic regression. It estimates the change in the odd of membership in the target group for one unit increase in the predictor.
 
--  Odds ratio > 1 indicates the condition or event is more likely to occur in the first group. In our case, it means positive relationship between the odds of succeed and several variables related to student information. 
+-  Odds ratio > 1 indicates the condition or event is more likely to occur in the first group. In our case, it means positive relationship between the odds of succeed and the independent variable. 
 
--  Odds ratio < 1 indicates that the condition or event is less likely to occur in the first group, which refers negative relationship between the odds of succeed and several variables related to student information. 
+-  Odds ratio < 1 indicates that the condition or event is less likely to occur in the first group, which refers negative relationship between the odds of succeed and the independent variable. 
 
 
 ```r
@@ -300,7 +300,7 @@ Slope of ACT_score when hardship_score =  1.9725856 (+ 1 SD):
   -0.06   0.01    -8.45   0.00
 ```
 
-From the plot, we can see that for ACT_score, the slope of hardship_score is significantly different from zero and in this case negative.
+From the plot, we can see that for ACT_score, the slope of hardship_score is significantly different from zero and in this case positive.
 
 -   hs_gpa_entry*hardship_score
 
