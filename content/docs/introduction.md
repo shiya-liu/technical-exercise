@@ -109,36 +109,6 @@ student_details <- read.csv(file = "D:/R/data analysis/Institutional research/te
 6            14
 ```
 
-```
- student_id_number   term_code       class_nbr     completed_flag  
- Min.   :  150     Min.   :1.000   Min.   : 4645   Min.   :0.0000  
- 1st Qu.:50065     1st Qu.:2.000   1st Qu.: 5249   1st Qu.:0.0000  
- Median :55538     Median :3.000   Median : 6129   Median :1.0000  
- Mean   :55939     Mean   :3.311   Mean   : 6639   Mean   :0.7428  
- 3rd Qu.:60401     3rd Qu.:5.000   3rd Qu.: 7515   3rd Qu.:1.0000  
- Max.   :95213     Max.   :6.000   Max.   :15323   Max.   :1.0000  
- official_grade      acad_plan         hours_carried  
- Length:16395       Length:16395       Min.   : 3.00  
- Class :character   Class :character   1st Qu.:15.00  
- Mode  :character   Mode  :character   Median :16.00  
-                                       Mean   :15.63  
-                                       3rd Qu.:17.00  
-                                       Max.   :27.00  
-```
-
-hs_gpa_entry variable has several extreme values, such as 533. I drop those observations.
-
-
-```r
-student_details <- student_details %>%
-  mutate(
-    hs_gpa_entry = case_when(
-      hs_gpa_entry <= 5 ~hs_gpa_entry, 
-      TRUE ~ NA
-    )
-  )
-```
-
 -   **student_details** represents characteristics of students
 
 
@@ -151,6 +121,7 @@ student_details <- student_details %>%
 5                 5        NA           NA              0
 6                 6        NA           NA              0
 ```
+
 
 
 

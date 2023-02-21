@@ -65,19 +65,6 @@ head(class_inventory,6)
 
 ```{r echo=FALSE}
 head(course_enrollments,6)
-summary(course_enrollments)
-```
-
-hs_gpa_entry variable has several extreme values, such as 533. I drop those observations.
-
-```{r}
-student_details <- student_details %>%
-  mutate(
-    hs_gpa_entry = case_when(
-      hs_gpa_entry <= 5 ~hs_gpa_entry, 
-      TRUE ~ NA
-    )
-  )
 ```
 
 -   **student_details** represents characteristics of students
@@ -85,6 +72,7 @@ student_details <- student_details %>%
 ```{r echo=FALSE}
 head(student_details,6)
 ```
+
 
 ```{r eval=FALSE, include=FALSE}
 class_instructors %>%

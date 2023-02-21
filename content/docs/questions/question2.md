@@ -50,7 +50,23 @@ DF <- student_details %>%
              
              
 ```
-### Deal with missing value
+### Deal with missing values and extreme values
+After summarizing the **DF** data set, we can find there are extreme values in **hs_gpa_entry** (e.g., it has 533), and missing values in several variables (**ACT_score**, **hs_gpa_entry**, and **success**).
+
+1. Extreme values
+For extreme values in **hs_gpa_entry**, I record them as NA.
+
+```r
+DF <- DF %>%
+  mutate(
+    hs_gpa_entry = case_when(
+      hs_gpa_entry <= 5 ~hs_gpa_entry, 
+      TRUE ~ NA
+    )
+  )
+```
+2. Missing values
+
 After combining two data sets, the new data set: **DF** has several variables (**ACT_score**, **hs_gpa_entry**, and **success**) with missing values, which might caused by joining two data sets. **student_details** data set has some students that are not included in the **course_enrollments** data set. 
 I first examine the **course_enrollments** data set to see whether it has missing value.
 
@@ -99,7 +115,7 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-6-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-7-1.png" width="672" />
 
 -   hs_gpa_entry
 
@@ -116,7 +132,7 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-7-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-8-1.png" width="672" />
 
 -   hardship_score
 
@@ -133,7 +149,7 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-9-1.png" width="672" />
 
 Three box plots do not show huge differences on ACT_score, hs_gpa_entry, and hardship_score between students succeed and others.
 
@@ -247,7 +263,7 @@ ACT_score is p < .05.
 Note: The range of observed values of hardship_score is [0.00, 3.00]
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-12-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-13-1.png" width="672" />
 
 ```
 SIMPLE SLOPES ANALYSIS 
@@ -291,7 +307,7 @@ hs_gpa_entry is p < .05.
 Note: The range of observed values of hardship_score is [0.00, 3.00]
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-13-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-14-1.png" width="672" />
 
 ```
 SIMPLE SLOPES ANALYSIS 
