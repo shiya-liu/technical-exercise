@@ -7,14 +7,14 @@
 ```r
 rm(list =ls())
 library(tidyverse)
-load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/questions/data_230213_2317.Rdata")
+load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/data_230220_2216.Rdata")
 ```
 
 ## Research question
 
 **What are our overall success rates (C or better)?**
-
-**offical_grade** in course_erollments data set provides information of each student success, which can be used to evaluate overall success rates.
+In this question, success refers to students who get C or better in their grades.
+**official_grade** variable in **course_erollments** data set provides information of student success, which can be used to evaluate overall success rates.
 
 
 ## Data cleaning
@@ -33,7 +33,7 @@ success <- course_enrollments %>%
 ```
 
 ## Visualization
-Let's visualize overall success rate.
+Let's visualize their success rates.
 
 
 ```r
@@ -62,4 +62,4 @@ p <- success %>%
 ![](/images/p.png)
 ## Conclusion
 
-The overall success rate is 59.84%.
+The overall success rates is 59.84%.

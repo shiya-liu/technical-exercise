@@ -9,7 +9,7 @@
 rm(list =ls())
 library(pacman)
 p_load(tidyverse, broom, ggplot2, kableExtra, interactions)
-load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/questions/data_230214_1659.Rdata")
+load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/data_230220_2216.Rdata")
 ```
 
 ## Research question
@@ -25,6 +25,7 @@ I conduct following steps to clean data:
 2. Deal with missing values and extreme values
 
 
+
 ```r
 DF <- student_details %>%
   full_join(course_enrollments, by="student_id_number") %>%
@@ -33,14 +34,14 @@ DF <- student_details %>%
 
 
 ```
- student_id_number   ACT_score      hs_gpa_entry   hardship_score  
- Min.   :    1     Min.   : 0.00   Min.   :0.21    Min.   :0.0000  
- 1st Qu.:25821     1st Qu.:20.00   1st Qu.:3.07    1st Qu.:0.0000  
- Median :50064     Median :23.00   Median :3.43    Median :0.0000  
- Mean   :48958     Mean   :23.05   Mean   :3.39    Mean   :0.6612  
- 3rd Qu.:71402     3rd Qu.:26.00   3rd Qu.:3.76    3rd Qu.:1.0000  
- Max.   :97112     Max.   :36.00   Max.   :5.00    Max.   :3.0000  
-                   NA's   :39865   NA's   :34674                   
+ student_id_number   ACT_score      hs_gpa_entry    hardship_score  
+ Min.   :    1     Min.   : 0.00   Min.   :  0.21   Min.   :0.0000  
+ 1st Qu.:25821     1st Qu.:20.00   1st Qu.:  3.07   1st Qu.:0.0000  
+ Median :50064     Median :23.00   Median :  3.43   Median :0.0000  
+ Mean   :48958     Mean   :23.05   Mean   :  3.40   Mean   :0.6612  
+ 3rd Qu.:71402     3rd Qu.:26.00   3rd Qu.:  3.76   3rd Qu.:1.0000  
+ Max.   :97112     Max.   :36.00   Max.   :553.00   Max.   :3.0000  
+                   NA's   :39865   NA's   :34588                    
  success     
  N   : 6585  
  Y   : 9810  
@@ -122,7 +123,7 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-9-1.png" width="672" />
 
 -   hs_gpa_entry
 
@@ -139,7 +140,7 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-9-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-10-1.png" width="672" />
 
 -   hardship_score
 
@@ -156,7 +157,7 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-10-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-11-1.png" width="672" />
 
 Three box plots do not show huge differences on ACT_score, hs_gpa_entry, and hardship_score between students succeed and others.
 
@@ -275,7 +276,7 @@ ACT_score is p < .05.
 Note: The range of observed values of hardship_score is [0.00, 3.00]
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-14-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-15-1.png" width="672" />
 
 ```
 SIMPLE SLOPES ANALYSIS 
@@ -319,7 +320,7 @@ hs_gpa_entry is p < .05.
 Note: The range of observed values of hardship_score is [0.00, 3.00]
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-15-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-16-1.png" width="672" />
 
 ```
 SIMPLE SLOPES ANALYSIS 

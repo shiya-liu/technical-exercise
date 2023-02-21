@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE, comment='', warning = FALSE)
 rm(list =ls())
 library(pacman)
 p_load(tidyverse, broom, ggplot2, kableExtra, interactions)
-load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/questions/data_230214_1659.Rdata")
+load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/data_230220_2216.Rdata")
 ```
 
 ## Research question
@@ -24,6 +24,13 @@ The student information can be obtained from **student_details** data set, which
 I conduct following steps to clean data:
 1. Combine **student_details** and **course_enrollments** data set via student_id_number variable.
 2. Deal with missing values and extreme values
+```{r include=FALSE}
+course_enrollments <- course_enrollments %>%
+ mutate(success = case_when(
+   official_grade %in% c("A","A-","B+","B","B-","C") ~ "Y",
+   TRUE ~ "N")) 
+course_enrollments$success <- as.factor(course_enrollments$success)
+```
 
 ```{r warning=FALSE}
 DF <- student_details %>%

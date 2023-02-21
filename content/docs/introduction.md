@@ -2,7 +2,7 @@
 
 The data are about 'Smart Start' Program in the university to review entry level courses (Physics, Biology (Human Anatomy), and Spanish).
 
-First, I review research questions, import and clean data, as well as describe the data and variables.
+First, I review research questions, import data, as well as describe the data and variables.
 
 
 
@@ -28,7 +28,7 @@ library(tidyverse)
 
 ## Data
 
-It includes five tables of data: acad_plan, class_instructors, class_inventory, course_enrollments, and student_details. Those are relational data since they have relations so that they can connect with others via one or several variables. Before joining those tables into one data frame, I explore those tables first.
+It includes five data tables: acad_plan, class_instructors, class_inventory, course_enrollments, and student_details. Those are relational data since they can connect with others via one or several variables. Before joining those tables into one data frame, I explore those tables first.
 
 ### Load data
 
