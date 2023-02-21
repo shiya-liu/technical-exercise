@@ -52,7 +52,7 @@ DF <- student_details %>%
              
 ```
 ### Deal with missing values and extreme values
-After summarizing the **DF** data set, we can find there are extreme values in **hs_gpa_entry** (e.g., it has 533), and missing values in several variables (**ACT_score**, **hs_gpa_entry**, and **success**).
+After summarizing the **DF** data set, we can find there are extreme values in **hs_gpa_entry** (e.g., it has 553), and missing values in several variables (**ACT_score**, **hs_gpa_entry**, and **success**).
 
 1. Extreme values
 
