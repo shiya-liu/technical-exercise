@@ -23,7 +23,7 @@ The student information can be obtained from **student_details** data set, which
 ## Data cleaning
 I conduct following steps to clean data:
 1. Combine **student_details** and **course_enrollments** data set via student_id_number variable.
-2. Deal with missing values
+2. Deal with missing values and extreme values
 
 ```{r warning=FALSE}
 DF <- student_details %>%
@@ -38,7 +38,8 @@ summary(DF)
 After summarizing the **DF** data set, we can find there are extreme values in **hs_gpa_entry** (e.g., it has 533), and missing values in several variables (**ACT_score**, **hs_gpa_entry**, and **success**).
 
 1. Extreme values
-For extreme values in **hs_gpa_entry**, I record them as NA.
+
+For extreme values in **hs_gpa_entry**, I record them as NA since I do not have information about how the data are collected.
 ```{r}
 DF <- DF %>%
   mutate(
@@ -48,10 +49,16 @@ DF <- DF %>%
     )
   )
 ```
+
 2. Missing values
 
 After combining two data sets, the new data set: **DF** has several variables (**ACT_score**, **hs_gpa_entry**, and **success**) with missing values, which might caused by joining two data sets. **student_details** data set has some students that are not included in the **course_enrollments** data set. 
 I first examine the **course_enrollments** data set to see whether it has missing value.
+
+```{r include=FALSE}
+course_enrollments$official_grade <- as.factor(course_enrollments$official_grade)
+```
+
 ```{r}
 summary(course_enrollments)
 ```

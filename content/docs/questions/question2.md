@@ -22,7 +22,7 @@ The student information can be obtained from **student_details** data set, which
 ## Data cleaning
 I conduct following steps to clean data:
 1. Combine **student_details** and **course_enrollments** data set via student_id_number variable.
-2. Deal with missing values
+2. Deal with missing values and extreme values
 
 
 ```r
@@ -54,7 +54,8 @@ DF <- student_details %>%
 After summarizing the **DF** data set, we can find there are extreme values in **hs_gpa_entry** (e.g., it has 533), and missing values in several variables (**ACT_score**, **hs_gpa_entry**, and **success**).
 
 1. Extreme values
-For extreme values in **hs_gpa_entry**, I record them as NA.
+
+For extreme values in **hs_gpa_entry**, I record them as NA since I do not have information about how the data are collected.
 
 ```r
 DF <- DF %>%
@@ -65,10 +66,14 @@ DF <- DF %>%
     )
   )
 ```
+
 2. Missing values
 
 After combining two data sets, the new data set: **DF** has several variables (**ACT_score**, **hs_gpa_entry**, and **success**) with missing values, which might caused by joining two data sets. **student_details** data set has some students that are not included in the **course_enrollments** data set. 
 I first examine the **course_enrollments** data set to see whether it has missing value.
+
+
+
 
 ```r
 summary(course_enrollments)
@@ -82,13 +87,15 @@ summary(course_enrollments)
  Mean   :55939     Mean   :3.311   Mean   : 6639   Mean   :0.7428  
  3rd Qu.:60401     3rd Qu.:5.000   3rd Qu.: 7515   3rd Qu.:1.0000  
  Max.   :95213     Max.   :6.000   Max.   :15323   Max.   :1.0000  
- official_grade      acad_plan         hours_carried   success 
- Length:16395       Length:16395       Min.   : 3.00   N:6585  
- Class :character   Class :character   1st Qu.:15.00   Y:9810  
- Mode  :character   Mode  :character   Median :16.00           
-                                       Mean   :15.63           
-                                       3rd Qu.:17.00           
-                                       Max.   :27.00           
+                                                                   
+ official_grade  acad_plan         hours_carried   success 
+ A      :3483   Length:16395       Min.   : 3.00   N:6585  
+ DROP   :2713   Class :character   1st Qu.:15.00   Y:9810  
+ B      :1622   Mode  :character   Median :16.00           
+ A-     :1566                      Mean   :15.63           
+ B+     :1394                      3rd Qu.:17.00           
+ B-     : 923                      Max.   :27.00           
+ (Other):4694                                              
 ```
 All students in this data set has official grades. So, in the joined data set **DF**, I drop those observations without official grades (i.e. NA in **success** variable).
 
@@ -115,7 +122,7 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-7-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-8-1.png" width="672" />
 
 -   hs_gpa_entry
 
@@ -132,7 +139,7 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-9-1.png" width="672" />
 
 -   hardship_score
 
@@ -149,7 +156,7 @@ DF %>%
   theme_classic()
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-9-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-10-1.png" width="672" />
 
 Three box plots do not show huge differences on ACT_score, hs_gpa_entry, and hardship_score between students succeed and others.
 
@@ -263,7 +270,7 @@ ACT_score is p < .05.
 Note: The range of observed values of hardship_score is [0.00, 3.00]
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-13-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-14-1.png" width="672" />
 
 ```
 SIMPLE SLOPES ANALYSIS 
@@ -307,7 +314,7 @@ hs_gpa_entry is p < .05.
 Note: The range of observed values of hardship_score is [0.00, 3.00]
 ```
 
-<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-14-1.png" width="672" />
+<img src="/docs/questions/question2_files/figure-html/unnamed-chunk-15-1.png" width="672" />
 
 ```
 SIMPLE SLOPES ANALYSIS 
