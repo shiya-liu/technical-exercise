@@ -8,11 +8,7 @@ Through analyzing data sets, I have the following thoughts on Physics, Biology (
 
     -   Students' perspectives 
 
-        -   Interestingly, ACT scores are negatively associated with success rates. Considering current trend of test-optional admissions, those three departments can review their admission requirements and reconsider the importance of ACT or SAT.
-
-                <a href="https://www.insidehighered.com/blogs/higher-ed-policy/sat-and-act-are-less-important-you-might-think" title="The SAT and ACT Are Less Important Than You Might Think">Link text</a>
-
-            Departments may need more data to analyze standardized tests and make decisions. 
+        -   Interestingly, ACT scores are negatively associated with success rates. Considering current trend of test-optional admissions, those three departments can review their admission requirements and reconsider the importance of ACT or SAT. Departments may need more data to analyze standardized tests and make decisions. [The SAT and ACT Are Less Important Than You Might Think](https://www.insidehighered.com/blogs/higher-ed-policy/sat-and-act-are-less-important-you-might-think)
 
         -   Hardship scores are also negatively associated with success rates. Therefore, those departments might consider financial support for students. 
 
