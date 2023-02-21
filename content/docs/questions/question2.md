@@ -168,9 +168,10 @@ Next, I conduct logistic regression to examine how those three variables predict
 3. Run model with interactions
 4. Compare two models
 
-First, I run the basic logistic regression model with three independent variables (**ACT_score**, **hs_gpa_entry**,**hardship_score**) without considering interaction.
+
 
 ### Basic Model
+First, I run the basic logistic regression model with three independent variables (**ACT_score**, **hs_gpa_entry**,**hardship_score**) without considering interaction.
 
 
 ```r
@@ -183,9 +184,13 @@ formula <- as.formula(success~ ACT_score+ hs_gpa_entry+ hardship_score)
 lr <- glm(formula, data = DF, family = binomial(link = "logit"))
 ```
 
-Next, I explore coefficients by calculate odds ratio.
+When we interpret the results, we look at the odds ratio.
 
 -   Odds ratio is an measure of association between dependent variable and independent variables in the logistic regression. It estimates the change in the odd of membership in the target group for one unit increase in the predictor.
+
+-  Odds ratio > 1 indicates the condition or event is more likely to occur in the first group. In our case, it means positive relationship between the odds of succeed and several variables related to student information. 
+
+-  Odds ratio < 1 indicates that the condition or event is less likely to occur in the first group, which refers negative relationship between the odds of succeed and several variables related to student information. 
 
 
 ```r
@@ -240,11 +245,11 @@ broom::tidy(lr, exp = TRUE) %>%
 
 The results show that all three independent variables are statistically significant associated with the dependent variable (**success**).
 
--   ACT_score: After controlling all other variables, the odds of success **decrease** as ACT score increases.
+-   ACT_score: After controlling all other variables, the odds of succeed **decrease** as ACT score increases.
 
--   hs_gpa_entry: After controlling all other variables, the odds of success **increase** as hs_gpa_entry increases.
+-   hs_gpa_entry: After controlling all other variables, the odds of succeed **increase** as hs_gpa_entry increases.
 
--   hardship_score: After controlling all other variables, the odds of success **decrease** as hardship score increases.
+-   hardship_score: After controlling all other variables, the odds of succeed **decrease** as hardship score increases.
 
 ### Add Interactions
 
@@ -338,7 +343,9 @@ Slope of hs_gpa_entry when hardship_score =  1.9725856 (+ 1 SD):
   0.49   0.05     8.96   0.00
 ```
 
-For hs_gpa_entry, the slope of hardship_score is also significantly different from zero and positive. Overall, those two interactions are significant. So, I model these interactions and compare the new model with the previous basic model.
+For hs_gpa_entry, the slope of hardship_score is also significantly different from zero and positive. 
+
+Overall, those two interactions are significant. So, I include these interactions and compare the new model with the previous basic model.
 </details>
 
 
@@ -350,7 +357,6 @@ formulaFull<- as.formula(success~ ACT_score+ hs_gpa_entry+ hardship_score + ACT_
 lrFull <- glm(formulaFull, data = DF, family = binomial(link = "logit"))
 ```
 
-Odds ratio estimates the change in the odd of membership in the target group for one unit increase in the predictor.
 
 
 ```r
@@ -487,4 +493,8 @@ Results of pseudo R-square tables show that the basic model accounts for approxi
 
 ## Conclusion
 
-In summary, while the interaction models have slightly higher pseudo R-square, considering significance of coefficients and AIC, the basic model is better.  Variables (**ACT_score**, **hs_gpa_entry**, **hardship_score**) significantly predict success. Higher ACT score and higher hardship score are associated with lower success rates; Higher high school GPA entry are associated with higher success rates.
+In summary, while the interaction models have slightly higher pseudo R-square, considering significance of coefficients and AIC, I choose the basic model.
+
+Variables (**ACT_score**, **hs_gpa_entry**, **hardship_score**) significantly predict success. 
+
+Higher ACT score and higher hardship score are associated with lower success rates; Higher high school GPA entry are associated with higher success rates.

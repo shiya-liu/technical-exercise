@@ -70,7 +70,7 @@ term <- course_enrollments %>%
 
 
 ```r
-p5.1 <- term %>%
+term %>%
   ggplot(aes(
     x = as.factor(total_term), 
     y = percent, 
@@ -117,7 +117,8 @@ oneway.test(percent~total_term, data = term,var.equal=FALSE)
 data:  percent and total_term
 F = 1.1229, num df = 5.00, denom df = 16.01, p-value = 0.3876
 ```
-Overall, Welch test does not show there is statistically significant difference of number of terms instructors teach. It might caused by the performance of those who teach six terms decreases. 
+Overall, Welch test does not show there is statistically significant difference in this relationship. It might caused by a decrease the performance of those who teach six terms. 
+
 I conduct a simple linear regression to see whether the total terms are associated with performance.
 
 

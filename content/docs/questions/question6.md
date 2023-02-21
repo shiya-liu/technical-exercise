@@ -17,12 +17,13 @@ load("D:/R/data analysis/Institutional research/technical-exercise/content/docs/
 
 To compare students in those three academic plans (Physics, Biology (Human Anatomy), and Spanish) with others, I combine all data sets.
 
-Then, I select academic plan from **acad_plan** data set and put student into two groups in the overall data set. 
+Then, I select academic plan from **acad_plan** data set and puts student into two groups in the final data set. 
 
-Next, I compare those groups based on plot and welch test.
+Next, I compare those groups based on plot and Welch test.
 
 
 ## Data cleaning
+I take following steps to clean data:
 1. Combine all data sets and drop observations without official grades
 2. Select academic plan from **acad_plan** data set
 3. Put students into two groups based on their academic plan
@@ -157,7 +158,7 @@ summary(DF)
  Max.   :5.000   Max.   :3.0000  
  NA's   :540                     
 ```
-Notice that there are still some rows in the data set with NA values for acad_career, degree, college, etc. However, since we want to focus on comparing success rates between three academic plans and others, we can ignore those missing values.
+Notice that there are still some rows in the data set with missing values, like acad_career, degree, college, etc. However, since we want to focus on comparing success rates between three academic plans and others, we can ignore those missing values.
 
 
 ```r
@@ -211,7 +212,7 @@ DF %>%
 
 
 ![](/images/p3.png)
-The plot shows that success rates of student in those three academic plans (Physics, Biology (Human Anatomy), and Spanish) are different with others. To have strong evidence, I conduct Welch test to compare those groups.
+The plot shows that success rates (**49.5%**) of student in those three academic plans (Physics, Biology (Human Anatomy), and Spanish) lower than others (**59.9%**). To have strong evidence, I conduct Welch test to compare those groups.
 
 ## Welch test
 
